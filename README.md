@@ -48,8 +48,10 @@ language-specific way for lexicographical purposes are:
   tests is https://github.com/OpenTaal/alphabetical-sort/blob/master/test.py
 * Sorting must be done according to a predefined ordered list of characters. The
   list can be found in
+  https://github.com/OpenTaal/alphabetical-sort/blob/master/sort-order.tsv
+* Sorting must be optimsed, however a two-pass sorting is allowed. The algorithm
+  is implemented in
   https://github.com/OpenTaal/alphabetical-sort/blob/master/asort.py
-* Sorting must be optimsed, however a two-pass sorting is allowed.
 
 See also on sorting:
 * English:
@@ -62,7 +64,7 @@ See also on sorting:
   * http://unicode.org/reports/tr10
   * http://developer.mimer.com/collations
   * http://developer.mimer.com/charts
-  * http://www.billposer.org/Software/msort.html
+  * http://billposer.org/Software/msort.html
   * http://sourceware.org/git/?p=glibc.git;a=blob;f=localedata/locales/iso14651_t1;hb=HEAD
   * http://sourceware.org/git/?p=glibc.git;a=blob;f=localedata/locales/iso14651_t1_common;hb=HEAD
   * http://icu-project.org/icu-bin/locexp?_=en_US&x=col
