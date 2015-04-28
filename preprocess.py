@@ -12,4 +12,5 @@ if __name__ == '__main__':
     sort_order_file = open('sort-order.txt', 'w')
     with open('sort-order.tsv', 'r') as sort_order_annotated_file:
         for line in sort_order_annotated_file:
-            sort_order_file.write('{}\n'.format(line.split('	')[0]))
+            if line[0] != '#':    
+                sort_order_file.write('{}\n'.format(line.split('	')[0]))
