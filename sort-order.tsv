@@ -1,164 +1,237 @@
- 	# space
-.	# period
-'	# single quote
--	# hyphen
-+	# plus
-0	# zero
-1	# one
-2	# two
-3	# three
-4	# four
-5	# five
-6	# six
-7	# seven
-8	# eight
-9	# nine
-α	# Greek
-Α	# Greek
-a
-A
-ä
-Ä
-á
-Á
-â
-Â
-à
-À
-å
-Å
-β	# Greek
-Β	# Greek
-b
-B
-γ	# Greek
-Γ	# Greek
-c
-C
-ç
-Ç
-δ	# Greek
-Δ	# Greek
-d
-D
-ε	# Greek
-Ε	# Greek
-η	# Greek
-Η	# Greek
-e
-E
-ë
-Ë
-é
-É
-ê
-Ê
-è
-È
-φ	# Greek
-Φ	# Greek
-f
-F
-χ	# Greek
-Χ	# Greek
-g
-G
-h
-H
-ι	# Greek
-Ι	# Greek
-i
-I
-ï
-Ï
-í
-Í
-î
-Î
-ì
-Ì
-j
-J
-κ	# Greek
-Κ	# Greek
-k
-K
-λ	# Greek
-Λ	# Greek
-l
-L
-μ	# Greek
-Μ	# Greek
-m
-M
-ν	# Greek
-Ν	# Greek
-n
-N
-ñ
-Ñ
-ω	# Greek
-Ω	# Greek
-ο	# Greek
-Ο	# Greek
-o
-O
-ö
-Ö
-ó
-Ó
-ô
-Ô
-ò
-Ò
-ø
-Ø
-π	# Greek
-Π	# Greek
-ψ	# Greek
-Ψ	# Greek
-p
-P
-q
-Q
-ρ	# Greek
-Ρ	# Greek
-r
-R
-σ	# Greek
-Σ	# Greek
-ς	# Greek
-s
-S
-τ
-Τ
-θ	# Greek
-Θ	# Greek
-t
-T
-υ	# Greek
-Υ	# Greek
-u
-U
-ü
-Ü
-ú
-Ú
-û
-Û
-ù
-Ù
-v
-V
-w
-W
-ξ	# Greek
-Ξ	# Greek
-x
-X
-y
-Y
-ζ	# Greek
-Ζ	# Greek
-z
-Z
+⁽	interpunction	superscript	Dutch
+₍	interpunction	subscript	mathematics
+(	interpunction	unicase	Dutch
+⁾	interpunction	superscript	Dutch
+₎	interpunction	subscript	mathematics
+)	interpunction	unicase	Dutch
+[	interpunction	unicase	Dutch
+]	interpunction	unicase	Dutch
+{	interpunction	unicase	Dutch
+}	interpunction	unicase	Dutch
+&	separator	unicase	Dutch
+/	separator	unicase	Dutch
+,	separator	unicase	Dutch
+ 	separator	unicase	Dutch
+-	separator	unicase	Dutch
+.	character	unicase	Dutch
+'	character	unicase	Dutch
+’	character	unicase	Dutch
+⁻	symbol	superscript	Dutch
+₋	symbol	subscript	mathematics
+⁺	symbol	superscript	Dutch
+₊	symbol	subscript	mathematics
++	character	unicase	Dutch
+⁰	numeral	superscript	Dutch
+₀	numeral	subscript	Dutch
+0	numeral	unicase	Dutch
+↉	numeral	unicase	Dutch
+⅒	numeral	unicase	Dutch
+⅑	numeral	unicase	Dutch
+⅛	numeral	unicase	Dutch
+⅙	numeral	unicase	Dutch
+⅕	numeral	unicase	Dutch
+¼	numeral	unicase	Dutch
+⅓	numeral	unicase	Dutch
+⅜	numeral	unicase	Dutch
+⅖	numeral	unicase	Dutch
+½	numeral	unicase	Dutch
+⅗	numeral	unicase	Dutch
+⅝	numeral	unicase	Dutch
+⅔	numeral	unicase	Dutch
+¾	numeral	unicase	Dutch
+⅘	numeral	unicase	Dutch
+⅚	numeral	unicase	Dutch
+⅞	numeral	unicase	Dutch
+¹	numeral	superscript	Dutch
+₁	numeral	subscript	Dutch
+1	numeral	character	Dutch
+²	numeral	superscript	Dutch
+₂	numeral	subscript	Dutch
+2	numeral	character	Dutch
+³	numeral	superscript	Dutch
+₃	numeral	subscript	Dutch
+3	numeral	character	Dutch
+⁴	numeral	superscript	Dutch
+₄	numeral	subscript	Dutch
+4	numeral	character	Dutch
+⁵	numeral	superscript	Dutch
+₅	numeral	subscript	Dutch
+5	numeral	character	Dutch
+⁶	numeral	superscript	Dutch
+₆	numeral	subscript	Dutch
+6	numeral	character	Dutch
+⁷	numeral	superscript	Dutch
+₇	numeral	subscript	Dutch
+7	numeral	character	Dutch
+⁸	numeral	superscript	Dutch
+₈	numeral	subscript	Dutch
+8	numeral	character	Dutch
+⁹	numeral	superscript	Dutch
+₉	numeral	subscript	Dutch
+9	numeral	character	Dutch
+°	symbol	superscript	Dutch
+α	character	lowercase	Greek
+Α	character	uppercase	Greek
+ₐ	character	subscript	mathematics
+a	character	lowercase	Dutch
+A	character	uppercase	Dutch
+ä	diacritic	lowercase	Dutch and German
+Ä	diacritic	uppercase	Dutch and German
+á	diacritic	lowercase	Dutch
+Á	diacritic	uppercase	Dutch
+â	diacritic	lowercase	Frysian 
+Â	diacritic	uppercase	Frysian 
+à	diacritic	lowercase	French
+À	diacritic	uppercase	French
+å	diacritic	lowercase	Scandanavian
+Å	diacritic	uppercase	Scandanavian
+ã	diacritic	lowercase	Portugese
+Ã	diacritic	uppercase	Portugese
+β	character	lowercase	Greek
+Β	character	uppercase	Greek
+b	character	lowercase	Dutch
+B	character	uppercase	Dutch
+c	character	lowercase	Dutch
+C	character	uppercase	Dutch
+ç	diacritic	lowercase	French and Portugese
+Ç	diacritic	uppercase	French and Portugese
+δ	character	lowercase	Greek
+Δ	character	uppercase	Greek
+d	character	lowercase	Dutch
+D	character	uppercase	Dutch
+ε	character	lowercase	Greek
+Ε	character	uppercase	Greek
+η	character	lowercase	Greek
+Η	character	uppercase	Greek
+ₑ	character	subscript	mathematics
+e	character	lowercase	Dutch
+E	character	uppercase	Dutch
+ë	diacritic	lowercase	Dutch
+Ë	diacritic	uppercase	Dutch
+é	diacritic	lowercase	Dutch and French
+É	diacritic	uppercase	Dutch and French
+ê	diacritic	lowercase	French and Frysian 
+Ê	diacritic	uppercase	French and Frysian 
+è	diacritic	lowercase	French
+È	diacritic	uppercase	French
+φ	character	lowercase	Greek
+Φ	character	uppercase	Greek
+f	character	lowercase	Dutch
+F	character	uppercase	Dutch
+γ	character	lowercase	Greek
+Γ	character	uppercase	Greek
+χ	character	lowercase	Greek
+Χ	character	uppercase	Greek
+g	character	lowercase	Dutch
+G	character	uppercase	Dutch
+ₕ	character	subscript	mathematics
+h	character	lowercase	Dutch
+H	character	uppercase	Dutch
+ι	character	lowercase	Greek
+ⁱ	character	superscript	Dutch
+i	character	uppercase	Dutch
+Ι	character	lowercase	Greek
+I	character	uppercase	Dutch
+ï	diacritic	lowercase	Dutch
+Ï	diacritic	uppercase	Dutch
+í	diacritic	lowercase	Dutch
+Í	diacritic	uppercase	Dutch
+î	diacritic	lowercase	French
+Î	diacritic	uppercase	French
+ì	diacritic	lowercase	Latin
+Ì	diacritic	uppercase	Latin
+j	character	lowercase	Dutch
+J	character	uppercase	Dutch
+κ	character	lowercase	Greek
+Κ	character	uppercase	Greek
+ₖ	character	subscript	mathematics
+k	character	lowercase	Dutch
+K	character	uppercase	Dutch
+λ	character	lowercase	Greek
+Λ	character	uppercase	Greek
+ₗ	character	subscript	mathematics
+l	character	lowercase	Dutch
+L	character	uppercase	Dutch
+μ	character	lowercase	Greek
+Μ	character	uppercase	Greek
+ₘ	character	subscript	mathematics
+m	character	lowercase	Dutch
+M	character	uppercase	Dutch
+ν	character	lowercase	Greek
+Ν	character	uppercase	Greek
+ⁿ	character	superscript	mathematics
+ₙ	character	subscript	mathematics
+n	character	lowercase	Dutch
+N	character	uppercase	Dutch
+ñ	diacritic	lowercase	Spanish
+Ñ	diacritic	uppercase	Spanish
+ω	character	lowercase	Greek
+Ω	character	uppercase	Greek
+ο	character	lowercase	Greek
+Ο	character	uppercase	Greek
+ₒ	character	subscript	mathematics
+o	character	lowercase	Dutch
+O	character	uppercase	Dutch
+ö	diacritic	lowercase	Dutch and German
+Ö	diacritic	uppercase	Dutch and German
+ó	diacritic	lowercase	Dutch
+Ó	diacritic	uppercase	Dutch
+ô	diacritic	lowercase	French and Frysian 
+Ô	diacritic	uppercase	French and Frysian 
+ò	diacritic	lowercase	Latin
+Ò	diacritic	uppercase	Latin
+ø	diacritic	lowercase	Scandanavian
+Ø	diacritic	uppercase	Scandanavian
+π	character	lowercase	Greek
+Π	character	uppercase	Greek
+ψ	character	lowercase	Greek
+Ψ	character	uppercase	Greek
+ₚ	character	subscript	mathematics
+p	character	lowercase	Dutch
+P	character	uppercase	Dutch
+q	character	lowercase	Dutch
+Q	character	uppercase	Dutch
+ρ	character	lowercase	Greek
+Ρ	character	uppercase	Greek
+r	character	lowercase	Dutch
+R	character	uppercase	Dutch
+σ	character	lowercase	Greek
+Σ	character	uppercase	Greek
+ς	character	lowercase	Greek
+ₛ	character	subscript	mathematics
+s	character	lowercase	Dutch
+S	character	uppercase	Dutch
+τ	character	lowercase	Greek
+Τ	character	uppercase	Greek
+θ	character	lowercase	Greek
+Θ	character	uppercase	Greek
+ₜ	character	subscript	mathematics
+t	character	lowercase	Dutch
+T	character	uppercase	Dutch
+υ	character	lowercase	Greek
+Υ	character	uppercase	Greek
+u	character	lowercase	Dutch
+U	character	uppercase	Dutch
+ü	diacritic	lowercase	Dutch and German
+Ü	diacritic	uppercase	Dutch and German
+ú	diacritic	lowercase	Dutch
+Ú	diacritic	uppercase	Dutch
+û	diacritic	lowercase	French and Frysian 
+Û	diacritic	uppercase	French and Frysian 
+ù	diacritic	lowercase	Latin
+Ù	diacritic	uppercase	Latin
+v	character	lowercase	Dutch
+V	character	uppercase	Dutch
+w	character	lowercase	Dutch
+W	character	uppercase	Dutch
+ξ	character	lowercase	Greek
+Ξ	character	uppercase	Greek
+ₓ	character	subscript	mathematics
+x	character	lowercase	Dutch
+X	character	uppercase	Dutch
+y	character	lowercase	Dutch
+Y	character	uppercase	Dutch
+ζ	character	lowercase	Greek
+Ζ	character	uppercase	Greek
+z	character	lowercase	Dutch
+Z	character	uppercase	Latin
