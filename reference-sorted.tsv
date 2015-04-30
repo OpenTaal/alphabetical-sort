@@ -51,8 +51,8 @@ B&B
 bestand.txt
 bestand2.txt
 bestand-backup.txt
-betastraling
-bètastraling
+#betastraling
+#bètastraling
 bijectie
 bijna
 #bĳna
@@ -61,11 +61,12 @@ Bløf
 BLOF
 BLØF
 Bonaire, Sint-Eustatius & Saba
-boek
+#boek
 #bœk
 boren
 
 CD&V'er
+cijfer
 cijfer-
 cijfer- en letterwoorden
 #Cl⁻
@@ -84,19 +85,19 @@ een
 
 #γ-straling
 #χ²-toets
-gammastraling
-gantsche
-gantſche
+#gammastraling
+#gantsche
+#gantſche
 Giessendam/Neder-Hardinxveld
-Grüssen
+#Grüssen
 #Grüßen
-GRÜSSEN
+#GRÜSSEN
 #GRÜẞEN
 
 #H⁺
 #He²⁺
-helium
-helium-4-atoom
+#helium
+#helium-4-atoom
 #HNO₃-oplossing
 horen
 
@@ -104,14 +105,15 @@ I/O
 input/output
 
 k/h
-kaliumioon
+#kaliumioon
 klaar
 km/s
 kilometer
 
 #λ-calculus
 #λ-operator
-Laan van Køge
+#Laan van Koge
+#Laan van Køge
 leggen
 letterwoorden
 
@@ -124,15 +126,16 @@ IJsvogel
 #ĳ-ligatuur
 
 #µm
+m
 m²
 m³
-micrometer
+#micrometer
 
 na
 nadelen
 #Na⁺
-natrium
-natriumioon
+#natrium
+#natriumioon
 #NH₃
 #NH₄⁺
 
@@ -146,6 +149,7 @@ opa's
 s
 S.
 's avonds
+'s ochtends
 senor
 señor
 's-Hertogenbosch
@@ -163,8 +167,8 @@ smörgasbord
 smorgasbord
 #SO₄²⁻
 s-regel
-staat
-staete
+#staat
+#staete
 #stæte
 St.-Eustatius
 St.-Maarten

@@ -13,8 +13,6 @@ B&B
 bestand.txt
 bestand2.txt
 bestand-backup.txt
-betastraling
-bètastraling
 bijectie
 bijna
 Blof
@@ -22,9 +20,9 @@ Bløf
 BLOF
 BLØF
 Bonaire, Sint-Eustatius & Saba
-boek
 boren
 CD&V'er
+cijfer
 cijfer-
 cijfer- en letterwoorden
 CO₂-emissie
@@ -37,41 +35,31 @@ d.d.
 DDT
 een
 één
-gammastraling
-gantsche
-gantſche
 Giessendam/Neder-Hardinxveld
-Grüssen
-GRÜSSEN
-helium
-helium-4-atoom
 horen
 I/O
 input/output
 k/h
-kaliumioon
 klaar
 km/s
 kilometer
-Laan van Køge
 leggen
 letterwoorden
 ijsvogel
 Ijsvogel
 IJsvogel
+m
 m²
 m³
-micrometer
 na
 nadelen
-natrium
-natriumioon
 o.l.v.
 opa
 opa's
 s
 S.
 's avonds
+'s ochtends
 senor
 señor
 's-Hertogenbosch
@@ -87,8 +75,6 @@ smorgåsbord
 smörgasbord
 smorgasbord
 s-regel
-staat
-staete
 St.-Eustatius
 St.-Maarten
 P
