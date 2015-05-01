@@ -1,9 +1,9 @@
 a
 A
 Å
-ångström
-Åland
 aanw. vnw.
+Åland
+ångström
 aub
 a.u.b.
 aug.
@@ -16,8 +16,8 @@ bestand-backup.txt
 bijectie
 bijna
 Blof
-Bløf
 BLOF
+Bløf
 BLØF
 Bonaire, Sint-Eustatius & Saba
 boren
@@ -28,8 +28,8 @@ cijfer- en letterwoorden
 CO₂-emissie
 CO2-emissie
 curacao
-curaçao
 Curacao
+curaçao
 Curaçao
 d.d.
 DDT
@@ -59,7 +59,6 @@ opa's
 s
 S.
 's avonds
-'s ochtends
 senor
 señor
 's-Hertogenbosch
@@ -74,6 +73,7 @@ smörgåsbord
 smorgåsbord
 smörgasbord
 smorgasbord
+'s ochtends
 s-regel
 St.-Eustatius
 St.-Maarten
