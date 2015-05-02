@@ -1,6 +1,6 @@
---- reference-sorted.txt	2015-05-02 17:04:05.200809559 +0200
-+++ coreutils-sort-dict-version.txt	2015-05-02 17:04:05.216809948 +0200
-@@ -1,93 +1,93 @@
+--- reference-sorted.txt	2015-05-02 17:25:07.314920229 +0200
++++ coreutils-sort-dict-version.txt	2015-05-02 17:25:07.334920706 +0200
+@@ -1,112 +1,112 @@
 +Å
  10 eurobiljet
  50 eurobiljet
@@ -38,6 +38,7 @@
 +Slotervaart Overtoomse Veld
 +St.-Eustatius
 +St.-Maarten
++Ysvogel
 +a
  aanw. vnw.
 -Åland
@@ -67,8 +68,8 @@
  cijfer
  cijfer-
  cijfer- en letterwoorden
--CO₂-emissie
 -CO2-emissie
+-CO₂-emissie
 -curacao
 -Curacao
  curaçao
@@ -82,9 +83,14 @@
 -Giessendam/Neder-Hardinxveld
  horen
  iglo
- ijsvogel
+-ijsvogel
 -Ijsvogel
 -IJsvogel
+-Ĳsvogel
+-ĳsvogel
+ ij-ligatuur
+-ĳ-ligatuur
++ijsvogel
  ik
  input/output
 -I/O
@@ -95,9 +101,14 @@
 +Åland
  leggen
  letterwoorden
++ĳ-ligatuur
  m
+-m2
  m²
+-m3
  m³
++m2
++m3
 +één
  na
  nadelen
@@ -130,8 +141,24 @@
  s-regel
 -St.-Eustatius
 -St.-Maarten
++ĳsvogel
++Ĳsvogel
 +'s avonds
 +'s ochtends
  tv
  tv's
  voor-
+ voordelen
+ voren
++vrĳ
+ vri
+ vrij
+-vrĳ
+ vrj
+ vrk
+ vry
+ ysvogel
+-Ysvogel
+ zeggen
+ zgn.
+ zoeven

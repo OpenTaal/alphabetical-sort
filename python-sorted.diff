@@ -1,6 +1,6 @@
---- reference-sorted.txt	2015-05-02 17:04:05.200809559 +0200
-+++ python-sorted.txt	2015-05-02 17:04:05.196809463 +0200
-@@ -1,56 +1,64 @@
+--- reference-sorted.txt	2015-05-02 17:25:07.314920229 +0200
++++ python-sorted.txt	2015-05-02 17:25:07.314920229 +0200
+@@ -1,60 +1,66 @@
 +'s avonds
 +'s ochtends
 +'s-Hertogenbosch
@@ -41,6 +41,7 @@
 +Slotervaart/Overtoomse/Veld
 +St.-Eustatius
 +St.-Maarten
++Ysvogel
 +a
 +a.u.b.
  aanw. vnw.
@@ -71,8 +72,8 @@
  cijfer
  cijfer-
  cijfer- en letterwoorden
--CO₂-emissie
 -CO2-emissie
+-CO₂-emissie
  curacao
 -Curacao
  curaçao
@@ -84,16 +85,30 @@
 -Giessendam/Neder-Hardinxveld
  horen
  iglo
- ijsvogel
+-ijsvogel
 -Ijsvogel
 -IJsvogel
+-Ĳsvogel
+-ĳsvogel
+ ij-ligatuur
+-ĳ-ligatuur
++ijsvogel
  ik
  input/output
 -I/O
  k/h
  kilometer
  klaar
-@@ -65,29 +73,16 @@ nadelen
+@@ -63,37 +69,24 @@ leggen
+ letterwoorden
+ m
+ m2
+-m²
+ m3
++m²
+ m³
+ na
+ nadelen
  o.l.v.
  opa
  opa's
@@ -125,8 +140,17 @@
  tv
  tv's
  voor-
-@@ -95,5 +90,10 @@ voordelen
+@@ -101,13 +94,20 @@ voordelen
  voren
+ vri
+ vrij
+-vrĳ
+ vrj
+ vrk
+ vry
++vrĳ
+ ysvogel
+-Ysvogel
  zeggen
  zgn.
 -zoeven
@@ -136,4 +160,7 @@
 +Åland
 +ångström
 +één
++Ĳsvogel
++ĳ-ligatuur
++ĳsvogel
 +α-deeltje

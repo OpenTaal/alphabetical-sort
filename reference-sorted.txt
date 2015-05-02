@@ -32,8 +32,8 @@ CD&V'er
 cijfer
 cijfer-
 cijfer- en letterwoorden
-CO₂-emissie
 CO2-emissie
+CO₂-emissie
 curacao
 Curacao
 curaçao
@@ -48,6 +48,10 @@ iglo
 ijsvogel
 Ijsvogel
 IJsvogel
+Ĳsvogel
+ĳsvogel
+ij-ligatuur
+ĳ-ligatuur
 ik
 input/output
 I/O
@@ -58,7 +62,9 @@ km/s
 leggen
 letterwoorden
 m
+m2
 m²
+m3
 m³
 na
 nadelen
@@ -93,6 +99,14 @@ tv's
 voor-
 voordelen
 voren
+vri
+vrij
+vrĳ
+vrj
+vrk
+vry
+ysvogel
+Ysvogel
 zeggen
 zgn.
 zoeven

@@ -1,5 +1,5 @@
---- reference-sorted.txt	2015-05-02 17:04:05.200809559 +0200
-+++ coreutils-sort-dict.txt	2015-05-02 17:04:05.208809754 +0200
+--- reference-sorted.txt	2015-05-02 17:25:07.314920229 +0200
++++ coreutils-sort-dict.txt	2015-05-02 17:25:07.330920610 +0200
 @@ -1,28 +1,25 @@
 +Å
 +100 eurobiljet
@@ -34,15 +34,12 @@
  Bonaire, Sint-Eustatius & Saba
  boren
  ca.
-@@ -32,16 +29,16 @@ CD&V'er
- cijfer
- cijfer-
+@@ -34,24 +31,21 @@ cijfer-
  cijfer- en letterwoorden
--CO₂-emissie
  CO2-emissie
+ CO₂-emissie
 -curacao
 -Curacao
-+CO₂-emissie
  curaçao
  Curaçao
 +curacao
@@ -55,16 +52,32 @@
  Giessendam/Neder-Hardinxveld
  horen
  iglo
-@@ -55,13 +52,16 @@ k/h
++ij-ligatuur
+ ijsvogel
+ Ijsvogel
+ IJsvogel
+-Ĳsvogel
+-ĳsvogel
+-ij-ligatuur
+-ĳ-ligatuur
+ ik
+ input/output
+ I/O
+@@ -59,15 +53,19 @@ k/h
  kilometer
  klaar
  km/s
 +Åland
  leggen
  letterwoorden
++ĳ-ligatuur
  m
+-m2
  m²
+-m3
  m³
++m2
++m3
 +één
  na
  nadelen
@@ -72,7 +85,7 @@
  o.l.v.
  opa
  opa's
-@@ -75,14 +75,14 @@ señor
+@@ -81,27 +79,29 @@ señor
  's-Hertogenbosch
  sint-bernardshond
  Sint-Maarten
@@ -90,3 +103,19 @@
  smörgåsbord
  's ochtends
  s-regel
+ St.-Eustatius
+ St.-Maarten
++ĳsvogel
++Ĳsvogel
+ tv
+ tv's
+ voor-
+ voordelen
+ voren
++vrĳ
+ vri
+ vrij
+-vrĳ
+ vrj
+ vrk
+ vry

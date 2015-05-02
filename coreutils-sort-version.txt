@@ -31,6 +31,7 @@ Slotervaart/Overtoomse-Veld
 Slotervaart/Overtoomse/Veld
 St.-Eustatius
 St.-Maarten
+Ysvogel
 a
 a.u.b.
 aanw. vnw.
@@ -54,6 +55,7 @@ een
 horen
 iglo
 ijsvogel
+ij-ligatuur
 ik
 input/output
 kilometer
@@ -63,6 +65,8 @@ k/h
 leggen
 letterwoorden
 m
+m2
+m3
 m²
 m³
 na
@@ -85,6 +89,13 @@ tv's
 voordelen
 voor-
 voren
+vri
+vrij
+vrj
+vrk
+vry
+vrĳ
+ysvogel
 zeggen
 zgn.
 zoeven
@@ -96,4 +107,7 @@ zo-even
 Åland
 ångström
 één
+Ĳsvogel
+ĳsvogel
+ĳ-ligatuur
 α-deeltje
