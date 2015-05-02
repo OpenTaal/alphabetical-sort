@@ -1,0 +1,90 @@
+--- reference-sorted.txt	2015-05-02 19:02:34.207004628 +0200
++++ coreutils-sort-custom2.txt	2015-05-02 19:02:34.235005272 +0200
+@@ -1,31 +1,31 @@
++100 eurobiljet
+ 10 eurobiljet
+ 50 eurobiljet
+-100 eurobiljet
+-α-deeltje
+-alfadeeltje
+-α-conversie
+-alfaconversie
+-α-reductie
+-alfaredecutie
+ a
+ A
+ Å
+ aanw. vnw.
+ Åland
++α-conversie
++α-conversie
++α-deeltje
++α-deeltje
++α-redecutie
++α-reductie
+ ångström
+ aub
+ a.u.b.
+ aug.
+ augustus
+-β-reductie
+-β-straling
+-β-wetenschappen
+ BB
+ B&B
+-bestand.txt
+ bestand12.txt
+ bestand2.txt
+ bestand-backup.txt
++bestand.txt
++β-reductie
++β-straling
++β-wetenschappen
+ bijectie
+ bijna
+ Blof
+@@ -51,8 +51,7 @@ d.d.
+ DDT
+ een
+ één
+-γ-straling
+-χ²-toets
++gammastraling
+ Giessendam/Neder-Hardinxveld
+ iglo
+ ĳ-ligatuur
+@@ -72,8 +71,8 @@ km/s
+ λ-calculus
+ λ-operator
+ letterwoorden
+-µm
+ m
++µm
+ m2
+ m²
+ m3
+@@ -83,16 +82,15 @@ nadelen
+ o.l.v.
+ opa
+ opa's
+-π²
+ P
+-pi
+-Σ-regel
++π-
+ s
+ S.
+ 's avonds
+ senor
+ señor
+ 's-Hertogenbosch
++Σ-regel
+ sint-bernardshond
+ Sint-Maarten
+ Slotervaart Overtoomse Veld
+@@ -123,3 +121,5 @@ Ysvogel
+ zgn.
+ zoeven
+ zo-even
++π²
++χ²-toets
