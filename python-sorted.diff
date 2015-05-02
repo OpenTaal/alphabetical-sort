@@ -1,6 +1,6 @@
---- reference-sorted.txt	2015-05-02 17:25:07.314920229 +0200
-+++ python-sorted.txt	2015-05-02 17:25:07.314920229 +0200
-@@ -1,60 +1,66 @@
+--- reference-sorted.txt	2015-05-02 19:02:34.207004628 +0200
++++ python-sorted.txt	2015-05-02 19:02:34.207004628 +0200
+@@ -1,125 +1,125 @@
 +'s avonds
 +'s ochtends
 +'s-Hertogenbosch
@@ -8,6 +8,11 @@
 -50 eurobiljet
  100 eurobiljet
 -α-deeltje
+-alfadeeltje
+-α-conversie
+-alfaconversie
+-α-reductie
+-alfaredecutie
 -a
 +50 eurobiljet
  A
@@ -47,14 +52,21 @@
  aanw. vnw.
 -Åland
 -ångström
++alfaconversie
++alfadeeltje
++alfaredecutie
  aub
 -a.u.b.
  aug.
  augustus
+-β-reductie
+-β-straling
+-β-wetenschappen
 -BB
 -B&B
 +bestand-backup.txt
  bestand.txt
+ bestand12.txt
  bestand2.txt
 -bestand-backup.txt
  bijectie
@@ -82,25 +94,28 @@
 -DDT
  een
 -één
+-γ-straling
+-χ²-toets
 -Giessendam/Neder-Hardinxveld
- horen
  iglo
--ijsvogel
+-ĳ-ligatuur
+ ij-ligatuur
+ ijsvogel
+-ĳsvogel
 -Ijsvogel
 -IJsvogel
 -Ĳsvogel
--ĳsvogel
- ij-ligatuur
--ĳ-ligatuur
-+ijsvogel
  ik
  input/output
 -I/O
  k/h
  kilometer
  klaar
-@@ -63,37 +69,24 @@ leggen
+ km/s
+-λ-calculus
+-λ-operator
  letterwoorden
+-µm
  m
  m2
 -m²
@@ -112,8 +127,10 @@
  o.l.v.
  opa
  opa's
+-π²
 -P
  pi
+-Σ-regel
  s
 -S.
 -'s avonds
@@ -140,8 +157,7 @@
  tv
  tv's
  voor-
-@@ -101,13 +94,20 @@ voordelen
- voren
+ voordelen
  vri
  vrij
 -vrĳ
@@ -151,11 +167,11 @@
 +vrĳ
  ysvogel
 -Ysvogel
- zeggen
  zgn.
 -zoeven
  zo-even
 +zoeven
++µm
 +Å
 +Åland
 +ångström
@@ -163,4 +179,15 @@
 +Ĳsvogel
 +ĳ-ligatuur
 +ĳsvogel
++Σ-regel
++α-conversie
 +α-deeltje
++α-reductie
++β-reductie
++β-straling
++β-wetenschappen
++γ-straling
++λ-calculus
++λ-operator
++π²
++χ²-toets

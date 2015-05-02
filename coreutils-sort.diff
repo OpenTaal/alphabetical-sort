@@ -1,44 +1,88 @@
---- reference-sorted.txt	2015-05-02 17:25:07.314920229 +0200
-+++ coreutils-sort.txt	2015-05-02 17:25:07.326920515 +0200
-@@ -1,7 +1,6 @@
+--- reference-sorted.txt	2015-05-02 19:02:34.207004628 +0200
++++ coreutils-sort.txt	2015-05-02 19:02:34.215004812 +0200
+@@ -1,31 +1,25 @@
 +100 eurobiljet
  10 eurobiljet
  50 eurobiljet
 -100 eurobiljet
 -α-deeltje
+-alfadeeltje
+-α-conversie
+-alfaconversie
+-α-reductie
+-alfaredecutie
  a
  A
  Å
-@@ -14,9 +13,9 @@ aug.
+ aanw. vnw.
+ Åland
++alfaconversie
++alfadeeltje
++alfaredecutie
+ ångström
+ aub
+ a.u.b.
+ aug.
  augustus
+-β-reductie
+-β-straling
+-β-wetenschappen
  BB
  B&B
 -bestand.txt
+ bestand12.txt
  bestand2.txt
  bestand-backup.txt
 +bestand.txt
  bijectie
  bijna
  Blof
-@@ -45,13 +44,13 @@ één
+@@ -51,8 +45,6 @@ d.d.
+ DDT
+ een
+ één
+-γ-straling
+-χ²-toets
  Giessendam/Neder-Hardinxveld
- horen
  iglo
-+ĳ-ligatuur
-+ij-ligatuur
- ijsvogel
-+ĳsvogel
- Ijsvogel
- IJsvogel
- Ĳsvogel
--ĳsvogel
--ij-ligatuur
--ĳ-ligatuur
- ik
- input/output
- I/O
-@@ -111,3 +110,4 @@ zeggen
+ ĳ-ligatuur
+@@ -69,11 +61,9 @@ k/h
+ kilometer
+ klaar
+ km/s
+-λ-calculus
+-λ-operator
+ letterwoorden
+-µm
+ m
++µm
+ m2
+ m²
+ m3
+@@ -83,10 +73,8 @@ nadelen
+ o.l.v.
+ opa
+ opa's
+-π²
+ P
+ pi
+-Σ-regel
+ s
+ S.
+ 's avonds
+@@ -123,3 +111,15 @@ Ysvogel
  zgn.
  zoeven
  zo-even
++α-conversie
 +α-deeltje
++α-reductie
++β-reductie
++β-straling
++β-wetenschappen
++γ-straling
++λ-calculus
++λ-operator
++π²
++Σ-regel
++χ²-toets

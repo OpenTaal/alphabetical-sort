@@ -35,11 +35,15 @@ Ysvogel
 a
 a.u.b.
 aanw. vnw.
+alfaconversie
+alfadeeltje
+alfaredecutie
 aub
 aug.
 augustus
 bestand.txt
 bestand2.txt
+bestand12.txt
 bestand-backup.txt
 bijectie
 bijna
@@ -52,7 +56,6 @@ curacao
 curaçao
 d.d.
 een
-horen
 iglo
 ijsvogel
 ij-ligatuur
@@ -62,7 +65,6 @@ kilometer
 klaar
 km/s
 k/h
-leggen
 letterwoorden
 m
 m2
@@ -88,7 +90,6 @@ tv
 tv's
 voordelen
 voor-
-voren
 vri
 vrij
 vrj
@@ -96,13 +97,13 @@ vrk
 vry
 vrĳ
 ysvogel
-zeggen
 zgn.
 zoeven
 zo-even
 's avonds
 's ochtends
 's-Hertogenbosch
+µm
 Å
 Åland
 ångström
@@ -110,4 +111,15 @@ zo-even
 Ĳsvogel
 ĳsvogel
 ĳ-ligatuur
+Σ-regel
+α-conversie
 α-deeltje
+α-reductie
+β-reductie
+β-straling
+β-wetenschappen
+γ-straling
+λ-calculus
+λ-operator
+π²
+χ²-toets

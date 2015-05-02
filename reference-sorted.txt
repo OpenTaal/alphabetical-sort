@@ -2,6 +2,11 @@
 50 eurobiljet
 100 eurobiljet
 α-deeltje
+alfadeeltje
+α-conversie
+alfaconversie
+α-reductie
+alfaredecutie
 a
 A
 Å
@@ -12,9 +17,13 @@ aub
 a.u.b.
 aug.
 augustus
+β-reductie
+β-straling
+β-wetenschappen
 BB
 B&B
 bestand.txt
+bestand12.txt
 bestand2.txt
 bestand-backup.txt
 bijectie
@@ -42,16 +51,17 @@ d.d.
 DDT
 een
 één
+γ-straling
+χ²-toets
 Giessendam/Neder-Hardinxveld
-horen
 iglo
+ĳ-ligatuur
+ij-ligatuur
 ijsvogel
+ĳsvogel
 Ijsvogel
 IJsvogel
 Ĳsvogel
-ĳsvogel
-ij-ligatuur
-ĳ-ligatuur
 ik
 input/output
 I/O
@@ -59,8 +69,10 @@ k/h
 kilometer
 klaar
 km/s
-leggen
+λ-calculus
+λ-operator
 letterwoorden
+µm
 m
 m2
 m²
@@ -71,8 +83,10 @@ nadelen
 o.l.v.
 opa
 opa's
+π²
 P
 pi
+Σ-regel
 s
 S.
 's avonds
@@ -98,7 +112,6 @@ tv
 tv's
 voor-
 voordelen
-voren
 vri
 vrij
 vrĳ
@@ -107,7 +120,6 @@ vrk
 vry
 ysvogel
 Ysvogel
-zeggen
 zgn.
 zoeven
 zo-even

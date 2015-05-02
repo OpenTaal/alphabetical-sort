@@ -30,8 +30,11 @@
 #'40-'45
 
 α-deeltje
-#α-conversie
-#α-reductie
+alfadeeltje
+α-conversie
+alfaconversie
+α-reductie
+alfaredecutie
 a
 A
 Å
@@ -43,14 +46,15 @@ a.u.b.
 aug.
 augustus
 
-#β-reductie
-#β-straling
+β-reductie
+β-straling
 #β⁻-straling
 #β⁺-straling
-#β-wetenschappen
+β-wetenschappen
 BB
 B&B
 bestand.txt
+bestand12.txt
 bestand2.txt
 bestand-backup.txt
 #betastraling
@@ -88,8 +92,8 @@ DDT
 een
 één
 
-#γ-straling
-#χ²-toets
+γ-straling
+χ²-toets
 #gammastraling
 #gantsche
 #gantſche
@@ -104,16 +108,15 @@ Giessendam/Neder-Hardinxveld
 #helium
 #helium-4-atoom
 #HNO₃-oplossing
-horen
 
 iglo
+ĳ-ligatuur
+ij-ligatuur
 ijsvogel
+ĳsvogel
 Ijsvogel
 IJsvogel
 Ĳsvogel
-ĳsvogel
-ij-ligatuur
-ĳ-ligatuur
 ik
 input/output
 I/O
@@ -124,14 +127,13 @@ kilometer
 klaar
 km/s
 
-#λ-calculus
-#λ-operator
+λ-calculus
+λ-operator
 #Laan van Koge
 #Laan van Køge
-leggen
 letterwoorden
 
-#µm
+µm
 m
 m2
 m²
@@ -151,11 +153,11 @@ o.l.v.
 opa
 opa's
 
-#π²
+π²
 P
 pi
 
-#Σ-regel
+Σ-regel
 #ß-ligatuur
 #ſs-ligatuur
 s
@@ -191,7 +193,6 @@ tv's
 
 voor-
 voordelen
-voren
 vri
 vrij
 vrĳ
@@ -202,7 +203,6 @@ vry
 ysvogel
 Ysvogel
 
-zeggen
 zgn.
 zoeven
 zo-even

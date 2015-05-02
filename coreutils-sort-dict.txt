@@ -1,16 +1,21 @@
 Å
+π²
 100 eurobiljet
 10 eurobiljet
 50 eurobiljet
 a
 A
 aanw. vnw.
+alfaconversie
+alfadeeltje
+alfaredecutie
 aub
 a.u.b.
 aug.
 augustus
 BB
 B&B
+bestand12.txt
 bestand2.txt
 bestand-backup.txt
 bestand.txt
@@ -25,12 +30,14 @@ boren
 ca.
 CA
 C&A
+λ-calculus
 CD&V'er
 cijfer
 cijfer-
 cijfer- en letterwoorden
 CO2-emissie
 CO₂-emissie
+α-conversie
 curaçao
 Curaçao
 curacao
@@ -40,7 +47,6 @@ DDT
 α-deeltje
 een
 Giessendam/Neder-Hardinxveld
-horen
 iglo
 ij-ligatuur
 ijsvogel
@@ -54,10 +60,10 @@ kilometer
 klaar
 km/s
 Åland
-leggen
 letterwoorden
 ĳ-ligatuur
 m
+µm
 m²
 m³
 m2
@@ -69,8 +75,12 @@ nadelen
 o.l.v.
 opa
 opa's
+λ-operator
 P
 pi
+α-reductie
+β-reductie
+Σ-regel
 s
 S.
 's avonds
@@ -92,22 +102,24 @@ smörgåsbord
 s-regel
 St.-Eustatius
 St.-Maarten
+β-straling
+γ-straling
 ĳsvogel
 Ĳsvogel
+χ²-toets
 tv
 tv's
 voor-
 voordelen
-voren
 vrĳ
 vri
 vrij
 vrj
 vrk
 vry
+β-wetenschappen
 ysvogel
 Ysvogel
-zeggen
 zgn.
 zoeven
 zo-even

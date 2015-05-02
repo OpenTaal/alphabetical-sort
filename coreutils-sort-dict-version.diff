@@ -1,11 +1,17 @@
---- reference-sorted.txt	2015-05-02 17:25:07.314920229 +0200
-+++ coreutils-sort-dict-version.txt	2015-05-02 17:25:07.334920706 +0200
-@@ -1,112 +1,112 @@
+--- reference-sorted.txt	2015-05-02 19:02:34.207004628 +0200
++++ coreutils-sort-dict-version.txt	2015-05-02 19:02:34.223004996 +0200
+@@ -1,125 +1,125 @@
 +Å
++π²
  10 eurobiljet
  50 eurobiljet
  100 eurobiljet
 -α-deeltje
+-alfadeeltje
+-α-conversie
+-alfaconversie
+-α-reductie
+-alfaredecutie
 -a
  A
 -Å
@@ -43,14 +49,22 @@
  aanw. vnw.
 -Åland
 -ångström
++alfaconversie
++alfadeeltje
++alfaredecutie
  aub
  a.u.b.
  aug.
  augustus
+-β-reductie
+-β-straling
+-β-wetenschappen
 -BB
 -B&B
 -bestand.txt
+-bestand12.txt
  bestand2.txt
++bestand12.txt
  bestand-backup.txt
 +bestand.txt
  bijectie
@@ -65,6 +79,7 @@
 -CA
 -C&A
 -CD&V'er
++λ-calculus
  cijfer
  cijfer-
  cijfer- en letterwoorden
@@ -72,6 +87,7 @@
 -CO₂-emissie
 -curacao
 -Curacao
++α-conversie
  curaçao
 -Curaçao
 +curacao
@@ -80,17 +96,17 @@
 +α-deeltje
  een
 -één
+-γ-straling
+-χ²-toets
 -Giessendam/Neder-Hardinxveld
- horen
  iglo
--ijsvogel
+-ĳ-ligatuur
+ ij-ligatuur
+ ijsvogel
+-ĳsvogel
 -Ijsvogel
 -IJsvogel
 -Ĳsvogel
--ĳsvogel
- ij-ligatuur
--ĳ-ligatuur
-+ijsvogel
  ik
  input/output
 -I/O
@@ -98,12 +114,15 @@
  kilometer
  klaar
  km/s
+-λ-calculus
+-λ-operator
 +Åland
- leggen
  letterwoorden
+-µm
 +ĳ-ligatuur
  m
 -m2
++µm
  m²
 -m3
  m³
@@ -116,8 +135,13 @@
  o.l.v.
  opa
  opa's
+-π²
 -P
++λ-operator
  pi
++α-reductie
++β-reductie
+ Σ-regel
  s
 -S.
 -'s avonds
@@ -141,15 +165,17 @@
  s-regel
 -St.-Eustatius
 -St.-Maarten
++β-straling
++γ-straling
 +ĳsvogel
 +Ĳsvogel
 +'s avonds
 +'s ochtends
++χ²-toets
  tv
  tv's
  voor-
  voordelen
- voren
 +vrĳ
  vri
  vrij
@@ -157,8 +183,9 @@
  vrj
  vrk
  vry
++β-wetenschappen
  ysvogel
 -Ysvogel
- zeggen
  zgn.
  zoeven
+ zo-even

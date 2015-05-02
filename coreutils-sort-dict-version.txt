@@ -1,4 +1,5 @@
 Å
+π²
 10 eurobiljet
 50 eurobiljet
 100 eurobiljet
@@ -35,26 +36,31 @@ St.-Maarten
 Ysvogel
 a
 aanw. vnw.
+alfaconversie
+alfadeeltje
+alfaredecutie
 aub
 a.u.b.
 aug.
 augustus
 bestand2.txt
+bestand12.txt
 bestand-backup.txt
 bestand.txt
 bijectie
 bijna
 boren
 ca.
+λ-calculus
 cijfer
 cijfer-
 cijfer- en letterwoorden
+α-conversie
 curaçao
 curacao
 d.d.
 α-deeltje
 een
-horen
 iglo
 ij-ligatuur
 ijsvogel
@@ -65,10 +71,10 @@ kilometer
 klaar
 km/s
 Åland
-leggen
 letterwoorden
 ĳ-ligatuur
 m
+µm
 m²
 m³
 m2
@@ -80,7 +86,11 @@ nadelen
 o.l.v.
 opa
 opa's
+λ-operator
 pi
+α-reductie
+β-reductie
+Σ-regel
 s
 's-Hertogenbosch
 senor
@@ -91,23 +101,25 @@ smorgåsbord
 smörgasbord
 smörgåsbord
 s-regel
+β-straling
+γ-straling
 ĳsvogel
 Ĳsvogel
 's avonds
 's ochtends
+χ²-toets
 tv
 tv's
 voor-
 voordelen
-voren
 vrĳ
 vri
 vrij
 vrj
 vrk
 vry
+β-wetenschappen
 ysvogel
-zeggen
 zgn.
 zoeven
 zo-even
