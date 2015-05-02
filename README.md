@@ -26,24 +26,19 @@ in other programming languages. At the moment only Dutch (nl) is supported.
 Default sort algorithm on most operating systems, especially UNIX-bases systems,
 will use the sort order as defined in the locale. For most Western locales such
 as English, Dutch and German, the sort order is defined in the locale
-[iso14651_t1_common](http://sourceware.org/git/?p=glibc.git;a=blob;f=localedata/locales/iso14651_t1_common;hb=HEAD) of the GNU C Library also known as glibc.
+[iso14651_t1_common](http://sourceware.org/git/?p=glibc.git;a=blob;f=localedata/locales/iso14651_t1_common;hb=HEAD) of the GNU C Library also known as glibc. The command-line tool [sort](http://en.wikipedia.org/wiki/Sort_%28Unix%29) from the coreutils package uses this localised sort order. However, when sorting the reference set for this project,
+[reference-sorted.txt](https://github.com/OpenTaal/alphabetical-sort/blob/master/reference-sorted.txt), one of the results the results are satisfactory.
 
-The command-line tool [sort](http://en.wikipedia.org/wiki/Sort_%28Unix%29) uses this localised sort order but none of the results are satisfactory. When it is used for sorting the reference set for this project [reference-sorted.txt](https://github.com/OpenTaal/alphabetical-sort/blob/master/reference-sorted.txt), the result is [result-coreutils-sort.txt](https://github.com/OpenTaal/alphabetical-sort/blob/master/result-coreutils-sort.txt). Note that sort places 100 before 10 and interchanges smorgåsbord with smörgåsbord.
+When it is used for default sorting, the result is [coreutils-sort.txt](https://github.com/OpenTaal/alphabetical-sort/blob/master/coreutils-sort.txt) and the difference with the reference is [coreutils-sort.diff](https://github.com/OpenTaal/alphabetical-sort/blob/master/coreutils-sort.diff). Note TODO (that sort places 100 before 10 and interchanges smorgåsbord with smörgåsbord.)
 
+When it is used for sorting in dictionary order, considering only blanks and alphanumeric characters, the result is [coreutils-sort-dictionary.txt](https://github.com/OpenTaal/alphabetical-sort/blob/master/coreutils-sort-dictionary.txt) and the difference with the reference is [coreutils-sort-dictionary.diff](https://github.com/OpenTaal/alphabetical-sort/blob/master/coreutils-sort-dictionary.diff). Note that characters with diacritics are not ordered as desired.
 
-The result when has been indicated to sort in a dictionary order, that is considering only blanks and alphanumeric characters, the result is [result-coreutils-sort-dictionary.txt](https://github.com/OpenTaal/alphabetical-sort/blob/master/result-coreutils-sort-dictionary.txt). TODO
+When it is used for sorting in version order, natural sort of (version) numbers within text, the result is [coreutils-sort-version.txt](https://github.com/OpenTaal/alphabetical-sort/blob/master/coreutils-sort-version.txt) and the difference with the reference is [coreutils-sort-version.diff](https://github.com/OpenTaal/alphabetical-sort/blob/master/coreutils-sort-version.diff). Note TODO.
 
--V, --version-sort
-           natural sort of (version) numbers within text
+When dictionary order and version order are used at the same time, the order of these options is not important, the result is [coreutils-sort-dictionary-version.txt](https://github.com/OpenTaal/alphabetical-sort/blob/master/coreutils-sort-dictionary-version.txt) and the difference with the reference is [coreutils-sort-dictionary-version.diff](https://github.com/OpenTaal/alphabetical-sort/blob/master/coreutils-sort-dictionary-version.diff). Note issues from dictionary order are again preventing to match the sort with the reference set.
 
+TODO add example with python default sort and with python locale sort
 
-           [result-coreutils-sort-version.txt](https://github.com/OpenTaal/alphabetical-sort/blob/master/result-coreutils-sort-version.txt)
-           [result-coreutils-sort-dictionary-version.txt](https://github.com/OpenTaal/alphabetical-sort/blob/master/result-coreutils-sort-dictionary-version.txt)
-
-
-Alternatively
-
-http://collation-charts.org
 
 ## Requirements
 
