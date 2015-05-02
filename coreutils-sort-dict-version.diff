@@ -1,0 +1,137 @@
+--- reference-sorted.txt	2015-05-02 16:41:56.539479424 +0200
++++ coreutils-sort-dict-version.txt	2015-05-02 16:41:56.551479749 +0200
+@@ -1,93 +1,93 @@
++Å
+ 10 eurobiljet
+ 50 eurobiljet
+ 100 eurobiljet
+-α-deeltje
+-a
+ A
+-Å
++BB
++B&B
++BLØF
++BLOF
++Bløf
++Blof
++Bonaire, Sint-Eustatius & Saba
++CA
++C&A
++CD&V'er
++CO2-emissie
++CO₂-emissie
++Curaçao
++Curacao
++DDT
++Giessendam/Neder-Hardinxveld
++IJsvogel
++I/O
++Ijsvogel
++P
++S.
++Sint-Maarten
++Slotervaart/Overtoomse-Veld
++Slotervaart/Overtoomse/Veld
++Slotervaart-Overtoomse Veld
++Slotervaart/Overtoomse Veld
++Slotervaart Overtoomse Veld
++St.-Eustatius
++St.-Maarten
++a
+ aanw. vnw.
+-Åland
+-ångström
+ aub
+ a.u.b.
+ aug.
+ augustus
+-BB
+-B&B
+-bestand.txt
+ bestand2.txt
+ bestand-backup.txt
++bestand.txt
+ bijectie
+ bijna
+-Blof
+-BLOF
+-Bløf
+-BLØF
+-Bonaire, Sint-Eustatius & Saba
+ boren
+ ca.
+-CA
+-C&A
+-CD&V'er
+ cijfer
+ cijfer-
+ cijfer- en letterwoorden
+-CO₂-emissie
+-CO2-emissie
+-curacao
+-Curacao
+ curaçao
+-Curaçao
++curacao
+ d.d.
+-DDT
++α-deeltje
+ een
+-één
+-Giessendam/Neder-Hardinxveld
+ horen
+ iglo
+ ijsvogel
+-Ijsvogel
+-IJsvogel
+ ik
+ input/output
+-I/O
+ k/h
+ kilometer
+ klaar
+ km/s
++Åland
+ leggen
+ letterwoorden
+ m
+ m²
+ m³
++één
+ na
+ nadelen
++ångström
+ o.l.v.
+ opa
+ opa's
+-P
+ pi
+ s
+-S.
+-'s avonds
++'s-Hertogenbosch
+ senor
+ señor
+-'s-Hertogenbosch
+ sint-bernardshond
+-Sint-Maarten
+-Slotervaart Overtoomse Veld
+-Slotervaart-Overtoomse Veld
+-Slotervaart/Overtoomse Veld
+-Slotervaart/Overtoomse-Veld
+-Slotervaart/Overtoomse/Veld
+ smorgasbord
+-smörgasbord
+ smorgåsbord
++smörgasbord
+ smörgåsbord
+-'s ochtends
+ s-regel
+-St.-Eustatius
+-St.-Maarten
++'s avonds
++'s ochtends
+ tv
+ tv's
+ voor-

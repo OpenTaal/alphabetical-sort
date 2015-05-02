@@ -19,7 +19,9 @@
 #2D-projecties
 #3D-projectie
 #3D-projecties
-#50 eurobiljet
+10 eurobiljet
+50 eurobiljet
+100 eurobiljet
 #65-kaart
 #65+'er
 #65+-kaart
@@ -27,7 +29,7 @@
 #⁵⁶Fe
 #'40-'45
 
-#α-deeltje
+α-deeltje
 #α-conversie
 #α-reductie
 a
@@ -65,6 +67,9 @@ Bonaire, Sint-Eustatius & Saba
 #bœk
 boren
 
+ca.
+CA
+C&A
 CD&V'er
 cijfer
 cijfer-
@@ -101,22 +106,7 @@ Giessendam/Neder-Hardinxveld
 #HNO₃-oplossing
 horen
 
-I/O
-input/output
-
-k/h
-#kaliumioon
-klaar
-km/s
-kilometer
-
-#λ-calculus
-#λ-operator
-#Laan van Koge
-#Laan van Køge
-leggen
-letterwoorden
-
+iglo
 ijsvogel
 Ijsvogel
 IJsvogel
@@ -124,6 +114,22 @@ IJsvogel
 #ĳsvogel
 #ij-ligatuur
 #ĳ-ligatuur
+ik
+input/output
+I/O
+
+k/h
+#kaliumioon
+kilometer
+klaar
+km/s
+
+#λ-calculus
+#λ-operator
+#Laan van Koge
+#Laan van Køge
+leggen
+letterwoorden
 
 #µm
 m
@@ -143,6 +149,10 @@ o.l.v.
 opa
 opa's
 
+#π²
+P
+pi
+
 #Σ-regel
 #ß-ligatuur
 #ſs-ligatuur
@@ -155,14 +165,14 @@ señor
 sint-bernardshond
 Sint-Maarten
 #ss-ligatuur
-Slotervaart/Overtoomse/Veld
+Slotervaart Overtoomse Veld
+Slotervaart-Overtoomse Veld
 Slotervaart/Overtoomse Veld
 Slotervaart/Overtoomse-Veld
-Slotervaart-Overtoomse Veld
-Slotervaart Overtoomse Veld
+Slotervaart/Overtoomse/Veld
 smorgasbord
-smorgåsbord
 smörgasbord
+smorgåsbord
 smörgåsbord
 's ochtends
 #SO₄²⁻
@@ -173,10 +183,6 @@ s-regel
 St.-Eustatius
 St.-Maarten
 #sz-ligatuur
-
-#π²
-P
-pi
 
 tv
 tv's

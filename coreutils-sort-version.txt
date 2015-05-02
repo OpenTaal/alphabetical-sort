@@ -1,0 +1,99 @@
+10 eurobiljet
+50 eurobiljet
+100 eurobiljet
+A
+BB
+BLOF
+BLØF
+Blof
+Bløf
+Bonaire, Sint-Eustatius & Saba
+B&B
+CA
+CD&V'er
+CO2-emissie
+CO₂-emissie
+Curacao
+Curaçao
+C&A
+DDT
+Giessendam/Neder-Hardinxveld
+IJsvogel
+Ijsvogel
+I/O
+P
+S.
+Sint-Maarten
+Slotervaart Overtoomse Veld
+Slotervaart-Overtoomse Veld
+Slotervaart/Overtoomse Veld
+Slotervaart/Overtoomse-Veld
+Slotervaart/Overtoomse/Veld
+St.-Eustatius
+St.-Maarten
+a
+a.u.b.
+aanw. vnw.
+aub
+aug.
+augustus
+bestand.txt
+bestand2.txt
+bestand-backup.txt
+bijectie
+bijna
+boren
+ca.
+cijfer
+cijfer-
+cijfer- en letterwoorden
+curacao
+curaçao
+d.d.
+een
+horen
+iglo
+ijsvogel
+ik
+input/output
+kilometer
+klaar
+km/s
+k/h
+leggen
+letterwoorden
+m
+m²
+m³
+na
+nadelen
+o.l.v.
+opa
+opa's
+pi
+s
+senor
+señor
+sint-bernardshond
+smorgasbord
+smorgåsbord
+smörgasbord
+smörgåsbord
+s-regel
+tv
+tv's
+voordelen
+voor-
+voren
+zeggen
+zgn.
+zoeven
+zo-even
+'s avonds
+'s ochtends
+'s-Hertogenbosch
+Å
+Åland
+ångström
+één
+α-deeltje
