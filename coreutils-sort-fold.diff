@@ -1,5 +1,5 @@
 --- reference-sorted.txt	2015-05-03 10:12:54.580376615 +0200
-+++ coreutils-sort.txt	2015-05-03 10:12:54.588376903 +0200
++++ coreutils-sort-fold.txt	2015-05-03 10:12:54.596377190 +0200
 @@ -1,31 +1,25 @@
 +100 eurobiljet
  10 eurobiljet
@@ -37,7 +37,18 @@
  bijectie
  bijna
  Blof
-@@ -51,8 +45,6 @@ d.d.
+@@ -34,9 +28,9 @@ Bløf
+ BLØF
+ Bonaire, Sint-Eustatius & Saba
+ boren
+-ca.
+ CA
+ C&A
++ca.
+ CD&V'er
+ cijfer
+ cijfer-
+@@ -51,14 +45,12 @@ d.d.
  DDT
  een
  één
@@ -46,6 +57,13 @@
  Giessendam/Neder-Hardinxveld
  iglo
  ĳ-ligatuur
+ ij-ligatuur
+-ijsvogel
+ ĳsvogel
++ijsvogel
+ Ijsvogel
+ IJsvogel
+ Ĳsvogel
 @@ -69,11 +61,9 @@ k/h
  kilometer
  klaar
@@ -70,6 +88,16 @@
  s
  S.
  's avonds
+@@ -113,8 +101,8 @@ tv's
+ voor-
+ voordelen
+ vri
+-vrij
+ vrĳ
++vrij
+ vrj
+ vrk
+ vry
 @@ -123,3 +111,15 @@ Ysvogel
  zgn.
  zoeven

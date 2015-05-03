@@ -1,5 +1,5 @@
---- reference-sorted.txt	2015-05-02 19:02:34.207004628 +0200
-+++ coreutils-sort-custom2.txt	2015-05-02 19:02:34.235005272 +0200
+--- reference-sorted.txt	2015-05-03 10:12:54.580376615 +0200
++++ coreutils-sort-custom2.txt	2015-05-03 10:12:54.604377478 +0200
 @@ -1,31 +1,31 @@
 +100 eurobiljet
  10 eurobiljet

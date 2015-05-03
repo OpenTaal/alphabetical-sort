@@ -15,6 +15,11 @@ diff -Nup reference-sorted.txt coreutils-sort-dict.txt > coreutils-sort-dict.dif
 cat reference-sorted.txt|sort -V > coreutils-sort-version.txt
 diff -Nup reference-sorted.txt coreutils-sort-version.txt > coreutils-sort-version.diff
 
+# ignore case sort
+# fold lower case to upper case characters
+cat reference-sorted.txt|sort -f > coreutils-sort-fold.txt
+diff -Nup reference-sorted.txt coreutils-sort-fold.txt > coreutils-sort-fold.diff
+
 # dictionary and version sort
 # (order of these options is not important)
 cat reference-sorted.txt|sort -dV > coreutils-sort-dict-version.txt
