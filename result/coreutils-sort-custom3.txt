@@ -25,9 +25,11 @@ A.
 Å
 ä
 ā
+α
 A4
 AA
 aanw. vnw.
+α-deeltje
 Åland
 alfadeeltje
 ångström
@@ -50,6 +52,8 @@ Bløf
 BLØF
 Bonaire, Sint-Eustatius en Saba
 Bonaire, Sint-Eustatius & Saba
+β-straling
+χ²-toets
 C31
 C 31
 C-31
@@ -82,6 +86,7 @@ een
 één
 gammastraling
 Giessendam/Neder-Hardinxveld
+γ-straling
 iglo
 ij-ligatuur
 ijsvogel
@@ -95,15 +100,24 @@ kilometer
 klaar
 km/s
 lambdacalculus
+λ-calculus
 letterwoorden
 m
-µm
 m2
 m²
 m3
 m³
 micrometer
+µm
+NOCNSF
+NOC NSF
+NOC-NSF
+NOC/NSF
+NOC*NSF
 P
+ṕ
+ṕ²
+ṕ-dag
 pi
 s
 S.
@@ -124,6 +138,7 @@ smörgasbord
 smorgåsbord
 smörgåsbord
 's ochtends
+Σ-regel
 St.-Eustatius
 St.-Maarten
 tv
@@ -138,13 +153,3 @@ Ysvogel
 zgn.
 zoeven
 zo-even
-α
-α-deeltje
-β-straling
-γ-straling
-λ-calculus
-π
-π²
-π-dag
-Σ-regel
-χ²-toets

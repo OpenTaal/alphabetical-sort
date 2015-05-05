@@ -1,7 +1,8 @@
---- reference-sorted.txt	2015-05-05 16:25:31.748379096 +0200
-+++ python-sort-default.txt	2015-05-05 16:25:31.768379692 +0200
-@@ -1,141 +1,121 @@
+--- reference/sort.txt	2015-05-05 17:39:13.603418853 +0200
++++ result/python-sort-default.txt	2015-05-05 17:39:13.635419691 +0200
+@@ -1,146 +1,126 @@
  '14-'18
+-16m²
 +'40-'45
 +'s avonds
 +'s ochtends
@@ -9,7 +10,7 @@
 +10 eurobiljet
 +100 eurobiljet
  16 m²
- 16m²
++16m²
  2D-projectie
  2D-projecties
  3D-projectie
@@ -65,6 +66,11 @@
 +I/O
 +IJsvogel
 +Ijsvogel
++NOC NSF
++NOC*NSF
++NOC-NSF
++NOC/NSF
++NOCNSF
 +P
 +S.
 +Sint-Maarten
@@ -101,8 +107,8 @@
  bijectie
  bijna
 -Blof
--BLOF
 -Bløf
+-BLOF
 -BLØF
 -Bonaire, Sint-Eustatius & Saba
 -Bonaire, Sint-Eustatius en Saba
@@ -166,6 +172,11 @@
  m3
 -m³
  micrometer
+-NOCNSF
+-NOC NSF
+-NOC-NSF
+-NOC*NSF
+-NOC/NSF
 -P
 -π
 -π²
@@ -199,7 +210,7 @@
  tv
  tv's
  vri
-@@ -144,7 +124,27 @@ vrj
+@@ -149,7 +129,27 @@ vrj
  vrk
  vry
  ysvogel

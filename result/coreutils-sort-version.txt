@@ -41,6 +41,11 @@ Giessendam/Neder-Hardinxveld
 IJsvogel
 Ijsvogel
 I/O
+NOCNSF
+NOC NSF
+NOC*NSF
+NOC-NSF
+NOC/NSF
 P
 S.
 Sint-Maarten

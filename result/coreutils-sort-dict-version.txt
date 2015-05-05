@@ -1,92 +1,107 @@
-'14-'18
-'40-'45
-'s avonds
-'s ochtends
-'s-Hertogenbosch
-10 eurobiljet
-100 eurobiljet
-16 m²
-16m²
+á
+à
+â
+å
+Å
+ä
+ā
+α
+π
+π²
 2D-projectie
 2D-projecties
 3D-projectie
 3D-projecties
 3VO
+10 eurobiljet
+16m²
+16 m²
 50 eurobiljet
 65+'er
-65+-kaart
 65-kaart
+65+-kaart
+100 eurobiljet
+'14-'18
+'40-'45
 A
 A.
 A4
 AA
-B&B
 BB
-BLOF
+B&B
 BLØF
-Blof
+BLOF
 Bløf
-Bonaire, Sint-Eustatius & Saba
+Blof
 Bonaire, Sint-Eustatius en Saba
-C 31
-C 32
-C&A
-C-31
-C-32
+Bonaire, Sint-Eustatius & Saba
 C31
+C-31
 C32
+C-32
 CA
+C&A
 CD&V'er
 CO2-emissie
 CO₂-emissie
-Curacao
 Curaçao
+Curacao
+C 31
+C 32
 DDT
 Giessendam/Neder-Hardinxveld
-I/O
 IJsvogel
+I/O
 Ijsvogel
+NOCNSF
+NOC-NSF
+NOC/NSF
+NOC*NSF
+NOC NSF
 P
 S.
 Sint-Maarten
-Slotervaart Overtoomse Veld
-Slotervaart-Overtoomse Veld
-Slotervaart/Overtoomse Veld
 Slotervaart/Overtoomse-Veld
 Slotervaart/Overtoomse/Veld
+Slotervaart-Overtoomse Veld
+Slotervaart/Overtoomse Veld
+Slotervaart Overtoomse Veld
 St.-Eustatius
 St.-Maarten
 Ysvogel
 a
 a-
 a.
-a.u.b.
 aanw. vnw.
 alfadeeltje
 aub
+a.u.b.
 aug.
 augustus
+bestand2.txt
+bestand12.txt
 bestand-backup.txt
 bestand.txt
-bestand12.txt
-bestand2.txt
 bijectie
 bijna
 bètastraling
-c.i.a.
-c.t.
 ca.
-call out
-call-out
+λ-calculus
 callout
+call-out
+call out
 chi-kwadraattoets
+c.i.a.
 cijfer
 cijfer-
 cijfer- en letterwoorden
 ct
-curacao
+c.t.
 curaçao
+curacao
+π-dag
 d.d.
+α-deeltje
 een
 gammastraling
 iglo
@@ -99,15 +114,21 @@ kilometer
 klaar
 km/s
 lambdacalculus
+Åland
 letterwoorden
 m
+µm
+m²
+m³
 m2
 m3
 micrometer
-m²
-m³
+één
+ångström
 pi
+Σ-regel
 s
+'s-Hertogenbosch
 senor
 señor
 sigmaregel
@@ -116,6 +137,11 @@ smorgasbord
 smorgåsbord
 smörgasbord
 smörgåsbord
+β-straling
+γ-straling
+'s avonds
+'s ochtends
+χ²-toets
 tv
 tv's
 vri
@@ -125,26 +151,5 @@ vrk
 vry
 ysvogel
 zgn.
-zo-even
 zoeven
-µm
-Å
-Åland
-à
-á
-â
-ä
-å
-ångström
-één
-ā
-Σ-regel
-α
-α-deeltje
-β-straling
-γ-straling
-λ-calculus
-π
-π-dag
-π²
-χ²-toets
+zo-even

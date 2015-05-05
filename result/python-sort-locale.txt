@@ -1,3 +1,4 @@
+'14-'18
 '40-'45
 's avonds
 's ochtends
@@ -26,7 +27,12 @@ BLØF
 Blof
 Bløf
 Bonaire, Sint-Eustatius & Saba
+Bonaire, Sint-Eustatius en Saba
+C 31
+C 32
 C&A
+C-31
+C-32
 C31
 C32
 CA
@@ -40,6 +46,11 @@ Giessendam/Neder-Hardinxveld
 I/O
 IJsvogel
 Ijsvogel
+NOC NSF
+NOC*NSF
+NOC-NSF
+NOC/NSF
+NOCNSF
 P
 S.
 Sint-Maarten
@@ -66,8 +77,8 @@ bestand12.txt
 bestand2.txt
 bijectie
 bijna
-boren
 bètastraling
+c.i.a.
 c.t.
 ca.
 call out
@@ -100,11 +111,6 @@ m3
 micrometer
 m²
 m³
-na
-nadelen
-o.l.v.
-opa
-opa's
 pi
 s
 senor
@@ -117,8 +123,6 @@ smörgasbord
 smörgåsbord
 tv
 tv's
-voor-
-voordelen
 vri
 vrij
 vrj

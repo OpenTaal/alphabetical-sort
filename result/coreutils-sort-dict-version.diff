@@ -1,32 +1,41 @@
---- reference-sorted.txt	2015-05-05 16:25:31.748379096 +0200
-+++ python-sort-locale.txt	2015-05-05 16:25:31.800380646 +0200
-@@ -1,141 +1,121 @@
- '14-'18
-+'40-'45
-+'s avonds
-+'s ochtends
-+'s-Hertogenbosch
-+10 eurobiljet
-+100 eurobiljet
- 16 m²
- 16m²
+--- reference/sort.txt	2015-05-05 17:39:13.603418853 +0200
++++ result/coreutils-sort-dict-version.txt	2015-05-05 17:39:13.679420843 +0200
+@@ -1,146 +1,147 @@
+-'14-'18
+-16m²
+-16 m²
++á
++à
++â
++å
++Å
++ä
++ā
++α
++π
++π²
  2D-projectie
  2D-projecties
  3D-projectie
  3D-projecties
--10 eurobiljet
--50 eurobiljet
++3VO
+ 10 eurobiljet
++16m²
++16 m²
+ 50 eurobiljet
 -100 eurobiljet
- 3VO
+-3VO
 -'40-'45
 -65-kaart
-+50 eurobiljet
  65+'er
++65-kaart
  65+-kaart
 -a
 -a.
 -a-
-+65-kaart
++100 eurobiljet
++'14-'18
++'40-'45
  A
 -Å
  A.
@@ -39,70 +48,75 @@
 -α
  A4
  AA
-+B&B
 +BB
-+BLOF
++B&B
 +BLØF
-+Blof
++BLOF
 +Bløf
-+Bonaire, Sint-Eustatius & Saba
++Blof
 +Bonaire, Sint-Eustatius en Saba
-+C 31
-+C 32
-+C&A
-+C-31
-+C-32
++Bonaire, Sint-Eustatius & Saba
 +C31
++C-31
 +C32
++C-32
 +CA
++C&A
 +CD&V'er
 +CO2-emissie
 +CO₂-emissie
-+Curacao
 +Curaçao
++Curacao
++C 31
++C 32
 +DDT
 +Giessendam/Neder-Hardinxveld
-+I/O
 +IJsvogel
++I/O
 +Ijsvogel
++NOCNSF
++NOC-NSF
++NOC/NSF
++NOC*NSF
++NOC NSF
 +P
 +S.
 +Sint-Maarten
-+Slotervaart Overtoomse Veld
-+Slotervaart-Overtoomse Veld
-+Slotervaart/Overtoomse Veld
 +Slotervaart/Overtoomse-Veld
 +Slotervaart/Overtoomse/Veld
++Slotervaart-Overtoomse Veld
++Slotervaart/Overtoomse Veld
++Slotervaart Overtoomse Veld
 +St.-Eustatius
 +St.-Maarten
 +Ysvogel
 +a
 +a-
 +a.
-+a.u.b.
  aanw. vnw.
 -Åland
  alfadeeltje
 -α-deeltje
 -ångström
  aub
--a.u.b.
+ a.u.b.
  aug.
  augustus
 -BB
 -B&B
-+bestand-backup.txt
- bestand.txt
- bestand12.txt
+-bestand.txt
+-bestand12.txt
  bestand2.txt
--bestand-backup.txt
++bestand12.txt
+ bestand-backup.txt
 -bètastraling
 -β-straling
++bestand.txt
  bijectie
  bijna
 -Blof
--BLOF
 -Bløf
+-BLOF
 -BLØF
 -Bonaire, Sint-Eustatius & Saba
 -Bonaire, Sint-Eustatius en Saba
@@ -113,32 +127,34 @@
 -C 32
 -C-32
 +bètastraling
-+c.i.a.
-+c.t.
  ca.
 -CA
 -C&A
--callout
- call out
++λ-calculus
+ callout
+-call out
  call-out
 -CD&V'er
 -χ²-toets
-+callout
++call out
  chi-kwadraattoets
--c.i.a.
+ c.i.a.
  cijfer
  cijfer-
  cijfer- en letterwoorden
 -CO2-emissie
 -CO₂-emissie
  ct
--c.t.
- curacao
+ c.t.
+-curacao
 -Curacao
  curaçao
 -Curaçao
++curacao
++π-dag
  d.d.
 -DDT
++α-deeltje
  een
 -één
  gammastraling
@@ -158,24 +174,34 @@
  km/s
  lambdacalculus
 -λ-calculus
++Åland
  letterwoorden
  m
--µm
- m2
--m²
- m3
--m³
+ µm
+-m2
+ m²
+-m3
+ m³
++m2
++m3
  micrometer
+-NOCNSF
+-NOC NSF
+-NOC-NSF
+-NOC*NSF
+-NOC/NSF
 -P
 -π
 -π²
 -π-dag
-+m²
-+m³
++één
++ångström
  pi
++Σ-regel
  s
 -S.
 -'s avonds
++'s-Hertogenbosch
  senor
  señor
 -'s-Hertogenbosch
@@ -193,39 +219,21 @@
  smorgåsbord
 +smörgasbord
  smörgåsbord
--'s ochtends
++β-straling
++γ-straling
++'s avonds
+ 's ochtends
 -St.-Eustatius
 -St.-Maarten
++χ²-toets
  tv
  tv's
  vri
-@@ -144,7 +124,27 @@ vrj
+@@ -149,7 +150,6 @@ vrj
  vrk
  vry
  ysvogel
 -Ysvogel
  zgn.
--zoeven
+ zoeven
  zo-even
-+zoeven
-+µm
-+Å
-+Åland
-+à
-+á
-+â
-+ä
-+å
-+ångström
-+één
-+ā
-+Σ-regel
-+α
-+α-deeltje
-+β-straling
-+γ-straling
-+λ-calculus
-+π
-+π-dag
-+π²
-+χ²-toets

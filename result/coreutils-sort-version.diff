@@ -1,9 +1,9 @@
---- reference-sorted.txt	2015-05-05 16:25:31.748379096 +0200
-+++ coreutils-sort-version.txt	2015-05-05 16:25:31.820381242 +0200
-@@ -1,141 +1,116 @@
+--- reference/sort.txt	2015-05-05 17:39:13.603418853 +0200
++++ result/coreutils-sort-version.txt	2015-05-05 17:39:13.675420738 +0200
+@@ -1,146 +1,121 @@
 -'14-'18
--16 m²
 -16m²
+-16 m²
  2D-projectie
  2D-projecties
  3D-projectie
@@ -62,6 +62,11 @@
 +IJsvogel
 +Ijsvogel
 +I/O
++NOCNSF
++NOC NSF
++NOC*NSF
++NOC-NSF
++NOC/NSF
 +P
 +S.
 +Sint-Maarten
@@ -98,8 +103,8 @@
  bijectie
  bijna
 -Blof
--BLOF
 -Bløf
+-BLOF
 -BLØF
 -Bonaire, Sint-Eustatius & Saba
 -Bonaire, Sint-Eustatius en Saba
@@ -164,6 +169,11 @@
  m3
 -m³
  micrometer
+-NOCNSF
+-NOC NSF
+-NOC-NSF
+-NOC*NSF
+-NOC/NSF
 -P
 -π
 -π²
@@ -197,7 +207,7 @@
  tv
  tv's
  vri
-@@ -144,7 +119,32 @@ vrj
+@@ -149,7 +124,32 @@ vrj
  vrk
  vry
  ysvogel
