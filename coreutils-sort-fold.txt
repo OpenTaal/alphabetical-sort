@@ -1,14 +1,35 @@
 100 eurobiljet
 10 eurobiljet
+'14-'18
+16m²
+16 m²
+2D-projectie
+2D-projecties
+3D-projectie
+3D-projecties
+3VO
+'40-'45
 50 eurobiljet
+65+'er
+65-kaart
+65+-kaart
 a
 A
+a-
+a.
+A.
+á
+à
+â
+å
 Å
+ä
+ā
+A4
+AA
 aanw. vnw.
 Åland
-alfaconversie
 alfadeeltje
-alfaredecutie
 ångström
 aub
 a.u.b.
@@ -20,23 +41,37 @@ bestand12.txt
 bestand2.txt
 bestand-backup.txt
 bestand.txt
+bètastraling
 bijectie
 bijna
 Blof
 BLOF
 Bløf
 BLØF
+Bonaire, Sint-Eustatius en Saba
 Bonaire, Sint-Eustatius & Saba
-boren
+C31
+C 31
+C-31
+C32
+C 32
+C-32
 CA
 C&A
 ca.
+callout
+call out
+call-out
 CD&V'er
+chi-kwadraattoets
+c.i.a.
 cijfer
 cijfer-
 cijfer- en letterwoorden
 CO2-emissie
 CO₂-emissie
+ct
+c.t.
 curacao
 Curacao
 curaçao
@@ -45,15 +80,13 @@ d.d.
 DDT
 een
 één
+gammastraling
 Giessendam/Neder-Hardinxveld
 iglo
-ĳ-ligatuur
 ij-ligatuur
-ĳsvogel
 ijsvogel
 Ijsvogel
 IJsvogel
-Ĳsvogel
 ik
 input/output
 I/O
@@ -61,6 +94,7 @@ k/h
 kilometer
 klaar
 km/s
+lambdacalculus
 letterwoorden
 m
 µm
@@ -68,11 +102,7 @@ m2
 m²
 m3
 m³
-na
-nadelen
-o.l.v.
-opa
-opa's
+micrometer
 P
 pi
 s
@@ -81,6 +111,7 @@ S.
 senor
 señor
 's-Hertogenbosch
+sigmaregel
 sint-bernardshond
 Sint-Maarten
 Slotervaart Overtoomse Veld
@@ -93,15 +124,11 @@ smörgasbord
 smorgåsbord
 smörgåsbord
 's ochtends
-s-regel
 St.-Eustatius
 St.-Maarten
 tv
 tv's
-voor-
-voordelen
 vri
-vrĳ
 vrij
 vrj
 vrk
@@ -111,15 +138,13 @@ Ysvogel
 zgn.
 zoeven
 zo-even
-α-conversie
+α
 α-deeltje
-α-reductie
-β-reductie
 β-straling
-β-wetenschappen
 γ-straling
 λ-calculus
-λ-operator
+π
 π²
+π-dag
 Σ-regel
 χ²-toets

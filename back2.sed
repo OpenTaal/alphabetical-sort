@@ -1,9 +1,0 @@
-s/Sigma/Σ-/
-s/sigma/σ-/
-s/pi/π-/
-s/micro/µ-/
-s/lambda/λ-/
-s/chi/χ-/
-s/gammma/γ-/
-s/béta/β-/
-s/alfa/α-/

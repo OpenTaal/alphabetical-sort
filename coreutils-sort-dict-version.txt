@@ -1,16 +1,44 @@
+á
+à
+â
+å
 Å
+ä
+ā
+α
+π
 π²
+2D-projectie
+2D-projecties
+3D-projectie
+3D-projecties
+3VO
 10 eurobiljet
+16m²
+16 m²
 50 eurobiljet
+65+'er
+65-kaart
+65+-kaart
 100 eurobiljet
+'14-'18
+'40-'45
 A
+A.
+A4
+AA
 BB
 B&B
 BLØF
 BLOF
 Bløf
 Blof
+Bonaire, Sint-Eustatius en Saba
 Bonaire, Sint-Eustatius & Saba
+C31
+C-31
+C32
+C-32
 CA
 C&A
 CD&V'er
@@ -18,6 +46,8 @@ CO2-emissie
 CO₂-emissie
 Curaçao
 Curacao
+C 31
+C 32
 DDT
 Giessendam/Neder-Hardinxveld
 IJsvogel
@@ -35,10 +65,10 @@ St.-Eustatius
 St.-Maarten
 Ysvogel
 a
+a-
+a.
 aanw. vnw.
-alfaconversie
 alfadeeltje
-alfaredecutie
 aub
 a.u.b.
 aug.
@@ -49,18 +79,26 @@ bestand-backup.txt
 bestand.txt
 bijectie
 bijna
-boren
+bètastraling
 ca.
 λ-calculus
+callout
+call-out
+call out
+chi-kwadraattoets
+c.i.a.
 cijfer
 cijfer-
 cijfer- en letterwoorden
-α-conversie
+ct
+c.t.
 curaçao
 curacao
+π-dag
 d.d.
 α-deeltje
 een
+gammastraling
 iglo
 ij-ligatuur
 ijsvogel
@@ -70,55 +108,42 @@ k/h
 kilometer
 klaar
 km/s
+lambdacalculus
 Åland
 letterwoorden
-ĳ-ligatuur
 m
 µm
 m²
 m³
 m2
 m3
+micrometer
 één
-na
-nadelen
 ångström
-o.l.v.
-opa
-opa's
-λ-operator
 pi
-α-reductie
-β-reductie
 Σ-regel
 s
 's-Hertogenbosch
 senor
 señor
+sigmaregel
 sint-bernardshond
 smorgasbord
 smorgåsbord
 smörgasbord
 smörgåsbord
-s-regel
 β-straling
 γ-straling
-ĳsvogel
-Ĳsvogel
 's avonds
 's ochtends
 χ²-toets
 tv
 tv's
-voor-
-voordelen
-vrĳ
 vri
 vrij
 vrj
 vrk
 vry
-β-wetenschappen
 ysvogel
 zgn.
 zoeven

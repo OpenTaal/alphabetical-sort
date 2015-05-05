@@ -1,10 +1,24 @@
+'40-'45
 's avonds
 's ochtends
 's-Hertogenbosch
 10 eurobiljet
 100 eurobiljet
+16 m²
+16m²
+2D-projectie
+2D-projecties
+3D-projectie
+3D-projecties
+3VO
 50 eurobiljet
+65+'er
+65+-kaart
+65-kaart
 A
+A.
+A4
+AA
 B&B
 BB
 BLOF
@@ -13,6 +27,8 @@ Blof
 Bløf
 Bonaire, Sint-Eustatius & Saba
 C&A
+C31
+C32
 CA
 CD&V'er
 CO2-emissie
@@ -36,11 +52,11 @@ St.-Eustatius
 St.-Maarten
 Ysvogel
 a
+a-
+a.
 a.u.b.
 aanw. vnw.
-alfaconversie
 alfadeeltje
-alfaredecutie
 aub
 aug.
 augustus
@@ -51,14 +67,22 @@ bestand2.txt
 bijectie
 bijna
 boren
+bètastraling
+c.t.
 ca.
+call out
+call-out
+callout
+chi-kwadraattoets
 cijfer
 cijfer-
 cijfer- en letterwoorden
+ct
 curacao
 curaçao
 d.d.
 een
+gammastraling
 iglo
 ij-ligatuur
 ijsvogel
@@ -68,10 +92,12 @@ k/h
 kilometer
 klaar
 km/s
+lambdacalculus
 letterwoorden
 m
 m2
 m3
+micrometer
 m²
 m³
 na
@@ -81,9 +107,9 @@ opa
 opa's
 pi
 s
-s-regel
 senor
 señor
+sigmaregel
 sint-bernardshond
 smorgasbord
 smorgåsbord
@@ -98,7 +124,6 @@ vrij
 vrj
 vrk
 vry
-vrĳ
 ysvogel
 zgn.
 zo-even
@@ -106,20 +131,21 @@ zoeven
 µm
 Å
 Åland
+à
+á
+â
+ä
+å
 ångström
 één
-Ĳsvogel
-ĳ-ligatuur
-ĳsvogel
+ā
 Σ-regel
-α-conversie
+α
 α-deeltje
-α-reductie
-β-reductie
 β-straling
-β-wetenschappen
 γ-straling
 λ-calculus
-λ-operator
+π
+π-dag
 π²
 χ²-toets

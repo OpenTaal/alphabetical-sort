@@ -1,22 +1,43 @@
---- reference-sorted.txt	2015-05-03 10:12:54.580376615 +0200
-+++ python-sorted.txt	2015-05-03 10:12:54.580376615 +0200
-@@ -1,125 +1,125 @@
+--- reference-sorted.txt	2015-05-04 15:52:01.833876431 +0200
++++ python-sorted.txt	2015-05-04 15:52:01.833876431 +0200
+@@ -1,140 +1,120 @@
++'40-'45
 +'s avonds
 +'s ochtends
 +'s-Hertogenbosch
- 10 eurobiljet
++10 eurobiljet
++100 eurobiljet
+ 16 m²
+ 16m²
+ 2D-projectie
+ 2D-projecties
+ 3D-projectie
+ 3D-projecties
+-10 eurobiljet
 -50 eurobiljet
- 100 eurobiljet
--α-deeltje
--alfadeeltje
--α-conversie
--alfaconversie
--α-reductie
--alfaredecutie
--a
+-100 eurobiljet
+ 3VO
+-65-kaart
 +50 eurobiljet
+ 65+'er
+ 65+-kaart
+-'40-'45
+-a
+-a.
+-a-
++65-kaart
  A
 -Å
+ A.
+-á
+-à
+-â
+-ä
+-ā
+-å
+-α
+ A4
+ AA
 +B&B
 +BB
 +BLOF
@@ -25,6 +46,8 @@
 +Bløf
 +Bonaire, Sint-Eustatius & Saba
 +C&A
++C31
++C32
 +CA
 +CD&V'er
 +CO2-emissie
@@ -48,20 +71,18 @@
 +St.-Maarten
 +Ysvogel
 +a
++a-
++a.
 +a.u.b.
  aanw. vnw.
 -Åland
+ alfadeeltje
+-α-deeltje
 -ångström
-+alfaconversie
-+alfadeeltje
-+alfaredecutie
  aub
 -a.u.b.
  aug.
  augustus
--β-reductie
--β-straling
--β-wetenschappen
 -BB
 -B&B
 +bestand-backup.txt
@@ -69,6 +90,8 @@
  bestand12.txt
  bestand2.txt
 -bestand-backup.txt
+-bètastraling
+-β-straling
  bijectie
  bijna
 -Blof
@@ -77,15 +100,27 @@
 -BLØF
 -Bonaire, Sint-Eustatius & Saba
  boren
+-C31
+-C32
++bètastraling
++c.t.
  ca.
 -CA
 -C&A
+-callout
+ call out
+ call-out
 -CD&V'er
+-χ²-toets
++callout
+ chi-kwadraattoets
  cijfer
  cijfer-
  cijfer- en letterwoorden
 -CO2-emissie
 -CO₂-emissie
+ ct
+-c.t.
  curacao
 -Curacao
  curaçao
@@ -94,17 +129,14 @@
 -DDT
  een
 -één
+ gammastraling
 -γ-straling
--χ²-toets
 -Giessendam/Neder-Hardinxveld
  iglo
--ĳ-ligatuur
  ij-ligatuur
  ijsvogel
--ĳsvogel
 -Ijsvogel
 -IJsvogel
--Ĳsvogel
  ik
  input/output
 -I/O
@@ -112,32 +144,36 @@
  kilometer
  klaar
  km/s
+ lambdacalculus
 -λ-calculus
--λ-operator
  letterwoorden
--µm
  m
  m2
 -m²
  m3
+-m³
+ micrometer
+-µm
 +m²
- m³
++m³
  na
  nadelen
  o.l.v.
  opa
  opa's
--π²
 -P
+-π
+-π²
+-π-dag
  pi
--Σ-regel
  s
 -S.
 -'s avonds
-+s-regel
  senor
  señor
 -'s-Hertogenbosch
+ sigmaregel
+-Σ-regel
  sint-bernardshond
 -Sint-Maarten
 -Slotervaart Overtoomse Veld
@@ -151,20 +187,14 @@
 +smörgasbord
  smörgåsbord
 -'s ochtends
--s-regel
 -St.-Eustatius
 -St.-Maarten
  tv
  tv's
  voor-
- voordelen
- vri
- vrij
--vrĳ
- vrj
+@@ -145,7 +125,27 @@ vrj
  vrk
  vry
-+vrĳ
  ysvogel
 -Ysvogel
  zgn.
@@ -174,20 +204,21 @@
 +µm
 +Å
 +Åland
++à
++á
++â
++ä
++å
 +ångström
 +één
-+Ĳsvogel
-+ĳ-ligatuur
-+ĳsvogel
++ā
 +Σ-regel
-+α-conversie
++α
 +α-deeltje
-+α-reductie
-+β-reductie
 +β-straling
-+β-wetenschappen
 +γ-straling
 +λ-calculus
-+λ-operator
++π
++π-dag
 +π²
 +χ²-toets
