@@ -3,14 +3,14 @@
 #⁰₋₁e⁻	TODO
 #⁰₁e⁺	TODO
 #0,2 MeV	TODO
-#1,234	before 1.234, "one point two hundred and thirty four thousand"
-#1.234	after 1,234, "one thousant and two hundred and thurty four"
+#1,234	before 1.234, [one point two hundred and thirty four thousand]
+#1.234	after 1,234, [one thousant and two hundred and thurty four]
 #1 m²	TODO
 #¹²C	TODO
 #6 m²	TODO
-'14-'18	"WWI in Belgium"
-16m²	"type of boat"
-16 m²	"sixteen square meters"
+'14-'18	[WWI in Belgium]
+16m²	[type of boat]
+16 m²	[sixteen square meters]
 #166 m²	TODO
 #4⁴ °C	TODO
 #44 °C	TODO
@@ -23,8 +23,8 @@
 10 eurobiljet	TODO
 50 eurobiljet	after 10 eurobiljet
 100 eurobiljet	TODO
-3VO	before '40-'45, "organisation for road safeity"
-'40-'45	"WWII in the Netherlands"
+3VO	before '40-'45, [organisation for road safeity]
+'40-'45	[WWII in the Netherlands]
 65-kaart
 65+'er
 65+-kaart
@@ -222,5 +222,5 @@ ysvogel	incorrect spelling, before Ysvogel
 Ysvogel	incorrect spelling, after ysvogel
 
 zgn.
-zoeven	before zo-even, "buzzing"
-zo-even	after zoeven, "in a minute"
+zoeven	before zo-even, [buzzing]
+zo-even	after zoeven, [in a bit]
