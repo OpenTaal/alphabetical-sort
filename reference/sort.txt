@@ -1,6 +1,6 @@
 '14-'18
-16 m²
 16m²
+16 m²
 2D-projectie
 2D-projecties
 3D-projectie
@@ -109,6 +109,11 @@ m²
 m3
 m³
 micrometer
+NOCNSF
+NOC NSF
+NOC-NSF
+NOC*NSF
+NOC/NSF
 P
 π
 π²

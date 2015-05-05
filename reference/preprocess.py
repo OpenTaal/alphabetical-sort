@@ -2,6 +2,9 @@
 
 
 if __name__ == '__main__':
+    # Do not edit sort-characters.txt or sort.txt.
+    # These files will be overwritten by this script.
+
     chars = []
     output_file = open('sort-characters.txt', 'w')
     with open('sort-characters.tsv', 'r') as input_file:
@@ -12,8 +15,8 @@ if __name__ == '__main__':
                 output_file.write('{}\n'.format(char))
 
     words = []
-    output_file = open('reference-sorted.txt', 'w')
-    with open('reference-sorted.tsv', 'r') as input_file:
+    output_file = open('sort.txt', 'w')
+    with open('sort.tsv', 'r') as input_file:
         for line in input_file:
             if line != '\n' and line[0] != '#':
                 word = line[:-1].split('	')[0]
