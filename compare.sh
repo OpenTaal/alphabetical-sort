@@ -55,8 +55,8 @@ diff -Nup reference/sort-reverse-retrograde.txt result/coreutils-sort-reverse-re
 
 
 # sort custom
-cat reference/sort.txt|sed -f substitute.sed|sort|sed -f restore.sed > result/coreutils-sort-custom3.txt
-diff -Nup reference/sort.txt result/coreutils-sort-custom3.txt > result/coreutils-sort-custom3.diff
+cat reference/sort.txt|sed -f substitute.sed|sort|sed -f restore.sed > result/coreutils-sort-custom.txt
+diff -Nup reference/sort.txt result/coreutils-sort-custom3.txt > result/coreutils-sort-custom.diff
 
 # custom sort
 #cat reference/sort.txt|sed -f away.sed|sort|sed -f back.sed > result/coreutils-sort-custom.txt
