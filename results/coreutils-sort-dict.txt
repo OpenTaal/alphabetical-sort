@@ -1,3 +1,14 @@
+µ
+á
+à
+â
+å
+Å
+ä
+ā
+α
+π
+π²
 100 eurobiljet
 10 eurobiljet
 '14-'18
@@ -18,21 +29,11 @@ a-
 a.
 A
 A.
-á
-à
-â
-å
-Å
-ä
-ā
-α
 A4
 AA
 aanw. vnw.
-α-deeltje
-Åland
+a-deeltje
 alfadeeltje
-ångström
 aub
 a.u.b.
 aug.
@@ -43,29 +44,28 @@ bestand12.txt
 bestand2.txt
 bestand-backup.txt
 bestand.txt
-bètastraling
 bijectie
 bijna
-Blof
-BLOF
 Bløf
 BLØF
+Blof
+BLOF
 Bonaire, Sint-Eustatius en Saba
 Bonaire, Sint-Eustatius & Saba
-β-straling
-χ²-toets
+bètastraling
 C31
-C 31
 C-31
+C 31
 C32
-C 32
 C-32
+C 32
 ca.
 CA
 C&A
+λ-calculus
 callout
-call out
 call-out
+call out
 CD&V'er
 chi-kwadraattoets
 c.i.a.
@@ -76,17 +76,17 @@ CO2-emissie
 CO₂-emissie
 ct
 c.t.
-curacao
-Curacao
 curaçao
 Curaçao
+curacao
+Curacao
+π-dag
 d.d.
 DDT
+α-deeltje
 een
-één
 gammastraling
 Giessendam/Neder-Hardinxveld
-γ-straling
 iglo
 ij-ligatuur
 ijsvogel
@@ -100,25 +100,27 @@ kilometer
 klaar
 km/s
 lambdacalculus
-λ-calculus
+Åland
+l-calculus
 letterwoorden
 m
-m2
-m²
-m3
-m³
-micrometer
 µm
+m²
+m³
+m2
+m3
+micrometer
+micronano
+één
+ångström
 NOCNSF
-NOC NSF
 NOC-NSF
 NOC/NSF
 NOC*NSF
+NOC NSF
 P
-ṕ
-ṕ²
-ṕ-dag
 pi
+Σ-regel
 s
 S.
 's avonds
@@ -128,19 +130,22 @@ señor
 sigmaregel
 sint-bernardshond
 Sint-Maarten
+Slotervaart/Overtoomse-Veld
+Slotervaart/Overtoomse/Veld
 Slotervaart Overtoomse Veld
 Slotervaart-Overtoomse Veld
 Slotervaart/Overtoomse Veld
-Slotervaart/Overtoomse-Veld
-Slotervaart/Overtoomse/Veld
 smorgasbord
-smörgasbord
 smorgåsbord
+smörgasbord
 smörgåsbord
 's ochtends
-Σ-regel
+s-regel
 St.-Eustatius
 St.-Maarten
+β-straling
+γ-straling
+χ²-toets
 tv
 tv's
 vri

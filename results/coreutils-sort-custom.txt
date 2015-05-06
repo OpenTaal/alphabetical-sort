@@ -1,0 +1,160 @@
+100 eurobiljet
+10 eurobiljet
+'14-'18
+16m²
+16 m²
+2D-projectie
+2D-projecties
+3D-projectie
+3D-projecties
+3VO
+'40-'45
+50 eurobiljet
+65+'er
+65-kaart
+65+-kaart
+a
+a-
+a.
+A
+A.
+á
+à
+â
+å
+Å
+ä
+ā
+α
+A4
+AA
+aanw. vnw.
+a-deeltje
+α-deeltje
+Åland
+alfadeeltje
+ångström
+aub
+a.u.b.
+aug.
+augustus
+BB
+B&B
+bestand12.txt
+bestand2.txt
+bestand-backup.txt
+bestand.txt
+bètastraling
+bijectie
+bijna
+Blof
+BLOF
+Bløf
+BLØF
+Bonaire, Sint-Eustatius en Saba
+Bonaire, Sint-Eustatius & Saba
+β-straling
+χ²-toets
+C31
+C 31
+C-31
+C32
+C 32
+C-32
+ca.
+CA
+C&A
+callout
+call out
+call-out
+CD&V'er
+chi-kwadraattoets
+c.i.a.
+cijfer
+cijfer-
+cijfer- en letterwoorden
+CO2-emissie
+CO₂-emissie
+ct
+c.t.
+curacao
+Curacao
+curaçao
+Curaçao
+d.d.
+DDT
+een
+één
+gammastraling
+Giessendam/Neder-Hardinxveld
+γ-straling
+iglo
+ij-ligatuur
+ijsvogel
+Ijsvogel
+IJsvogel
+ik
+input/output
+I/O
+k/h
+kilometer
+klaar
+km/s
+lambdacalculus
+l-calculus
+λ-calculus
+letterwoorden
+m
+µ
+m2
+m²
+m3
+m³
+micrometer
+micronano
+µm
+NOCNSF
+NOC NSF
+NOC-NSF
+NOC/NSF
+NOC*NSF
+P
+ṕ
+ṕ²
+ṕ-dag
+pi
+s
+S.
+'s avonds
+senor
+señor
+'s-Hertogenbosch
+sigmaregel
+sint-bernardshond
+Sint-Maarten
+Slotervaart Overtoomse Veld
+Slotervaart-Overtoomse Veld
+Slotervaart/Overtoomse Veld
+Slotervaart/Overtoomse-Veld
+Slotervaart/Overtoomse/Veld
+smorgasbord
+smörgasbord
+smorgåsbord
+smörgåsbord
+'s ochtends
+s-regel
+Σ-regel
+St.-Eustatius
+St.-Maarten
+tv
+tv's
+vri
+vrij
+vrj
+vrk
+vry
+ysvogel
+Ysvogel
+zgn.
+zoeven
+zo-even

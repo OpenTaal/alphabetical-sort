@@ -1,6 +1,8 @@
---- reference/sort.txt	2015-05-05 17:39:13.603418853 +0200
-+++ result/python-sort-default.txt	2015-05-05 17:39:13.635419691 +0200
-@@ -1,146 +1,126 @@
+--- references/sort.txt	2015-05-06 14:17:00.597576881 +0200
++++ results/python-sort-locale.txt	2015-05-06 14:17:00.657578571 +0200
+@@ -1,151 +1,130 @@
+-100 eurobiljet
+-10 eurobiljet
  '14-'18
 -16m²
 +'40-'45
@@ -15,28 +17,25 @@
  2D-projecties
  3D-projectie
  3D-projecties
--10 eurobiljet
--50 eurobiljet
--100 eurobiljet
  3VO
 -'40-'45
--65-kaart
-+50 eurobiljet
+ 50 eurobiljet
  65+'er
+-65-kaart
  65+-kaart
 -a
--a.
 -a-
+-a.
 +65-kaart
  A
--Å
  A.
 -á
 -à
 -â
+-å
+-Å
 -ä
 -ā
--å
 -α
  A4
  AA
@@ -84,11 +83,13 @@
 +Ysvogel
 +a
 +a-
++a-deeltje
 +a.
 +a.u.b.
  aanw. vnw.
 -Åland
  alfadeeltje
+-a-deeltje
 -α-deeltje
 -ångström
  aub
@@ -107,11 +108,11 @@
  bijectie
  bijna
 -Blof
--Bløf
 -BLOF
+-Bløf
 -BLØF
--Bonaire, Sint-Eustatius & Saba
 -Bonaire, Sint-Eustatius en Saba
+-Bonaire, Sint-Eustatius & Saba
 -C31
 -C 31
 -C-31
@@ -162,21 +163,25 @@
  kilometer
  klaar
  km/s
- lambdacalculus
+-lambdacalculus
+ l-calculus
 -λ-calculus
++lambdacalculus
  letterwoorden
  m
+-µ
 -µm
  m2
 -m²
  m3
 -m³
  micrometer
+ micronano
 -NOCNSF
 -NOC NSF
 -NOC-NSF
--NOC*NSF
 -NOC/NSF
+-NOC*NSF
 -P
 -π
 -π²
@@ -187,10 +192,12 @@
  s
 -S.
 -'s avonds
++s-regel
  senor
  señor
 -'s-Hertogenbosch
  sigmaregel
+-s-regel
 -Σ-regel
  sint-bernardshond
 -Sint-Maarten
@@ -210,7 +217,7 @@
  tv
  tv's
  vri
-@@ -149,7 +129,27 @@ vrj
+@@ -154,7 +133,28 @@ vrj
  vrk
  vry
  ysvogel
@@ -219,6 +226,7 @@
 -zoeven
  zo-even
 +zoeven
++µ
 +µm
 +Å
 +Åland

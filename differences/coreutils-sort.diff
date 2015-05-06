@@ -1,0 +1,105 @@
+--- references/sort.txt	2015-05-06 14:17:00.597576881 +0200
++++ results/coreutils-sort.txt	2015-05-06 14:17:00.669578909 +0200
+@@ -1,3 +1,4 @@
++µ
+ 100 eurobiljet
+ 10 eurobiljet
+ '14-'18
+@@ -25,14 +26,12 @@ å
+ Å
+ ä
+ ā
+-α
+ A4
+ AA
+ aanw. vnw.
++a-deeltje
+ Åland
+ alfadeeltje
+-a-deeltje
+-α-deeltje
+ ångström
+ aub
+ a.u.b.
+@@ -40,12 +39,11 @@ aug.
+ augustus
+ BB
+ B&B
+-bestand.txt
+ bestand12.txt
+ bestand2.txt
+ bestand-backup.txt
++bestand.txt
+ bètastraling
+-β-straling
+ bijectie
+ bijna
+ Blof
+@@ -67,7 +65,6 @@ callout
+ call out
+ call-out
+ CD&V'er
+-χ²-toets
+ chi-kwadraattoets
+ c.i.a.
+ cijfer
+@@ -86,7 +83,6 @@ DDT
+ een
+ één
+ gammastraling
+-γ-straling
+ Giessendam/Neder-Hardinxveld
+ iglo
+ ij-ligatuur
+@@ -102,10 +98,8 @@ klaar
+ km/s
+ lambdacalculus
+ l-calculus
+-λ-calculus
+ letterwoorden
+ m
+-µ
+ µm
+ m2
+ m²
+@@ -119,9 +113,6 @@ NOC-NSF
+ NOC/NSF
+ NOC*NSF
+ P
+-π
+-π²
+-π-dag
+ pi
+ s
+ S.
+@@ -130,8 +121,6 @@ senor
+ señor
+ 's-Hertogenbosch
+ sigmaregel
+-s-regel
+-Σ-regel
+ sint-bernardshond
+ Sint-Maarten
+ Slotervaart Overtoomse Veld
+@@ -144,6 +133,7 @@ smörgasbord
+ smorgåsbord
+ smörgåsbord
+ 's ochtends
++s-regel
+ St.-Eustatius
+ St.-Maarten
+ tv
+@@ -158,3 +148,13 @@ Ysvogel
+ zgn.
+ zoeven
+ zo-even
++α
++α-deeltje
++β-straling
++γ-straling
++λ-calculus
++π
++π²
++π-dag
++Σ-regel
++χ²-toets

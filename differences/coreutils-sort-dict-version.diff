@@ -1,150 +1,161 @@
---- reference/sort.txt	2015-05-05 17:39:13.603418853 +0200
-+++ result/python-sort-locale.txt	2015-05-05 17:39:13.663420424 +0200
-@@ -1,146 +1,126 @@
- '14-'18
+--- references/sort.txt	2015-05-06 14:17:00.597576881 +0200
++++ results/coreutils-sort-dict-version.txt	2015-05-06 14:17:00.685579359 +0200
+@@ -1,151 +1,152 @@
+-100 eurobiljet
+-10 eurobiljet
+-'14-'18
 -16m²
-+'40-'45
-+'s avonds
-+'s ochtends
-+'s-Hertogenbosch
-+10 eurobiljet
-+100 eurobiljet
- 16 m²
-+16m²
+-16 m²
++µ
++á
++à
++â
++å
++Å
++ä
++ā
++α
++π
++π²
  2D-projectie
  2D-projecties
  3D-projectie
  3D-projecties
--10 eurobiljet
--50 eurobiljet
--100 eurobiljet
  3VO
 -'40-'45
--65-kaart
-+50 eurobiljet
++10 eurobiljet
++16m²
++16 m²
+ 50 eurobiljet
  65+'er
+ 65-kaart
  65+-kaart
 -a
--a.
 -a-
-+65-kaart
+-a.
++100 eurobiljet
++'14-'18
++'40-'45
  A
--Å
  A.
 -á
 -à
 -â
+-å
+-Å
 -ä
 -ā
--å
 -α
  A4
  AA
-+B&B
-+BB
-+BLOF
+-aanw. vnw.
+-Åland
+-alfadeeltje
+-a-deeltje
+-α-deeltje
+-ångström
+-aub
+-a.u.b.
+-aug.
+-augustus
+ BB
+ B&B
+-bestand.txt
+-bestand12.txt
+-bestand2.txt
+-bestand-backup.txt
+-bètastraling
+-β-straling
+-bijectie
+-bijna
+-Blof
 +BLØF
+ BLOF
+ Bløf
+-BLØF
 +Blof
-+Bløf
-+Bonaire, Sint-Eustatius & Saba
-+Bonaire, Sint-Eustatius en Saba
-+C 31
-+C 32
-+C&A
-+C-31
-+C-32
-+C31
-+C32
-+CA
+ Bonaire, Sint-Eustatius en Saba
+ Bonaire, Sint-Eustatius & Saba
+ C31
+-C 31
+ C-31
+ C32
+-C 32
+ C-32
+-ca.
+ CA
+ C&A
 +CD&V'er
 +CO2-emissie
 +CO₂-emissie
-+Curacao
 +Curaçao
++Curacao
++C 31
++C 32
 +DDT
 +Giessendam/Neder-Hardinxveld
-+I/O
 +IJsvogel
++I/O
 +Ijsvogel
-+NOC NSF
-+NOC*NSF
++NOCNSF
 +NOC-NSF
 +NOC/NSF
-+NOCNSF
++NOC*NSF
++NOC NSF
 +P
 +S.
 +Sint-Maarten
-+Slotervaart Overtoomse Veld
-+Slotervaart-Overtoomse Veld
-+Slotervaart/Overtoomse Veld
 +Slotervaart/Overtoomse-Veld
 +Slotervaart/Overtoomse/Veld
++Slotervaart-Overtoomse Veld
++Slotervaart/Overtoomse Veld
++Slotervaart Overtoomse Veld
 +St.-Eustatius
 +St.-Maarten
 +Ysvogel
 +a
 +a-
 +a.
++aanw. vnw.
++a-deeltje
++alfadeeltje
++aub
 +a.u.b.
- aanw. vnw.
--Åland
- alfadeeltje
--α-deeltje
--ångström
- aub
--a.u.b.
- aug.
- augustus
--BB
--B&B
++aug.
++augustus
++bestand2.txt
++bestand12.txt
 +bestand-backup.txt
- bestand.txt
- bestand12.txt
- bestand2.txt
--bestand-backup.txt
--bètastraling
--β-straling
- bijectie
- bijna
--Blof
--Bløf
--BLOF
--BLØF
--Bonaire, Sint-Eustatius & Saba
--Bonaire, Sint-Eustatius en Saba
--C31
--C 31
--C-31
--C32
--C 32
--C-32
++bestand.txt
++bijectie
++bijna
 +bètastraling
-+c.i.a.
-+c.t.
- ca.
--CA
--C&A
--callout
- call out
++ca.
++λ-calculus
+ callout
+-call out
  call-out
 -CD&V'er
 -χ²-toets
-+callout
++call out
  chi-kwadraattoets
--c.i.a.
+ c.i.a.
  cijfer
  cijfer-
  cijfer- en letterwoorden
 -CO2-emissie
 -CO₂-emissie
  ct
--c.t.
- curacao
+ c.t.
+-curacao
 -Curacao
  curaçao
 -Curaçao
++curacao
++π-dag
  d.d.
 -DDT
++α-deeltje
  een
 -één
  gammastraling
@@ -163,34 +174,43 @@
  klaar
  km/s
  lambdacalculus
++Åland
+ l-calculus
 -λ-calculus
  letterwoorden
  m
--µm
- m2
--m²
- m3
--m³
+-µ
+ µm
+-m2
+ m²
+-m3
+ m³
++m2
++m3
  micrometer
+ micronano
 -NOCNSF
 -NOC NSF
 -NOC-NSF
--NOC*NSF
 -NOC/NSF
+-NOC*NSF
 -P
 -π
 -π²
 -π-dag
-+m²
-+m³
++één
++ångström
  pi
++Σ-regel
  s
 -S.
 -'s avonds
++'s-Hertogenbosch
  senor
  señor
 -'s-Hertogenbosch
  sigmaregel
+-s-regel
 -Σ-regel
  sint-bernardshond
 -Sint-Maarten
@@ -204,39 +224,22 @@
  smorgåsbord
 +smörgasbord
  smörgåsbord
--'s ochtends
++s-regel
++β-straling
++γ-straling
++'s avonds
+ 's ochtends
 -St.-Eustatius
 -St.-Maarten
++χ²-toets
  tv
  tv's
  vri
-@@ -149,7 +129,27 @@ vrj
+@@ -154,7 +155,6 @@ vrj
  vrk
  vry
  ysvogel
 -Ysvogel
  zgn.
--zoeven
+ zoeven
  zo-even
-+zoeven
-+µm
-+Å
-+Åland
-+à
-+á
-+â
-+ä
-+å
-+ångström
-+één
-+ā
-+Σ-regel
-+α
-+α-deeltje
-+β-straling
-+γ-straling
-+λ-calculus
-+π
-+π-dag
-+π²
-+χ²-toets

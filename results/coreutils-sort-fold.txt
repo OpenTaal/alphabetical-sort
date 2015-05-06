@@ -1,3 +1,4 @@
+µ
 100 eurobiljet
 10 eurobiljet
 '14-'18
@@ -28,6 +29,7 @@ A.
 A4
 AA
 aanw. vnw.
+a-deeltje
 Åland
 alfadeeltje
 ångström
@@ -95,6 +97,7 @@ kilometer
 klaar
 km/s
 lambdacalculus
+l-calculus
 letterwoorden
 m
 µm
@@ -103,6 +106,7 @@ m²
 m3
 m³
 micrometer
+micronano
 NOCNSF
 NOC NSF
 NOC-NSF
@@ -129,6 +133,7 @@ smörgasbord
 smorgåsbord
 smörgåsbord
 's ochtends
+s-regel
 St.-Eustatius
 St.-Maarten
 tv

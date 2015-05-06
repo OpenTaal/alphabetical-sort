@@ -1,38 +1,28 @@
-'14-'18
-'40-'45
-'s avonds
-'s ochtends
-'s-Hertogenbosch
-10 eurobiljet
-100 eurobiljet
-16 m²
-16m²
 2D-projectie
 2D-projecties
 3D-projectie
 3D-projecties
 3VO
+10 eurobiljet
+16m²
+16 m²
 50 eurobiljet
 65+'er
 65+-kaart
 65-kaart
+100 eurobiljet
 A
 A.
 A4
 AA
-B&B
 BB
 BLOF
 BLØF
 Blof
 Bløf
-Bonaire, Sint-Eustatius & Saba
 Bonaire, Sint-Eustatius en Saba
-C 31
-C 32
-C&A
-C-31
-C-32
+Bonaire, Sint-Eustatius & Saba
+B&B
 C31
 C32
 CA
@@ -41,16 +31,21 @@ CO2-emissie
 CO₂-emissie
 Curacao
 Curaçao
+C 31
+C 32
+C&A
+C-31
+C-32
 DDT
 Giessendam/Neder-Hardinxveld
-I/O
 IJsvogel
 Ijsvogel
+I/O
+NOCNSF
 NOC NSF
 NOC*NSF
 NOC-NSF
 NOC/NSF
-NOCNSF
 P
 S.
 Sint-Maarten
@@ -63,7 +58,6 @@ St.-Eustatius
 St.-Maarten
 Ysvogel
 a
-a-
 a.
 a.u.b.
 aanw. vnw.
@@ -71,19 +65,21 @@ alfadeeltje
 aub
 aug.
 augustus
-bestand-backup.txt
+a-
+a-deeltje
 bestand.txt
-bestand12.txt
 bestand2.txt
+bestand12.txt
+bestand-backup.txt
 bijectie
 bijna
 bètastraling
 c.i.a.
 c.t.
 ca.
+callout
 call out
 call-out
-callout
 chi-kwadraattoets
 cijfer
 cijfer-
@@ -95,20 +91,22 @@ d.d.
 een
 gammastraling
 iglo
-ij-ligatuur
 ijsvogel
+ij-ligatuur
 ik
 input/output
-k/h
 kilometer
 klaar
 km/s
+k/h
 lambdacalculus
 letterwoorden
+l-calculus
 m
 m2
 m3
 micrometer
+micronano
 m²
 m³
 pi
@@ -121,6 +119,7 @@ smorgasbord
 smorgåsbord
 smörgasbord
 smörgåsbord
+s-regel
 tv
 tv's
 vri
@@ -130,8 +129,14 @@ vrk
 vry
 ysvogel
 zgn.
-zo-even
 zoeven
+zo-even
+'14-'18
+'40-'45
+'s avonds
+'s ochtends
+'s-Hertogenbosch
+µ
 µm
 Å
 Åland

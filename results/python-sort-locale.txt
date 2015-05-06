@@ -1,107 +1,98 @@
-á
-à
-â
-å
-Å
-ä
-ā
-α
-π
-π²
+'14-'18
+'40-'45
+'s avonds
+'s ochtends
+'s-Hertogenbosch
+10 eurobiljet
+100 eurobiljet
+16 m²
+16m²
 2D-projectie
 2D-projecties
 3D-projectie
 3D-projecties
 3VO
-10 eurobiljet
-16m²
-16 m²
 50 eurobiljet
 65+'er
-65-kaart
 65+-kaart
-100 eurobiljet
-'14-'18
-'40-'45
+65-kaart
 A
 A.
 A4
 AA
-BB
 B&B
-BLØF
+BB
 BLOF
-Bløf
+BLØF
 Blof
-Bonaire, Sint-Eustatius en Saba
+Bløf
 Bonaire, Sint-Eustatius & Saba
-C31
-C-31
-C32
-C-32
-CA
+Bonaire, Sint-Eustatius en Saba
+C 31
+C 32
 C&A
+C-31
+C-32
+C31
+C32
+CA
 CD&V'er
 CO2-emissie
 CO₂-emissie
-Curaçao
 Curacao
-C 31
-C 32
+Curaçao
 DDT
 Giessendam/Neder-Hardinxveld
-IJsvogel
 I/O
+IJsvogel
 Ijsvogel
-NOCNSF
+NOC NSF
+NOC*NSF
 NOC-NSF
 NOC/NSF
-NOC*NSF
-NOC NSF
+NOCNSF
 P
 S.
 Sint-Maarten
-Slotervaart/Overtoomse-Veld
-Slotervaart/Overtoomse/Veld
+Slotervaart Overtoomse Veld
 Slotervaart-Overtoomse Veld
 Slotervaart/Overtoomse Veld
-Slotervaart Overtoomse Veld
+Slotervaart/Overtoomse-Veld
+Slotervaart/Overtoomse/Veld
 St.-Eustatius
 St.-Maarten
 Ysvogel
 a
 a-
+a-deeltje
 a.
+a.u.b.
 aanw. vnw.
 alfadeeltje
 aub
-a.u.b.
 aug.
 augustus
-bestand2.txt
-bestand12.txt
 bestand-backup.txt
 bestand.txt
+bestand12.txt
+bestand2.txt
 bijectie
 bijna
 bètastraling
-ca.
-λ-calculus
-callout
-call-out
-call out
-chi-kwadraattoets
 c.i.a.
+c.t.
+ca.
+call out
+call-out
+callout
+chi-kwadraattoets
 cijfer
 cijfer-
 cijfer- en letterwoorden
 ct
-c.t.
-curaçao
 curacao
-π-dag
+curaçao
 d.d.
-α-deeltje
 een
 gammastraling
 iglo
@@ -113,22 +104,19 @@ k/h
 kilometer
 klaar
 km/s
+l-calculus
 lambdacalculus
-Åland
 letterwoorden
 m
-µm
-m²
-m³
 m2
 m3
 micrometer
-één
-ångström
+micronano
+m²
+m³
 pi
-Σ-regel
 s
-'s-Hertogenbosch
+s-regel
 senor
 señor
 sigmaregel
@@ -137,11 +125,6 @@ smorgasbord
 smorgåsbord
 smörgasbord
 smörgåsbord
-β-straling
-γ-straling
-'s avonds
-'s ochtends
-χ²-toets
 tv
 tv's
 vri
@@ -151,5 +134,27 @@ vrk
 vry
 ysvogel
 zgn.
-zoeven
 zo-even
+zoeven
+µ
+µm
+Å
+Åland
+à
+á
+â
+ä
+å
+ångström
+één
+ā
+Σ-regel
+α
+α-deeltje
+β-straling
+γ-straling
+λ-calculus
+π
+π-dag
+π²
+χ²-toets
