@@ -2,9 +2,6 @@
 
 
 if __name__ == '__main__':
-    # Do not edit sort-characters.txt or sort.txt.
-    # These files will be overwritten by this script.
-
     chars = []
     output_file = open('sort-characters.txt', 'w')
     with open('sort-characters.tsv', 'r') as input_file:

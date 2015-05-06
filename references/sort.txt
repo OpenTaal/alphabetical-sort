@@ -1,3 +1,5 @@
+100 eurobiljet
+10 eurobiljet
 '14-'18
 16m²
 16 m²
@@ -5,32 +7,31 @@
 2D-projecties
 3D-projectie
 3D-projecties
-10 eurobiljet
-50 eurobiljet
-100 eurobiljet
 3VO
 '40-'45
-65-kaart
+50 eurobiljet
 65+'er
+65-kaart
 65+-kaart
 a
-a.
 a-
+a.
 A
-Å
 A.
 á
 à
 â
+å
+Å
 ä
 ā
-å
 α
 A4
 AA
 aanw. vnw.
 Åland
 alfadeeltje
+a-deeltje
 α-deeltje
 ångström
 aub
@@ -48,11 +49,11 @@ bètastraling
 bijectie
 bijna
 Blof
-Bløf
 BLOF
+Bløf
 BLØF
-Bonaire, Sint-Eustatius & Saba
 Bonaire, Sint-Eustatius en Saba
+Bonaire, Sint-Eustatius & Saba
 C31
 C 31
 C-31
@@ -100,20 +101,23 @@ kilometer
 klaar
 km/s
 lambdacalculus
+l-calculus
 λ-calculus
 letterwoorden
 m
+µ
 µm
 m2
 m²
 m3
 m³
 micrometer
+micronano
 NOCNSF
 NOC NSF
 NOC-NSF
-NOC*NSF
 NOC/NSF
+NOC*NSF
 P
 π
 π²
@@ -126,6 +130,7 @@ senor
 señor
 's-Hertogenbosch
 sigmaregel
+s-regel
 Σ-regel
 sint-bernardshond
 Sint-Maarten
