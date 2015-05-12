@@ -1,32 +1,47 @@
 # alphabetical-sort
 
+
 ## Introduction
 
-Visually looking up words in an alphabetically sorted word list or dictionary
-requires a practical sorting algorithm. However, to sort alphabetically in a
-language-specific way for lexicographical purposes is far from trivial,
-in particular when special characters and diacritical marks need to be taken
-into account.
+Visually looking up words in a large dictionary, glossary or index can be done
+efficiently when these are ordered in an alphabetical way. Likewise, a dozen
+suggestions offered by autocompletion are effective when the lexicographical
+ordering places related words near each other.
 
-Standard alphabetic sorting provided by programming languages is not suitable
-for this purpose, even when a localised sorting is enabled. It will be
-demonstrated that a custom sorting algorithm is needed to solve this problem
-when sorting for example for the Dutch language.
+To sort alphabetically in a practical language-specific way is however far from
+trivial. This is in particular when numerals, spaces, hyphens, special
+characters and diacritical marks need to be taken into account. Additionally, different regional conventions exist when ordering diacritics, capitals and
+proper names.
 
-This project offers the test-driven development of such alphabetical sorting
-algorithm by a community of computational linguistics and offers the
-implementation under an MIT license.
+A simple alphabetic sorting provided by most programming languages is unsuitable
+for this purpose. As will be demonstrated, sorting a well-constructed reference
+list will, firstly, document specific ordering requirements, and secondly, give
+insight to existing sorting algorithms.
 
-The implementation of the alphabetical sorting algorith delivered by this
-project can be used directly in the provided implementation. Additionally, this
-implementation can also be used as a reference for implementations the algorithm
-in other programming languages. At the moment only Dutch (nl) is supported.
+The aim in this project is not to develop a custom algotihm necessarily. Using
+an existing standard sollution will be aimed for as much as possible for reasons
+of compatability and maintainability. Hence, allowing minor changes in the
+requirements when needed to keep this approach.
+
+This project offers a test-driven selection and customisation of an
+alphabetical sorting algorithm, primarily aimed at the Dutch language. The joint
+effort of computational linguistics, lexicographers and language enthousiasts
+is reflected in the result of this project. This project is offered under an MIT
+license. Any external software used falls naturally under their respective
+licenses.
+
 
 ## Problem
+
 Default sort algorithm on most operating systems, especially UNIX-bases systems,
-will use the sort order as defined in the locale. For most Western locales such
+will use the sort order as defined in the locale. For most Western locales, such
 as English, Dutch and German, the sort order is defined in the locale
-[iso14651_t1_common](http://sourceware.org/git/?p=glibc.git;a=blob;f=localedata/locales/iso14651_t1_common;hb=HEAD) of the GNU C Library also known as glibc. The command-line tool [sort](http://en.wikipedia.org/wiki/Sort_%28Unix%29) from the coreutils package uses this localised sort order. However, when sorting the reference set for this project,
+[iso14651_t1_common](http://sourceware.org/git/?p=glibc.git;a=blob;f=localedata/locales/iso14651_t1_common;hb=HEAD). This and other locale definitions are part of
+the GNU C Library also known as glibc.
+
+The command-line tool
+[sort](http://en.wikipedia.org/wiki/Sort_%28Unix%29) from the coreutils package
+uses this localised sort order. However, when sorting the reference set for this project,
 [reference-sorted.txt](https://github.com/OpenTaal/alphabetical-sort/blob/master/reference-sorted.txt), one of the results the results are satisfactory.
 
 When it is used for default sorting, the result is [coreutils-sort.txt](https://github.com/OpenTaal/alphabetical-sort/blob/master/coreutils-sort.txt) and the difference with the reference is [coreutils-sort.diff](https://github.com/OpenTaal/alphabetical-sort/blob/master/coreutils-sort.diff). Note TODO (that sort places 100 before 10 and interchanges smorgåsbord with smörgåsbord.)
@@ -44,7 +59,7 @@ TODO add example with python default sort and with python locale sort
 
 Requirements for developing an algorith which sorts alphabetically in a
 language-specific way for lexicographical purposes are:
-* Sorting must respect the alphabetical order.
+* Sorting must respect an ascending alphabetical order.
 * Sorting is unaware if it processes a normal word or an abbreviation.
 * Sorting algorithm must group lower and upper case of the same character with
   priority for the lower case character.
@@ -55,29 +70,34 @@ language-specific way for lexicographical purposes are:
 * Sorting must group numerals in numerical ascending way and
   prioritise these according to superscipt, subscript and the default
   representation.
-* Sorting of mathemathical, chemical and other symbols must be done in a
-  predefined order.
+* Sorting of mathemathical, chemical and other symbols such as Greek characters
+  must be done in a predefined order.
 * Sorting of characters for which no order is provided must be done after all
   defined characters in order of default alphabetical sorting provided by the
   programming language.
+* Software must be developed in a test-driven way.
+* Sorting must be done according to predfined ordered list of characters and
+  words. These can be found in
+  [references/sort-characters.txt](https://github.com/OpenTaal/alphabetical-sort/blob/master/references/sort-characters.txt)
+  which is generated from [references/sort-characters.tsv](https://github.com/OpenTaal/alphabetical-sort/blob/master/references/sort-characters.tsv)
+  and
+  [references/sort.txt](https://github.com/OpenTaal/alphabetical-sort/blob/master/references/sort.txt)
+  which is generated from [references/sort.tsv](https://github.com/OpenTaal/alphabetical-sort/blob/master/references/sort.tsv)
+* Sorting must be possible in descending or reverse alphabetical order as is
+  defined in
+  [references/sort-reverse.txt](https://github.com/OpenTaal/alphabetical-sort/blob/master/references/sort-reverse.txt)
+* Sorting must be possible in retrograde alphabetical order as is defined in
+  [references/sort-retrograde.txt](https://github.com/OpenTaal/alphabetical-sort/blob/master/references/sort-retrograde.txt)
+* Sorting must be possible in reverse retrograde alphabetical order as is
+  defined in
+  [references/sort-retrograde-reverse.txt](https://github.com/OpenTaal/alphabetical-sort/blob/master/references/sort-retrograde-reverse.txt)
+* Sorting must be optimsed, however a two-pass sorting is allowed when needed.
+
+Requirements which are out of scope are:
+* sorteren op achternaam
+* letterwoorden vooraan
 *
-* Sorting can be alphabetically descending. The reference reverse sorted word
-  list is
-  https://github.com/OpenTaal/alphabetical-sort/blob/master/reference-sorted-reverse.txt
-* Sorting can be retrograde alphabetically ascending. The reference retrograde
-  sorted word list is
-  https://github.com/OpenTaal/alphabetical-sort/blob/master/reference-sorted-retrograde.txt
-* Sorting can be retrograde alphabetically descending. The reference reverse
-  retrograde sorted word list is
-  https://github.com/OpenTaal/alphabetical-sort/blob/master/reference-sorted-reverse-retrograde.txt
-* Software must be developed in a test-driven way. The script to run the unit
-  tests is https://github.com/OpenTaal/alphabetical-sort/blob/master/test.py
-* Sorting must be done according to a predefined ordered list of characters. The
-  list can be found in
-  https://github.com/OpenTaal/alphabetical-sort/blob/master/sort-order.tsv
-* Sorting must be optimsed, however a two-pass sorting is allowed. The algorithm
-  is implemented in
-  https://github.com/OpenTaal/alphabetical-sort/blob/master/asort.py
+*
 
 ## Further reading
 
@@ -91,13 +111,18 @@ See also on sorting in English:
 * http://unicode.org/reports/tr10
 * http://developer.mimer.com/collations
 * http://developer.mimer.com/charts
-* http://billposer.org/Software/msort.html
+* [msort](http://billposer.org/Software/msort.html)
 * http://icu-project.org/icu-bin/locexp?_=en_US&x=col
-* https://github.com/PanderMusubi/locale-en-nl/blob/master/en_NL
+* [English locale for the Netherlands](https://github.com/PanderMusubi/locale-en-nl/blob/master/en_NL)
+* [Number forms](https://en.wikipedia.org/wiki/Number_Forms)
 
 Ses also on sorting in Dutch:
-* http://nl.wikipedia.org/wiki/Alfabetische_volgorde
-* http://nl.wikipedia.org/wiki/Retrograad_(woordenlijst)
+* [Alfabetische volgorde](http://nl.wikipedia.org/wiki/Alfabetische_volgorde)
+* [Retrograad sorteren](http://nl.wikipedia.org/wiki/Retrograad_(woordenlijst))
 
 See also on sorting in German:
-* http://faql.de/eszett.html
+* [Sorting German sharp s](http://faql.de/eszett.html)
+
+TODO:
+* https://sf.own-it.nl/projects/opentaal/wiki/Karakters
+* https://sf.own-it.nl/projects/opentaal/wiki/Sorteren

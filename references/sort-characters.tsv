@@ -174,7 +174,7 @@ N	character	uppercase	Dutch
 Ñ	diacritic	uppercase	Spanish
 ω	symbol	lowercase	Greek
 Ω	symbol	uppercase	Greek
-ο	symbol	lowercase	Greek
+#ο	symbol	lowercase	Greek
 #Ο	symbol	uppercase	Greek
 #ₒ	symbol	subscript	mathematics
 o	character	lowercase	Dutch
