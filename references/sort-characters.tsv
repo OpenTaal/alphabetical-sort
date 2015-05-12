@@ -78,7 +78,6 @@
 ₉	numeral	subscript	Dutch
 9	numeral	character	Dutch
 α	symbol	lowercase	Greek
-#Α	symbol	uppercase	Greek
 #ₐ	symbol	subscript	mathematics
 a	character	lowercase	Dutch
 A	character	uppercase	Dutch
@@ -95,7 +94,6 @@ A	character	uppercase	Dutch
 ã	diacritic	lowercase	Portuguese
 Ã	diacritic	uppercase	Portuguese
 β	symbol	lowercase	Greek
-#Β	symbol	uppercase	Greek
 b	character	lowercase	Dutch
 B	character	uppercase	Dutch
 c	character	lowercase	Dutch
@@ -107,9 +105,7 @@ C	character	uppercase	Dutch
 d	character	lowercase	Dutch
 D	character	uppercase	Dutch
 ε	symbol	lowercase	Greek
-#Ε	symbol	uppercase	Greek
 η	symbol	lowercase	Greek
-#Η	symbol	uppercase	Greek
 #ₑ	symbol	subscript	mathematics
 e	character	lowercase	Dutch
 E	character	uppercase	Dutch
@@ -128,7 +124,6 @@ F	character	uppercase	Dutch
 γ	symbol	lowercase	Greek
 Γ	symbol	uppercase	Greek
 χ	symbol	lowercase	Greek
-#Χ	symbol	uppercase	Greek
 g	character	lowercase	Dutch
 G	character	uppercase	Dutch
 #ₕ	symbol	subscript	mathematics
@@ -137,7 +132,6 @@ H	character	uppercase	Dutch
 ι	symbol	lowercase	Greek
 #ⁱ	character	superscript	Dutch
 i	character	uppercase	Dutch
-#Ι	symbol	lowercase	Greek
 I	character	uppercase	Dutch
 ï	diacritic	lowercase	Dutch
 Ï	diacritic	uppercase	Dutch
@@ -150,7 +144,6 @@ I	character	uppercase	Dutch
 j	character	lowercase	Dutch
 J	character	uppercase	Dutch
 κ	symbol	lowercase	Greek
-#Κ	symbol	uppercase	Greek
 #ₖ	symbol	subscript	mathematics
 k	character	lowercase	Dutch
 K	character	uppercase	Dutch
@@ -160,12 +153,10 @@ K	character	uppercase	Dutch
 l	character	lowercase	Dutch
 L	character	uppercase	Dutch
 μ	symbol	lowercase	Greek
-#Μ	symbol	uppercase	Greek
 #ₘ	symbol	subscript	mathematics
 m	character	lowercase	Dutch
 M	character	uppercase	Dutch
 ν	symbol	lowercase	Greek
-#Ν	symbol	uppercase	Greek
 #ⁿ	symbol	superscript	mathematics
 #ₙ	symbol	subscript	mathematics
 n	character	lowercase	Dutch
@@ -174,8 +165,6 @@ N	character	uppercase	Dutch
 Ñ	diacritic	uppercase	Spanish
 ω	symbol	lowercase	Greek
 Ω	symbol	uppercase	Greek
-#ο	symbol	lowercase	Greek
-#Ο	symbol	uppercase	Greek
 #ₒ	symbol	subscript	mathematics
 o	character	lowercase	Dutch
 O	character	uppercase	Dutch
@@ -199,7 +188,6 @@ P	character	uppercase	Dutch
 q	character	lowercase	Dutch
 Q	character	uppercase	Dutch
 ρ	symbol	lowercase	Greek
-#Ρ	symbol	uppercase	Greek
 r	character	lowercase	Dutch
 R	character	uppercase	Dutch
 σ	symbol	lowercase	Greek
@@ -209,14 +197,12 @@ R	character	uppercase	Dutch
 s	character	lowercase	Dutch
 S	character	uppercase	Dutch
 τ	symbol	lowercase	Greek
-#Τ	symbol	uppercase	Greek
 θ	symbol	lowercase	Greek
 Θ	symbol	uppercase	Greek
 #ₜ	symbol	subscript	mathematics
 t	character	lowercase	Dutch
 T	character	uppercase	Dutch
 υ	symbol	lowercase	Greek
-#Υ	symbol	uppercase	Greek
 u	character	lowercase	Dutch
 U	character	uppercase	Dutch
 ü	diacritic	lowercase	Dutch and German
@@ -239,6 +225,5 @@ X	character	uppercase	Dutch
 y	character	lowercase	Dutch
 Y	character	uppercase	Dutch
 ζ	symbol	lowercase	Greek
-#Ζ	symbol	uppercase	Greek
 z	character	lowercase	Dutch
 Z	character	uppercase	Latin
