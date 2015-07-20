@@ -9,33 +9,7 @@ import re
 # import sys
 
 
-def detail_app(environ, start_response):
-    status = '200 OK'
-    headers = [('Content-type', 'text/html')]
-    start_response(status, headers)
-    html = '''<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Woorden alfabetisch sorteren - OpenTaal</title>
-    <link rel="stylesheet" href="jquery.mobile-1.4.4.min.css">
-    <link rel="stylesheet" href="opentaal.css">
-    <link rel="icon" href="favicon.ico" />
-    <script src="jquery-2.1.1.min.js"></script>
-    <script src="jquery.mobile-1.4.4.min.js"></script>
-</head>
-<body>
-<div data-role="page">
-<div data-role="header" class="jqm-header">
-    <h1>OpenTaal - Woorden alfabetisch sorteren</h1>
-</div><!-- /header -->
-
-<div role="main" class="ui-content jqm-content">
-<div id="word" class="ui-body-d ui-content">
-
-
-'''
+def exact_conversion():
     conversion = {
         'α': 'ḁ',
         'β': 'ḇ',
@@ -77,6 +51,37 @@ def detail_app(environ, start_response):
     for char in conversion.keys():
         substitute[conversion[char]] = re.compile('{}'.format(char))
         restore[char] = re.compile('{}'.format(conversion[char]))
+
+    return (substitute, restore)
+
+
+def detail_app(environ, start_response):
+    status = '200 OK'
+    headers = [('Content-type', 'text/html')]
+    start_response(status, headers)
+    html = '''<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Woorden alfabetisch sorteren - OpenTaal</title>
+    <link rel="stylesheet" href="jquery.mobile-1.4.4.min.css">
+    <link rel="stylesheet" href="opentaal.css">
+    <link rel="icon" href="favicon.ico" />
+    <script src="jquery-2.1.1.min.js"></script>
+    <script src="jquery.mobile-1.4.4.min.js"></script>
+</head>
+<body>
+<div data-role="page">
+<div data-role="header" class="jqm-header">
+    <h1>OpenTaal - Woorden alfabetisch sorteren</h1>
+</div><!-- /header -->
+
+<div role="main" class="ui-content jqm-content">
+<div id="word" class="ui-body-d ui-content">
+
+
+'''
 
     words = '''BB
 zo-even
@@ -245,6 +250,7 @@ a.u.b.
 å'''
     direction = 'Oplopend'
     order = 'Normaal'
+    exact = 'Exact'
     word_list = []
     if environ['REQUEST_METHOD'] == 'POST':
         req = Request(environ)
@@ -252,23 +258,40 @@ a.u.b.
 # escape(...)
         direction = req.params.get('direction', '').strip()
         order = req.params.get('order', '').strip()
+        exact = req.params.get('exact', '').strip()
+        substitute = None
+        restore = None
+        if exact == 'Exact':
+            (substitute, restore) = exact_conversion()
         words = req.params.get('words', '').strip()
         for word in words.split('\n'):
             if word != '':
-                for repl in substitute.keys():
-                    word = re.sub(substitute[repl], repl, word)
+                if exact == 'Exact':
+                    for repl in substitute.keys():
+                        word = re.sub(substitute[repl], repl, word)
                 if order == 'Retrograad':
                     word = word[::-1]
                 word_list.append(word)
-        locale.setlocale(locale.LC_ALL, "en_US.UTF-8")
+        try:
+            locale.setlocale(locale.LC_ALL, "nl_NL.UTF-8")
+        except locale.Error:
+            try:
+                locale.setlocale(locale.LC_ALL, "en_US.UTF-8")
+            except locale.Error:
+                try:
+                    locale.setlocale(locale.LC_ALL, "en_GB.UTF-8")
+                except locale.Error:
+                    pass
+
         if direction == 'Aflopend':
             word_list = sorted(word_list, key=locale.strxfrm, reverse=True)
         else:
             word_list = sorted(word_list, key=locale.strxfrm)
         words = ''
         for word in word_list:
-            for repl in restore.keys():
-                word = re.sub(restore[repl], repl, word)
+            if exact == 'Exact':
+                for repl in restore.keys():
+                    word = re.sub(restore[repl], repl, word)
             if order == 'Retrograad':
                 word = word[::-1]
             words += '{}\n'.format(word)
@@ -319,9 +342,23 @@ a.u.b.
                 '<option>Normaal</option>' \
                 '<option selected="">Retrograad</option>' \
                 '</select>\n'
+    if exact == 'Exact':
+        html += '<select data-role="flipswitch" name="exact" ' \
+                'id="exact" '\
+                'data-wrapper-class="custom-size-flipswitch">' \
+                '<option selected="">Exact</option>' \
+                '<option>Standaard</option>' \
+                '</select>\n'
+    else:
+        html += '<select data-role="flipswitch" name="exact" ' \
+                'id="exact" ' \
+                'data-wrapper-class="custom-size-flipswitch">' \
+                '<option>Exact</option>' \
+                '<option selected="">Standaard</option>' \
+                '</select>\n'
     html += '</form>\n'
 
-    html += '<textarea style=\'{}\' name="words" form="sort">{}' \
+    html += '<textarea style=\'{}\' name="words" rows="8" form="sort">{}' \
         '</textarea>\n'.format(fullwidth, words)
 
     html += '''<br/>
@@ -333,10 +370,19 @@ a.u.b.
             <small>
             <p>De aangeboden sortering komt voort uit een onderzoeksproject van
             Stichting OpenTaal dat is uitgevoerd in samenwerking met de
-            Nederlandse Taalunie. Voor details en overwegingen, zie <a
-            target="_blank"
+            Nederlandse Taalunie. Het doel van de aangeboden functionaliteit is
+            het sorteren van woorden voor gebruik in woordenlijsten en
+            woordenboeken. Voor details en overwegingen, zie <a target="_blank"
             href="https://github.com/OpenTaal/alphabetical-sort">
             alphabetical-sort</a> op GitHub.</p>
+            <p>De eerste optie Oplopend/Aflopend is triviaal. De tweede optie
+            Normaal/Retrograad sorteert vanaf de achterkant van het woord naar
+            de voorkant als voor Retrograad is gekozen. Dat is handig voor het
+            groeperen van bepaalde uitgangen. De derde optie Exact/Normaal zal
+            als voor Exact is gekozen Griekse letters zoals in woorden als µm
+            en λ-calculus op uitspraak alfabetisch sorteren. Normaal doet het
+            sorteeralgoritme dit niet en komen deze woorden meestal helemaal op
+            het einde te staan.</p>
             <img src="logos/opentaal-256.png" alt="Logo Stichting OpenTaal">
             <p>Neem contact op met Stichting OpenTaal als u behoefte hebt aan
             een maatwerk sortering. Die kan door onze <a target="_blank"
