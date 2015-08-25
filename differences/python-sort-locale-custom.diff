@@ -1,7 +1,6 @@
 --- references/sort.txt	2015-08-25 20:37:21.110220813 +0200
-+++ results/coreutils-sort.txt	2015-08-25 20:37:21.270227383 +0200
-@@ -1,15 +1,16 @@
-+µ
++++ results/python-sort-locale-custom.txt	2015-08-25 20:37:21.266227219 +0200
+@@ -1,15 +1,15 @@
  100 eurobiljet
  10 eurobiljet
 +10ᵉ Sweelinckstraat
@@ -21,23 +20,20 @@
  3D-projectie
  3D-projecties
  3VO
-@@ -30,14 +31,12 @@ å
- Å
- ä
- ā
--α
+@@ -34,10 +34,10 @@ α
  A4
  AA
  aanw. vnw.
-+a-deeltje
- Åland
- alfadeeltje
--a-deeltje
--α-deeltje
+-Åland
+-alfadeeltje
+ a-deeltje
+ α-deeltje
++Åland
++alfadeeltje
  ångström
  aub
  a.u.b.
-@@ -45,12 +44,11 @@ aug.
+@@ -45,12 +45,11 @@ aug.
  augustus
  BB
  B&B
@@ -51,7 +47,16 @@
  bijectie
  bijna
  Blof
-@@ -72,7 +70,6 @@ callout
+@@ -59,6 +58,8 @@ Bløf
+ BLØF
+ Bonaire, Sint-Eustatius en Saba
+ Bonaire, Sint-Eustatius & Saba
++β-straling
++χ²-toets
+ C31
+ C 31
+ C-31
+@@ -72,7 +73,6 @@ callout
  call out
  call-out
  CD&V'er
@@ -59,36 +64,32 @@
  chi-kwadraattoets
  c.i.a.
  cijfer
-@@ -91,7 +88,6 @@ DDT
+@@ -91,8 +91,8 @@ DDT
  een
  één
  gammastraling
 -γ-straling
  Giessendam/Neder-Hardinxveld
++γ-straling
  iglo
  ij-ligatuur
-@@ -107,10 +103,8 @@ klaar
- km/s
- lambdacalculus
- l-calculus
--λ-calculus
+ ijsvogel
+@@ -111,13 +111,13 @@ λ-calculus
  letterwoorden
  m
--µ
- µm
+ µ
+-µm
  m2
  m²
-@@ -124,9 +118,6 @@ NOC-NSF
- NOC/NSF
- NOC*NSF
- P
--π
--π²
--π-dag
- pi
- s
- S.
-@@ -135,8 +126,6 @@ senor
+ m3
+ m³
+ micrometer
+ micronano
++µm
+ NOCNSF
+ NOC NSF
+ NOC-NSF
+@@ -135,8 +135,6 @@ senor
  señor
  's-Hertogenbosch
  sigmaregel
@@ -97,25 +98,12 @@
  sint-bernardshond
  Sint-Maarten
  Slotervaart Overtoomse Veld
-@@ -149,6 +138,7 @@ smörgasbord
+@@ -149,6 +147,8 @@ smörgasbord
  smorgåsbord
  smörgåsbord
  's ochtends
 +s-regel
++Σ-regel
  St.-Eustatius
  St.-Maarten
  tv
-@@ -163,3 +153,13 @@ Ysvogel
- zgn.
- zoeven
- zo-even
-+α
-+α-deeltje
-+β-straling
-+γ-straling
-+λ-calculus
-+π
-+π²
-+π-dag
-+Σ-regel
-+χ²-toets

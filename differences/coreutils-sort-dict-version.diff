@@ -1,6 +1,6 @@
---- references/sort.txt	2015-05-06 14:17:00.597576881 +0200
-+++ results/coreutils-sort-dict-version.txt	2015-05-06 14:17:00.685579359 +0200
-@@ -1,151 +1,152 @@
+--- references/sort.txt	2015-08-25 20:37:21.110220813 +0200
++++ results/coreutils-sort-dict-version.txt	2015-08-25 20:37:21.286228040 +0200
+@@ -1,156 +1,157 @@
 -100 eurobiljet
 -10 eurobiljet
 -'14-'18
@@ -17,13 +17,22 @@
 +α
 +π
 +π²
+ 1ᵉ Sweelinckstraat
+-2ᵉ Sweelinckstraat
+-10ᵉ Sweelinckstraat
+-11ᵉ Sweelinckstraat
+-12ᵉ Sweelinckstraat
  2D-projectie
  2D-projecties
++2ᵉ Sweelinckstraat
  3D-projectie
  3D-projecties
  3VO
 -'40-'45
++10ᵉ Sweelinckstraat
 +10 eurobiljet
++11ᵉ Sweelinckstraat
++12ᵉ Sweelinckstraat
 +16m²
 +16 m²
  50 eurobiljet
@@ -235,7 +244,7 @@
  tv
  tv's
  vri
-@@ -154,7 +155,6 @@ vrj
+@@ -159,7 +160,6 @@ vrj
  vrk
  vry
  ysvogel

@@ -1,20 +1,28 @@
---- references/sort.txt	2015-05-06 14:17:00.597576881 +0200
-+++ results/python-sort-default.txt	2015-05-06 14:17:00.617577444 +0200
-@@ -1,151 +1,130 @@
+--- references/sort.txt	2015-08-25 20:37:21.110220813 +0200
++++ results/python-sort-default.txt	2015-08-25 20:37:21.158222784 +0200
+@@ -1,156 +1,135 @@
 -100 eurobiljet
 -10 eurobiljet
  '14-'18
 -16m²
+-16 m²
+-1ᵉ Sweelinckstraat
+-2ᵉ Sweelinckstraat
 +'40-'45
 +'s avonds
 +'s ochtends
 +'s-Hertogenbosch
 +10 eurobiljet
 +100 eurobiljet
- 16 m²
+ 10ᵉ Sweelinckstraat
+ 11ᵉ Sweelinckstraat
+ 12ᵉ Sweelinckstraat
++16 m²
 +16m²
++1ᵉ Sweelinckstraat
  2D-projectie
  2D-projecties
++2ᵉ Sweelinckstraat
  3D-projectie
  3D-projecties
  3VO
@@ -217,7 +225,7 @@
  tv
  tv's
  vri
-@@ -154,7 +133,28 @@ vrj
+@@ -159,7 +138,28 @@ vrj
  vrk
  vry
  ysvogel

@@ -1,6 +1,6 @@
---- references/sort.txt	2015-05-06 14:17:00.597576881 +0200
-+++ results/coreutils-sort-dict.txt	2015-05-06 14:17:00.673579022 +0200
-@@ -1,3 +1,14 @@
+--- references/sort.txt	2015-08-25 20:37:21.110220813 +0200
++++ results/coreutils-sort-dict.txt	2015-08-25 20:37:21.278227712 +0200
+@@ -1,15 +1,26 @@
 +µ
 +á
 +à
@@ -14,8 +14,24 @@
 +π²
  100 eurobiljet
  10 eurobiljet
++10ᵉ Sweelinckstraat
++11ᵉ Sweelinckstraat
++12ᵉ Sweelinckstraat
  '14-'18
-@@ -18,56 +29,44 @@ a-
+ 16m²
+ 16 m²
+ 1ᵉ Sweelinckstraat
+-2ᵉ Sweelinckstraat
+-10ᵉ Sweelinckstraat
+-11ᵉ Sweelinckstraat
+-12ᵉ Sweelinckstraat
+ 2D-projectie
+ 2D-projecties
++2ᵉ Sweelinckstraat
+ 3D-projectie
+ 3D-projecties
+ 3VO
+@@ -23,56 +34,44 @@ a-
  a.
  A
  A.
@@ -81,7 +97,7 @@
  chi-kwadraattoets
  c.i.a.
  cijfer
-@@ -77,16 +76,16 @@ CO2-emissie
+@@ -82,16 +81,16 @@ CO2-emissie
  CO₂-emissie
  ct
  c.t.
@@ -102,7 +118,7 @@
  Giessendam/Neder-Hardinxveld
  iglo
  ij-ligatuur
-@@ -101,28 +100,27 @@ kilometer
+@@ -106,28 +105,27 @@ kilometer
  klaar
  km/s
  lambdacalculus
@@ -138,7 +154,7 @@
  s
  S.
  's avonds
-@@ -130,22 +128,24 @@ senor
+@@ -135,22 +133,24 @@ senor
  señor
  's-Hertogenbosch
  sigmaregel

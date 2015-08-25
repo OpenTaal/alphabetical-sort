@@ -1,10 +1,15 @@
 100 eurobiljet
 10 eurobiljet
+10ᵉ Sweelinckstraat
+11ᵉ Sweelinckstraat
+12ᵉ Sweelinckstraat
 '14-'18
 16m²
 16 m²
+1ᵉ Sweelinckstraat
 2D-projectie
 2D-projecties
+2ᵉ Sweelinckstraat
 3D-projectie
 3D-projecties
 3VO
@@ -25,12 +30,12 @@ A.
 Å
 ä
 ā
-α
+ḁ
 A4
 AA
 aanw. vnw.
 a-deeltje
-α-deeltje
+ḁ-deeltje
 Åland
 alfadeeltje
 ångström
@@ -53,8 +58,8 @@ Bløf
 BLØF
 Bonaire, Sint-Eustatius en Saba
 Bonaire, Sint-Eustatius & Saba
-β-straling
-χ²-toets
+ḇ-straling
+ƈ²-toets
 C31
 C 31
 C-31
@@ -87,7 +92,7 @@ een
 één
 gammastraling
 Giessendam/Neder-Hardinxveld
-γ-straling
+ɠ-straling
 iglo
 ij-ligatuur
 ijsvogel
@@ -102,17 +107,17 @@ klaar
 km/s
 lambdacalculus
 l-calculus
-λ-calculus
+ḻ-calculus
 letterwoorden
 m
-µ
+ṃ
 m2
 m²
 m3
 m³
 micrometer
 micronano
-µm
+ṃm
 NOCNSF
 NOC NSF
 NOC-NSF
@@ -143,7 +148,7 @@ smorgåsbord
 smörgåsbord
 's ochtends
 s-regel
-Σ-regel
+Ṣ-regel
 St.-Eustatius
 St.-Maarten
 tv

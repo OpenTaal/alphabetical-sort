@@ -1,130 +1,146 @@
-'14-'18
-'40-'45
-'s avonds
-'s ochtends
-'s-Hertogenbosch
-10 eurobiljet
+µ
 100 eurobiljet
-16 m²
+10 eurobiljet
+10ᵉ Sweelinckstraat
+11ᵉ Sweelinckstraat
+12ᵉ Sweelinckstraat
+'14-'18
 16m²
+16 m²
+1ᵉ Sweelinckstraat
 2D-projectie
 2D-projecties
+2ᵉ Sweelinckstraat
 3D-projectie
 3D-projecties
 3VO
+'40-'45
 50 eurobiljet
 65+'er
-65+-kaart
 65-kaart
+65+-kaart
+a
+a-
+a.
 A
 A.
+á
+à
+â
+å
+Å
+ä
+ā
 A4
 AA
-B&B
+aanw. vnw.
+a-deeltje
+Åland
+alfadeeltje
+ångström
+aub
+a.u.b.
+aug.
+augustus
 BB
-BLOF
-BLØF
+B&B
+bestand12.txt
+bestand2.txt
+bestand-backup.txt
+bestand.txt
+bètastraling
+bijectie
+bijna
 Blof
+BLOF
 Bløf
-Bonaire, Sint-Eustatius & Saba
+BLØF
 Bonaire, Sint-Eustatius en Saba
-C 31
-C 32
-C&A
-C-31
-C-32
+Bonaire, Sint-Eustatius & Saba
 C31
+C 31
+C-31
 C32
+C 32
+C-32
+ca.
 CA
+C&A
+callout
+call out
+call-out
 CD&V'er
+chi-kwadraattoets
+c.i.a.
+cijfer
+cijfer-
+cijfer- en letterwoorden
 CO2-emissie
 CO₂-emissie
+ct
+c.t.
+curacao
 Curacao
+curaçao
 Curaçao
+d.d.
 DDT
+een
+één
+gammastraling
 Giessendam/Neder-Hardinxveld
-I/O
-IJsvogel
+iglo
+ij-ligatuur
+ijsvogel
 Ijsvogel
+IJsvogel
+ik
+input/output
+I/O
+k/h
+kilometer
+klaar
+km/s
+lambdacalculus
+l-calculus
+letterwoorden
+m
+µm
+m2
+m²
+m3
+m³
+micrometer
+micronano
+NOCNSF
 NOC NSF
-NOC*NSF
 NOC-NSF
 NOC/NSF
-NOCNSF
+NOC*NSF
 P
+pi
+s
 S.
+'s avonds
+senor
+señor
+'s-Hertogenbosch
+sigmaregel
+sint-bernardshond
 Sint-Maarten
 Slotervaart Overtoomse Veld
 Slotervaart-Overtoomse Veld
 Slotervaart/Overtoomse Veld
 Slotervaart/Overtoomse-Veld
 Slotervaart/Overtoomse/Veld
+smorgasbord
+smörgasbord
+smorgåsbord
+smörgåsbord
+'s ochtends
+s-regel
 St.-Eustatius
 St.-Maarten
-Ysvogel
-a
-a-
-a-deeltje
-a.
-a.u.b.
-aanw. vnw.
-alfadeeltje
-aub
-aug.
-augustus
-bestand-backup.txt
-bestand.txt
-bestand12.txt
-bestand2.txt
-bijectie
-bijna
-bètastraling
-c.i.a.
-c.t.
-ca.
-call out
-call-out
-callout
-chi-kwadraattoets
-cijfer
-cijfer-
-cijfer- en letterwoorden
-ct
-curacao
-curaçao
-d.d.
-een
-gammastraling
-iglo
-ij-ligatuur
-ijsvogel
-ik
-input/output
-k/h
-kilometer
-klaar
-km/s
-l-calculus
-lambdacalculus
-letterwoorden
-m
-m2
-m3
-micrometer
-micronano
-m²
-m³
-pi
-s
-s-regel
-senor
-señor
-sigmaregel
-sint-bernardshond
-smorgasbord
-smorgåsbord
-smörgasbord
-smörgåsbord
 tv
 tv's
 vri
@@ -133,28 +149,17 @@ vrj
 vrk
 vry
 ysvogel
+Ysvogel
 zgn.
-zo-even
 zoeven
-µ
-µm
-Å
-Åland
-à
-á
-â
-ä
-å
-ångström
-één
-ā
-Σ-regel
+zo-even
 α
 α-deeltje
 β-straling
 γ-straling
 λ-calculus
 π
-π-dag
 π²
+π-dag
+Σ-regel
 χ²-toets

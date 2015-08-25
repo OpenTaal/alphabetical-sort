@@ -1,11 +1,27 @@
---- references/sort.txt	2015-05-06 14:17:00.597576881 +0200
-+++ results/coreutils-sort-fold.txt	2015-05-06 14:17:00.681579247 +0200
-@@ -1,3 +1,4 @@
+--- references/sort.txt	2015-08-25 20:37:21.110220813 +0200
++++ results/coreutils-sort-fold.txt	2015-08-25 20:37:21.286228040 +0200
+@@ -1,15 +1,16 @@
 +µ
  100 eurobiljet
  10 eurobiljet
++10ᵉ Sweelinckstraat
++11ᵉ Sweelinckstraat
++12ᵉ Sweelinckstraat
  '14-'18
-@@ -14,9 +15,9 @@
+ 16m²
+ 16 m²
+ 1ᵉ Sweelinckstraat
+-2ᵉ Sweelinckstraat
+-10ᵉ Sweelinckstraat
+-11ᵉ Sweelinckstraat
+-12ᵉ Sweelinckstraat
+ 2D-projectie
+ 2D-projecties
++2ᵉ Sweelinckstraat
+ 3D-projectie
+ 3D-projecties
+ 3VO
+@@ -19,9 +20,9 @@
  65-kaart
  65+-kaart
  a
@@ -16,7 +32,7 @@
  A.
  á
  à
-@@ -25,14 +26,12 @@ å
+@@ -30,14 +31,12 @@ å
  Å
  ä
  ā
@@ -32,7 +48,7 @@
  ångström
  aub
  a.u.b.
-@@ -40,12 +39,11 @@ aug.
+@@ -45,12 +44,11 @@ aug.
  augustus
  BB
  B&B
@@ -46,7 +62,7 @@
  bijectie
  bijna
  Blof
-@@ -60,14 +58,13 @@ C-31
+@@ -65,14 +63,13 @@ C-31
  C32
  C 32
  C-32
@@ -62,7 +78,7 @@
  chi-kwadraattoets
  c.i.a.
  cijfer
-@@ -86,7 +83,6 @@ DDT
+@@ -91,7 +88,6 @@ DDT
  een
  één
  gammastraling
@@ -70,7 +86,7 @@
  Giessendam/Neder-Hardinxveld
  iglo
  ij-ligatuur
-@@ -102,10 +98,8 @@ klaar
+@@ -107,10 +103,8 @@ klaar
  km/s
  lambdacalculus
  l-calculus
@@ -81,7 +97,7 @@
  µm
  m2
  m²
-@@ -119,9 +113,6 @@ NOC-NSF
+@@ -124,9 +118,6 @@ NOC-NSF
  NOC/NSF
  NOC*NSF
  P
@@ -91,7 +107,7 @@
  pi
  s
  S.
-@@ -130,8 +121,6 @@ senor
+@@ -135,8 +126,6 @@ senor
  señor
  's-Hertogenbosch
  sigmaregel
@@ -100,7 +116,7 @@
  sint-bernardshond
  Sint-Maarten
  Slotervaart Overtoomse Veld
-@@ -144,6 +133,7 @@ smörgasbord
+@@ -149,6 +138,7 @@ smörgasbord
  smorgåsbord
  smörgåsbord
  's ochtends
@@ -108,7 +124,7 @@
  St.-Eustatius
  St.-Maarten
  tv
-@@ -158,3 +148,13 @@ Ysvogel
+@@ -163,3 +153,13 @@ Ysvogel
  zgn.
  zoeven
  zo-even

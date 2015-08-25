@@ -19,13 +19,13 @@ list will, firstly, document specific ordering requirements, and secondly, give
 insight to existing sorting algorithms.
 
 The aim in this project is not to develop a custom algotihm necessarily. Using
-an existing standard sollution will be aimed for as much as possible for reasons
-of compatability and maintainability. Hence, allowing minor changes in the
-requirements when needed to keep this approach.
+an existing standard solution will be aimed for as much as possible for reasons
+of compatibility and maintainability. Hence, minor changes in the requirements
+are allowed when needed to keep this approach.
 
 This project offers a test-driven selection and customisation of an
 alphabetical sorting algorithm, primarily aimed at the Dutch language. The joint
-effort of computational linguistics, lexicographers and language enthousiasts
+effort of computational linguistics, lexicographers and language enthusiasts
 is reflected in the result of this project. This project is offered under an MIT
 license. Any external software used falls naturally under their respective
 licenses.
@@ -42,9 +42,9 @@ the GNU C Library also known as glibc.
 The command-line tool
 [sort](http://en.wikipedia.org/wiki/Sort_%28Unix%29) from the coreutils package
 uses this localised sort order. However, when sorting the reference set for this project,
-[reference-sorted.txt](https://github.com/OpenTaal/alphabetical-sort/blob/master/reference-sorted.txt), one of the results the results are satisfactory.
+[reference-sorted.txt](https://github.com/OpenTaal/alphabetical-sort/blob/master/reference-sorted.txt), the results are fairly satisfactory.
 
-When it is used for default sorting, the result is [coreutils-sort.txt](https://github.com/OpenTaal/alphabetical-sort/blob/master/coreutils-sort.txt) and the difference with the reference is [coreutils-sort.diff](https://github.com/OpenTaal/alphabetical-sort/blob/master/coreutils-sort.diff). Note TODO (that sort places 100 before 10 and interchanges smorgåsbord with smörgåsbord.)
+When it is used for default sorting, the result is [coreutils-sort.txt](results/coreutils-sort.txt) and the difference with the reference is [coreutils-sort.diff](differences/coreutils-sort.diff). Note TODO (that sort places 100 before 10 and interchanges smorgåsbord with smörgåsbord.)
 
 When it is used for sorting in dictionary order, considering only blanks and alphanumeric characters, the result is [coreutils-sort-dictionary.txt](https://github.com/OpenTaal/alphabetical-sort/blob/master/coreutils-sort-dictionary.txt) and the difference with the reference is [coreutils-sort-dictionary.diff](https://github.com/OpenTaal/alphabetical-sort/blob/master/coreutils-sort-dictionary.diff). Note that characters with diacritics are not ordered as desired.
 
@@ -53,6 +53,7 @@ When it is used for sorting in version order, natural sort of (version) numbers 
 When dictionary order and version order are used at the same time, the order of these options is not important, the result is [coreutils-sort-dictionary-version.txt](https://github.com/OpenTaal/alphabetical-sort/blob/master/coreutils-sort-dictionary-version.txt) and the difference with the reference is [coreutils-sort-dictionary-version.diff](https://github.com/OpenTaal/alphabetical-sort/blob/master/coreutils-sort-dictionary-version.diff). Note issues from dictionary order are again preventing to match the sort with the reference set.
 
 TODO add example with python default sort and with python locale sort
+in samenwerking met NderlandseTaalunie
 
 
 ## Requirements
@@ -116,13 +117,16 @@ See also on sorting in English:
 * [English locale for the Netherlands](https://github.com/PanderMusubi/locale-en-nl/blob/master/en_NL)
 * [Number forms](https://en.wikipedia.org/wiki/Number_Forms)
 
-Ses also on sorting in Dutch:
+See also on sorting in Dutch:
 * [Alfabetische volgorde](http://nl.wikipedia.org/wiki/Alfabetische_volgorde)
-* [Retrograad sorteren](http://nl.wikipedia.org/wiki/Retrograad_(woordenlijst))
+* <a href="http://nl.wikipedia.org/wiki/Retrograad_(woordenlijst)">Retrograad sorteren</a>
 
 See also on sorting in German:
-* [Sorting German sharp s](http://faql.de/eszett.html)
+* [Eszett, Umlaut under deren Sortierung](http://faql.de/eszett.html)
 
-TODO:
+See also related projects of OpenTaal:
+* https://github.com/OpenTaal/character-mapping
+* https://github.com/OpenTaal/case-casting
+* https://github.com/OpenTaal/diacritic-removal
 * https://sf.own-it.nl/projects/opentaal/wiki/Karakters
 * https://sf.own-it.nl/projects/opentaal/wiki/Sorteren
