@@ -250,6 +250,20 @@ St.-Eustatius
 1ᵉ Sweelinckstraat
 a.u.b.
 å'''
+
+    noliga = '-o-font-feature-settings: "liga" off; ' \
+        '-o-font-variant-ligatures: none; ' \
+        '-moz-font-feature-settings: "liga" off; ' \
+        '-moz-font-variant-ligatures: none; ' \
+        '-webkit-font-feature-settings: "liga" off; ' \
+        '-webkit-font-variant-ligatures: none; ' \
+        'font-feature-settings: "liga" off; ' \
+        'font-variant-ligatures: none; '
+    monospace = 'font-family: courier; ' + noliga
+    # FIXME generic-family:monospace
+    fullwidth = monospace + 'width: 100%; white-space: pre; '
+    # FIXME nowrap ♥ chrome and pre ♥ firefox
+
     direction = 'Oplopend'
     order = 'Normaal'
     exact = 'Exact'
@@ -302,21 +316,9 @@ a.u.b.
                         word = re.sub(restore[repl], repl, word)
                 if order == 'Retrograad':
                     word = word[::-1]
+                    fullwidth += 'text-align: right; '
                 words += '{}\n'.format(word)
             words = words[:-1]
-
-    noliga = '-o-font-feature-settings: "liga" off; ' \
-        '-o-font-variant-ligatures: none; ' \
-        '-moz-font-feature-settings: "liga" off; ' \
-        '-moz-font-variant-ligatures: none; ' \
-        '-webkit-font-feature-settings: "liga" off; ' \
-        '-webkit-font-variant-ligatures: none; ' \
-        'font-feature-settings: "liga" off; ' \
-        'font-variant-ligatures: none; '
-    monospace = 'font-family: courier; ' + noliga
-    # FIXME generic-family:monospace
-    fullwidth = monospace + 'width: 100%; white-space: pre; '
-    # FIXME nowrap ♥ chrome and pre ♥ firefox
 
     html += '<form action="sort.wsgi" data-ajax="false" id="sort" method="post">\n'
     html += '<input value="Sorteer" type="submit" data-icon="refresh"/>\n'
@@ -359,7 +361,7 @@ a.u.b.
     html += '</form>\n'
 
     if len(forbiddenCharacters) != 0:
-        html += '<div class="ui-nodisc-icon"><a href="index.html" class="ui-btn ui-shadow ui-corner-all ui-icon-alert ui-btn-icon-notext ui-btn-b ui-btn-inline">Waarschuwing:</a> De karaters {} zijn niet toegestaan bij Exact sorteren. Er heeft geen sortering plaatsgevonden!</div>'.format(', '.join(sorted(forbiddenCharacters)))
+        html += '<div class="ui-nodisc-icon"><a href="index.html" class="ui-btn ui-shadow ui-corner-all ui-icon-alert ui-btn-icon-notext ui-btn-b ui-btn-inline">Waarschuwing:</a> De karaters {} zijn niet toegestaan bij Exact sorteren. Er heeft geen sortering plaatsgevonden!</div>'.format(', '.join(forbiddenCharacters))
 
     html += '<textarea style=\'{}\' name="words" rows="8" placeholder="maan\nroos\nvis" form="sort">{}' \
         '</textarea>\n'.format(fullwidth, words)#placeholder new line werkt niet op firefix, wel chrome
@@ -372,19 +374,23 @@ a.u.b.
             <h2>Gebruik</h2>
             <small>
             <p>Deze webinterface biedt een praktische manier om woorden
-            alfabetisch te sorteren. Het doel hiervan is een sortering te kunnen
-            maken voor gebruik in woordenlijsten en  woordenboeken.</p>
+            alfabetisch te sorteren. Het doel hiervan is een sortering te
+            kunnen maken voor gebruik in woordenlijsten en  woordenboeken.</p>
             <p>De eerste optie Oplopend/Aflopend is triviaal. De tweede optie
             Normaal/Retrograad sorteert vanaf de achterkant van het woord naar
             de voorkant als voor Retrograad is gekozen. Dat is handig voor het
-            groeperen van bepaalde uitgangen. De derde optie Exact/Normaal zal
-            als voor Exact is gekozen Griekse letters zoals in woorden als µm
-            en λ-calculus op uitspraak alfabetisch sorteren. Normaal doet het
-            sorteeralgoritme dit niet en komen deze woorden meestal helemaal op
-            het einde te staan.</p>
-            <p>Indien voor Exact is gekozen mogen de karakters {} niet voorkomen
-            in de woorden die gesorteerd worden. Als dat toch is gedaan zal daar
-            voor gewaarschuwd worden.</p>
+            groeperen van bepaalde uitgangen. Om die reden is resultaat van
+            retrograad sorteren rechts uitgelijnd. De derde optie Exact/Normaal
+            zal als voor Exact is gekozen Griekse letters zoals in woorden als
+            µm en λ-calculus op uitspraak alfabetisch sorteren. Normaal doet
+            het sorteeralgoritme dit niet en komen deze woorden meestal
+            helemaal op het einde te staan.</p>
+            <p>Indien voor Exact is gekozen mogen de karakters {} niet
+            voorkomen in de woorden die gesorteerd worden. Deze worden tijdens
+            het sorteren tijdelijk gebruikt voor de ondersteuning van Griekse
+            letters. Als deze toch in de te sorteren woorden zijn gebruikt zal
+            daarvoor gewaarschuwd worden. Indien andere karakters hiervoor
+            nodig zijn kan dat worden doorgegeven via GitHub.</p>
             <img src="logos/opentaal-256.png" alt="Logo Stichting OpenTaal">
             <p>De aangeboden sortering komt voort uit een onderzoeksproject van
             Stichting OpenTaal dat is uitgevoerd in samenwerking met de
@@ -423,7 +429,7 @@ a.u.b.
 </div><!-- /main -->
 </div><!-- /page -->
 </body>
-</html>'''.format(', '.join(conversion.values()))
+</html>'''.format(', '.join(sorted(conversion.values())))
     return [html.encode('utf-8')]
 
 
