@@ -9,43 +9,45 @@ import re
 # import sys
 
 
+conversion = {
+    'α': 'ḁ',
+    'β': 'ḇ',
+    'χ': 'ƈ',
+    'δ': 'ɖ',
+    'Δ': 'Ḏ',
+    'ε': 'ḙ',
+    'η': 'ḛ',
+    'φ': 'ḟ',
+    'Φ': 'Ḟ',
+    'γ': 'ɠ',
+    'Γ': 'Ɠ',
+    'ι': 'ḭ',
+    'κ': 'ƙ',
+    'λ': 'ḻ',
+    'Λ': 'Ḻ',
+    'µ': 'ṃ',
+    'ν': 'ŋ',
+    'ω': 'ọ',
+    'Ω': 'Ọ',
+    'π': 'ṕ',
+    'Π': 'Ṕ',
+    'ψ': 'ṗ',
+    'Ψ': 'Ṗ',
+    'ρ': 'ṟ',
+    'σ': 'ṣ',
+    'ς': 'ṩ',
+    'Σ': 'Ṣ',
+    'τ': 'ṱ',
+    'θ': 'ṯ',
+    'Θ': 'Ṯ',
+    'υ': 'ṵ',
+    'ξ': 'ȥ',
+    'Ξ': 'Ȥ',
+    'ζ': 'ȥ',
+}
+
+
 def exact_conversion():
-    conversion = {
-        'α': 'ḁ',
-        'β': 'ḇ',
-        'χ': 'ƈ',
-        'δ': 'ɖ',
-        'Δ': 'Ḏ',
-        'ε': 'ḙ',
-        'η': 'ḛ',
-        'φ': 'ḟ',
-        'Φ': 'Ḟ',
-        'γ': 'ɠ',
-        'Γ': 'Ɠ',
-        'ι': 'ḭ',
-        'κ': 'ƙ',
-        'λ': 'ḻ',
-        'Λ': 'Ḻ',
-        'µ': 'ṃ',
-        'ν': 'ŋ',
-        'ω': 'ọ',
-        'Ω': 'Ọ',
-        'π': 'ṕ',
-        'Π': 'Ṕ',
-        'ψ': 'ṗ',
-        'Ψ': 'Ṗ',
-        'ρ': 'ṟ',
-        'σ': 'ṣ',
-        'ς': 'ṩ',
-        'Σ': 'Ṣ',
-        'τ': 'ṱ',
-        'θ': 'ṯ',
-        'Θ': 'Ṯ',
-        'υ': 'ṵ',
-        'ξ': 'ȥ',
-        'Ξ': 'Ȥ',
-        'ζ': 'ȥ',
-    }
     substitute = {}
     restore = {}
     for char in conversion.keys():
@@ -65,20 +67,20 @@ def detail_app(environ, start_response):
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Woorden alfabetisch sorteren - OpenTaal</title>
-    <link rel="stylesheet" href="jquery.mobile-1.4.4.min.css">
+    <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
     <link rel="stylesheet" href="opentaal.css">
     <link rel="icon" href="favicon.ico" />
-    <script src="jquery-2.1.1.min.js"></script>
-    <script src="jquery.mobile-1.4.4.min.js"></script>
+    <script src="jquery-2.1.4.min.js"></script>
+    <script src="jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
 <div data-role="page">
 <div data-role="header" class="jqm-header">
-    <h1>OpenTaal - Woorden alfabetisch sorteren</h1>
+    <h1>Woorden alfabetisch sorteren - OpenTaal</h1>
 </div><!-- /header -->
 
 <div role="main" class="ui-content jqm-content">
-<div id="word" class="ui-body-d ui-content">
+<div class="ui-body-d ui-content">
 
 
 '''
@@ -251,6 +253,7 @@ a.u.b.
     direction = 'Oplopend'
     order = 'Normaal'
     exact = 'Exact'
+    forbiddenCharacters = []
     word_list = []
     if environ['REQUEST_METHOD'] == 'POST':
         req = Request(environ)
@@ -267,35 +270,40 @@ a.u.b.
         for word in words.split('\n'):
             if word != '':
                 if exact == 'Exact':
+                    for character in conversion.values():
+                        if character in word:
+                            if character not in forbiddenCharacters:
+                                forbiddenCharacters.append(character)
                     for repl in substitute.keys():
                         word = re.sub(substitute[repl], repl, word)
                 if order == 'Retrograad':
                     word = word[::-1]
                 word_list.append(word)
-        try:
-            locale.setlocale(locale.LC_ALL, "nl_NL.UTF-8")
-        except locale.Error:
+        if len(forbiddenCharacters) == 0:
             try:
-                locale.setlocale(locale.LC_ALL, "en_US.UTF-8")
+                locale.setlocale(locale.LC_ALL, "nl_NL.UTF-8")
             except locale.Error:
                 try:
-                    locale.setlocale(locale.LC_ALL, "en_GB.UTF-8")
+                    locale.setlocale(locale.LC_ALL, "en_US.UTF-8")
                 except locale.Error:
-                    pass
+                    try:
+                        locale.setlocale(locale.LC_ALL, "en_GB.UTF-8")
+                    except locale.Error:
+                        pass
 
-        if direction == 'Aflopend':
-            word_list = sorted(word_list, key=locale.strxfrm, reverse=True)
-        else:
-            word_list = sorted(word_list, key=locale.strxfrm)
-        words = ''
-        for word in word_list:
-            if exact == 'Exact':
-                for repl in restore.keys():
-                    word = re.sub(restore[repl], repl, word)
-            if order == 'Retrograad':
-                word = word[::-1]
-            words += '{}\n'.format(word)
-        words = words[:-1]
+            if direction == 'Aflopend':
+                word_list = sorted(word_list, key=locale.strxfrm, reverse=True)
+            else:
+                word_list = sorted(word_list, key=locale.strxfrm)
+            words = ''
+            for word in word_list:
+                if exact == 'Exact':
+                    for repl in restore.keys():
+                        word = re.sub(restore[repl], repl, word)
+                if order == 'Retrograad':
+                    word = word[::-1]
+                words += '{}\n'.format(word)
+            words = words[:-1]
 
     noliga = '-o-font-feature-settings: "liga" off; ' \
         '-o-font-variant-ligatures: none; ' \
@@ -310,56 +318,51 @@ a.u.b.
     fullwidth = monospace + 'width: 100%; white-space: pre; '
     # FIXME nowrap ♥ chrome and pre ♥ firefox
 
-    html += '<form action="sort.wsgi" id="sort" method="post" ' \
-        'class="ui-filterable">\n'
-    html += '<input data-theme="b" value="Sorteer" type="submit" ' \
-            'data-icon="refresh"/>\n'
+    html += '<form action="sort.wsgi" data-ajax="false" id="sort" method="post">\n'
+    html += '<input value="Sorteer" type="submit" data-icon="refresh"/>\n'
     if direction == 'Oplopend':
         html += '<select data-role="flipswitch" name="direction" ' \
-                'id="direction" ' \
                 'data-wrapper-class="custom-size-flipswitch">' \
                 '<option selected="">Oplopend</option>' \
                 '<option>Aflopend</option>' \
                 '</select>\n'
     else:
         html += '<select data-role="flipswitch" name="direction" ' \
-                'id="direction" ' \
                 'data-wrapper-class="custom-size-flipswitch">' \
                 '<option>Oplopend</option>' \
                 '<option selected="">Aflopend</option>' \
                 '</select>\n'
     if order == 'Normaal':
         html += '<select data-role="flipswitch" name="order" ' \
-                'id="order" '\
                 'data-wrapper-class="custom-size-flipswitch">' \
                 '<option selected="">Normaal</option>' \
                 '<option>Retrograad</option>' \
                 '</select>\n'
     else:
         html += '<select data-role="flipswitch" name="order" ' \
-                'id="order" ' \
                 'data-wrapper-class="custom-size-flipswitch">' \
                 '<option>Normaal</option>' \
                 '<option selected="">Retrograad</option>' \
                 '</select>\n'
     if exact == 'Exact':
         html += '<select data-role="flipswitch" name="exact" ' \
-                'id="exact" '\
                 'data-wrapper-class="custom-size-flipswitch">' \
                 '<option selected="">Exact</option>' \
                 '<option>Standaard</option>' \
                 '</select>\n'
     else:
         html += '<select data-role="flipswitch" name="exact" ' \
-                'id="exact" ' \
                 'data-wrapper-class="custom-size-flipswitch">' \
                 '<option>Exact</option>' \
                 '<option selected="">Standaard</option>' \
                 '</select>\n'
     html += '</form>\n'
 
-    html += '<textarea style=\'{}\' name="words" rows="8" form="sort">{}' \
-        '</textarea>\n'.format(fullwidth, words)
+    if len(forbiddenCharacters) != 0:
+        html += '<div class="ui-nodisc-icon"><a href="index.html" class="ui-btn ui-shadow ui-corner-all ui-icon-alert ui-btn-icon-notext ui-btn-b ui-btn-inline">Waarschuwing:</a> De karaters {} zijn niet toegestaan bij Exact sorteren. Er heeft geen sortering plaatsgevonden!</div>'.format(', '.join(sorted(forbiddenCharacters)))
+
+    html += '<textarea style=\'{}\' name="words" rows="8" placeholder="maan\nroos\nvis" form="sort">{}' \
+        '</textarea>\n'.format(fullwidth, words)#placeholder new line werkt niet op firefix, wel chrome
 
     html += '''<br/>
     <div data-role="collapsible-set">'''
@@ -368,13 +371,9 @@ a.u.b.
         data-expanded-icon="carat-d" data-mini="true" data-collapsed="true">
             <h2>Gebruik</h2>
             <small>
-            <p>De aangeboden sortering komt voort uit een onderzoeksproject van
-            Stichting OpenTaal dat is uitgevoerd in samenwerking met de
-            Nederlandse Taalunie. Het doel van de aangeboden functionaliteit is
-            het sorteren van woorden voor gebruik in woordenlijsten en
-            woordenboeken. Voor details en overwegingen, zie <a target="_blank"
-            href="https://github.com/OpenTaal/alphabetical-sort">
-            alphabetical-sort</a> op GitHub.</p>
+            <p>Deze webinterface biedt een praktische manier om woorden
+            alfabetisch te sorteren. Het doel hiervan is een sortering te kunnen
+            maken voor gebruik in woordenlijsten en  woordenboeken.</p>
             <p>De eerste optie Oplopend/Aflopend is triviaal. De tweede optie
             Normaal/Retrograad sorteert vanaf de achterkant van het woord naar
             de voorkant als voor Retrograad is gekozen. Dat is handig voor het
@@ -383,7 +382,16 @@ a.u.b.
             en λ-calculus op uitspraak alfabetisch sorteren. Normaal doet het
             sorteeralgoritme dit niet en komen deze woorden meestal helemaal op
             het einde te staan.</p>
+            <p>Indien voor Exact is gekozen mogen de karakters {} niet voorkomen
+            in de woorden die gesorteerd worden. Als dat toch is gedaan zal daar
+            voor gewaarschuwd worden.</p>
             <img src="logos/opentaal-256.png" alt="Logo Stichting OpenTaal">
+            <p>De aangeboden sortering komt voort uit een onderzoeksproject van
+            Stichting OpenTaal dat is uitgevoerd in samenwerking met de
+            Nederlandse Taalunie. Voor achtergrondinformatie, details en
+            overwegingen, zie <a target="_blank"
+            href="https://github.com/OpenTaal/alphabetical-sort">
+            alphabetical-sort</a> op GitHub.</p>
             <p>Neem contact op met Stichting OpenTaal als u behoefte hebt aan
             een maatwerk sortering. Die kan door onze <a target="_blank"
             href="http://opentaal.org/vrienden-van-opentaal">officiële
@@ -415,7 +423,7 @@ a.u.b.
 </div><!-- /main -->
 </div><!-- /page -->
 </body>
-</html>'''
+</html>'''.format(', '.join(conversion.values()))
     return [html.encode('utf-8')]
 
 
