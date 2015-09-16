@@ -3,6 +3,11 @@
 's avonds
 's ochtends
 's-Hertogenbosch
++-teken
+1 m²
+1,234
+1.234
+1.234,00
 10 eurobiljet
 100 eurobiljet
 10ᵉ Sweelinckstraat
@@ -18,6 +23,8 @@
 3D-projecties
 3VO
 50 eurobiljet
+6 m²
+65'er
 65+'er
 65+-kaart
 65-kaart
@@ -43,7 +50,9 @@ C32
 CA
 CD&V'er
 CO2-emissie
+CO₂
 CO₂-emissie
+CO₃
 Curacao
 Curaçao
 DDT
@@ -56,6 +65,8 @@ NOC*NSF
 NOC-NSF
 NOC/NSF
 NOCNSF
+Na+
+Na⁺
 P
 S.
 Sint-Maarten
@@ -79,13 +90,17 @@ aug.
 augustus
 bestand-backup.txt
 bestand.txt
+bestand02.txt
+bestand1.txt
 bestand12.txt
 bestand2.txt
+bestand_backup.txt
 bijectie
 bijna
 bètastraling
 c.i.a.
 c.t.
+c2-toets
 ca.
 call out
 call-out
@@ -105,10 +120,10 @@ ij-ligatuur
 ijsvogel
 ik
 input/output
-k/h
 kilometer
 klaar
 km/s
+km/u
 l-calculus
 lambdacalculus
 letterwoorden
@@ -117,8 +132,18 @@ m2
 m3
 micrometer
 micronano
+mm
+mm2
+mm²
 m²
 m³
+na
+nap
+nat
+natrium
+p/a
+pa
+pan
 pi
 s
 s-regel
@@ -157,6 +182,8 @@ zoeven
 α
 α-deeltje
 β-straling
+β⁺-straling
+β⁻-straling
 γ-straling
 λ-calculus
 π

@@ -10,12 +10,14 @@
 π
 π²
 1ᵉ Sweelinckstraat
+1 m²
 2D-projectie
 2D-projecties
 2ᵉ Sweelinckstraat
 3D-projectie
 3D-projecties
 3VO
+6 m²
 10ᵉ Sweelinckstraat
 10 eurobiljet
 11ᵉ Sweelinckstraat
@@ -23,12 +25,16 @@
 16m²
 16 m²
 50 eurobiljet
+65'er
 65+'er
 65-kaart
 65+-kaart
 100 eurobiljet
+1,234
+1.234
 '14-'18
 '40-'45
+1.234,00
 A
 A.
 A4
@@ -48,6 +54,8 @@ C-32
 CA
 C&A
 CD&V'er
+CO₂
+CO₃
 CO2-emissie
 CO₂-emissie
 Curaçao
@@ -64,6 +72,8 @@ NOC-NSF
 NOC/NSF
 NOC*NSF
 NOC NSF
+Na⁺
+Na+
 P
 S.
 Sint-Maarten
@@ -85,13 +95,17 @@ aub
 a.u.b.
 aug.
 augustus
+bestand1.txt
+bestand02.txt
 bestand2.txt
 bestand12.txt
+bestand_backup.txt
 bestand-backup.txt
 bestand.txt
 bijectie
 bijna
 bètastraling
+c2-toets
 ca.
 λ-calculus
 callout
@@ -116,10 +130,10 @@ ij-ligatuur
 ijsvogel
 ik
 input/output
-k/h
 kilometer
 klaar
 km/s
+km/u
 lambdacalculus
 Åland
 l-calculus
@@ -132,8 +146,18 @@ m2
 m3
 micrometer
 micronano
+mm
+mm²
+mm2
 één
+na
+nap
+nat
+natrium
 ångström
+pa
+p/a
+pan
 pi
 Σ-regel
 s
@@ -148,9 +172,12 @@ smörgasbord
 smörgåsbord
 s-regel
 β-straling
+β⁻-straling
+β⁺-straling
 γ-straling
 's avonds
 's ochtends
++-teken
 χ²-toets
 tv
 tv's

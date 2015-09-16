@@ -1,3 +1,9 @@
++-teken
+1,234
+1.234
+1.234,00
+1 m²
+6 m²
 100 eurobiljet
 10 eurobiljet
 '14-'18
@@ -15,6 +21,7 @@
 3VO
 '40-'45
 50 eurobiljet
+65'er
 65+'er
 65-kaart
 65+-kaart
@@ -34,10 +41,10 @@ A.
 A4
 AA
 aanw. vnw.
-Åland
-alfadeeltje
 a-deeltje
 α-deeltje
+Åland
+alfadeeltje
 ångström
 aub
 a.u.b.
@@ -46,11 +53,13 @@ augustus
 BB
 B&B
 bestand.txt
-bestand12.txt
+bestand1.txt
 bestand2.txt
+bestand02.txt
+bestand12.txt
+bestand_backup.txt
 bestand-backup.txt
 bètastraling
-β-straling
 bijectie
 bijna
 Blof
@@ -59,6 +68,11 @@ Bløf
 BLØF
 Bonaire, Sint-Eustatius en Saba
 Bonaire, Sint-Eustatius & Saba
+β-straling
+β⁻-straling
+β⁺-straling
+c2-toets
+χ²-toets
 C31
 C 31
 C-31
@@ -72,12 +86,13 @@ callout
 call out
 call-out
 CD&V'er
-χ²-toets
 chi-kwadraattoets
 c.i.a.
 cijfer
 cijfer-
 cijfer- en letterwoorden
+CO₂
+CO₃
 CO2-emissie
 CO₂-emissie
 ct
@@ -91,8 +106,8 @@ DDT
 een
 één
 gammastraling
-γ-straling
 Giessendam/Neder-Hardinxveld
+γ-straling
 iglo
 ij-ligatuur
 ijsvogel
@@ -101,23 +116,32 @@ IJsvogel
 ik
 input/output
 I/O
-k/h
 kilometer
 klaar
 km/s
+km/u
 lambdacalculus
 l-calculus
 λ-calculus
 letterwoorden
 m
 µ
-µm
 m2
 m²
 m3
 m³
 micrometer
 micronano
+mm
+µm
+mm2
+mm²
+na
+Na⁺
+Na+
+nap
+nat
+natrium
 NOCNSF
 NOC NSF
 NOC-NSF
@@ -126,6 +150,9 @@ NOC*NSF
 P
 π
 π²
+pa
+p/a
+pan
 π-dag
 pi
 s
@@ -135,8 +162,6 @@ senor
 señor
 's-Hertogenbosch
 sigmaregel
-s-regel
-Σ-regel
 sint-bernardshond
 Sint-Maarten
 Slotervaart Overtoomse Veld
@@ -149,6 +174,8 @@ smörgasbord
 smorgåsbord
 smörgåsbord
 's ochtends
+s-regel
+Σ-regel
 St.-Eustatius
 St.-Maarten
 tv

@@ -1,14 +1,6 @@
-100 eurobiljet
-10 eurobiljet
-10ᵉ Sweelinckstraat
-11ᵉ Sweelinckstraat
 1,234
 1.234
 1.234,00
-12ᵉ Sweelinckstraat
-'14-'18
-16m²
-16 m²
 1 m²
 1ᵉ Sweelinckstraat
 2D-projectie
@@ -17,17 +9,27 @@
 3D-projectie
 3D-projecties
 3VO
-'40-'45
+6 m²
+10 eurobiljet
+10ᵉ Sweelinckstraat
+11ᵉ Sweelinckstraat
+12ᵉ Sweelinckstraat
+16m²
+16 m²
 50 eurobiljet
 65'er
 65+'er
 65-kaart
 65+-kaart
-6 m²
+100 eurobiljet
+µ
+'14-'18
+'40-'45
 a
 a-
 a.
 A
+A4
 A.
 á
 à
@@ -36,12 +38,9 @@ A.
 Å
 ä
 ā
-α
-A4
 AA
 aanw. vnw.
 a-deeltje
-α-deeltje
 Åland
 alfadeeltje
 ångström
@@ -51,10 +50,10 @@ aug.
 augustus
 BB
 B&B
-bestand02.txt
-bestand12.txt
 bestand1.txt
 bestand2.txt
+bestand02.txt
+bestand12.txt
 bestand_backup.txt
 bestand-backup.txt
 bestand.txt
@@ -67,16 +66,12 @@ Bløf
 BLØF
 Bonaire, Sint-Eustatius en Saba
 Bonaire, Sint-Eustatius & Saba
-β-straling
-β⁻-straling
-β⁺-straling
 c2-toets
-χ²-toets
 C31
-C 31
-C-31
 C32
+C 31
 C 32
+C-31
 C-32
 ca.
 CA
@@ -91,9 +86,9 @@ cijfer
 cijfer-
 cijfer- en letterwoorden
 CO₂
-CO₃
 CO2-emissie
 CO₂-emissie
+CO₃
 ct
 c.t.
 curacao
@@ -106,7 +101,6 @@ een
 één
 gammastraling
 Giessendam/Neder-Hardinxveld
-γ-straling
 iglo
 ij-ligatuur
 ijsvogel
@@ -121,18 +115,16 @@ km/s
 km/u
 lambdacalculus
 l-calculus
-λ-calculus
 letterwoorden
 m
-µ
 m2
 m²
 m3
 m³
+µm
 micrometer
 micronano
 mm
-µm
 mm2
 mm²
 na
@@ -147,12 +139,9 @@ NOC-NSF
 NOC/NSF
 NOC*NSF
 P
-π
-π²
 pa
 p/a
 pan
-π-dag
 pi
 s
 S.
@@ -174,7 +163,6 @@ smorgåsbord
 smörgåsbord
 's ochtends
 s-regel
-Σ-regel
 St.-Eustatius
 St.-Maarten
 +-teken
@@ -190,3 +178,15 @@ Ysvogel
 zgn.
 zoeven
 zo-even
+α
+α-deeltje
+β-straling
+β⁻-straling
+β⁺-straling
+γ-straling
+λ-calculus
+π
+π²
+π-dag
+Σ-regel
+χ²-toets

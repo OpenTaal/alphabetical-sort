@@ -1,0 +1,128 @@
+--- references/sort.txt	2015-09-16 22:21:28.722178519 +0200
++++ results/python-sort-nat-custom.txt	2015-09-16 22:21:29.006183960 +0200
+@@ -1,34 +1,34 @@
+-+-teken
+ 1,234
+ 1.234
+ 1.234,00
+ 1 m²
+-6 m²
+-100 eurobiljet
+-10 eurobiljet
+-'14-'18
+-16m²
+-16 m²
+ 1ᵉ Sweelinckstraat
+-2ᵉ Sweelinckstraat
+-10ᵉ Sweelinckstraat
+-11ᵉ Sweelinckstraat
+-12ᵉ Sweelinckstraat
+ 2D-projectie
+ 2D-projecties
++2ᵉ Sweelinckstraat
+ 3D-projectie
+ 3D-projecties
+ 3VO
+-'40-'45
++6 m²
++10 eurobiljet
++10ᵉ Sweelinckstraat
++11ᵉ Sweelinckstraat
++12ᵉ Sweelinckstraat
++16m²
++16 m²
+ 50 eurobiljet
+ 65'er
+ 65+'er
+ 65-kaart
+ 65+-kaart
++100 eurobiljet
++'14-'18
++'40-'45
+ a
+ a-
+ a.
+ A
++A4
+ A.
+ á
+ à
+@@ -38,7 +38,6 @@ Å
+ ä
+ ā
+ α
+-A4
+ AA
+ aanw. vnw.
+ a-deeltje
+@@ -52,13 +51,13 @@ aug.
+ augustus
+ BB
+ B&B
+-bestand.txt
+ bestand1.txt
+ bestand2.txt
+ bestand02.txt
+ bestand12.txt
+ bestand_backup.txt
+ bestand-backup.txt
++bestand.txt
+ bètastraling
+ bijectie
+ bijna
+@@ -72,13 +71,13 @@ β-straling
+ β⁻-straling
+ β⁺-straling
+ c2-toets
+-χ²-toets
+ C31
+-C 31
+-C-31
+ C32
++C 31
+ C 32
++C-31
+ C-32
++χ²-toets
+ ca.
+ CA
+ C&A
+@@ -92,9 +91,9 @@ cijfer
+ cijfer-
+ cijfer- en letterwoorden
+ CO₂
+-CO₃
+ CO2-emissie
+ CO₂-emissie
++CO₃
+ ct
+ c.t.
+ curacao
+@@ -125,17 +124,17 @@ l-calculus
+ λ-calculus
+ letterwoorden
+ m
+-µ
+ m2
+ m²
+ m3
+ m³
++µ
+ micrometer
+ micronano
+ mm
+-µm
+ mm2
+ mm²
++µm
+ na
+ Na⁺
+ Na+
+@@ -178,6 +177,7 @@ s-regel
+ Σ-regel
+ St.-Eustatius
+ St.-Maarten
+++-teken
+ tv
+ tv's
+ vri

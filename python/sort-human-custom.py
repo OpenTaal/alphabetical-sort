@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 
-import locale
-import re
-import sys
+from natsort import humansorted
+from locale import LC_ALL, setlocale
+from re import compile, sub
+from sys import argv
 
 
 if __name__ == '__main__':
-    if len(sys.argv) != 2:
+    if len(argv) != 2:
         exit(0)
     conversion = {
         'α': 'ḁ',
@@ -47,18 +48,18 @@ if __name__ == '__main__':
     substitute = {}
     restore = {}
     for char in conversion.keys():
-        substitute[conversion[char]] = re.compile('{}'.format(char))
-        restore[char] = re.compile('{}'.format(conversion[char]))
+        substitute[conversion[char]] = compile('{}'.format(char))
+        restore[char] = compile('{}'.format(conversion[char]))
     words = []
-    with open(sys.argv[1], 'r') as input_file:
+    with open(argv[1], 'r') as input_file:
         for line in input_file:
             word = line[:-1]
             for repl in substitute.keys():
-                word = re.sub(substitute[repl], repl, word)
+                word = sub(substitute[repl], repl, word)
             words.append(word)
-    locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')
-    words = sorted(words, key=locale.strxfrm)
+    setlocale(LC_ALL, 'nl_NL.UTF-8')
+    words = humansorted(words)  # same as natsorted(words, alg=ns.LOCALE)
     for word in words:
         for repl in restore.keys():
-            word = re.sub(restore[repl], repl, word)
+            word = sub(restore[repl], repl, word)
         print('{}'.format(word))

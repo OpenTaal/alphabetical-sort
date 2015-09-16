@@ -1,18 +1,25 @@
---- references/sort.txt	2015-08-25 20:37:21.110220813 +0200
-+++ results/python-sort-default.txt	2015-08-25 20:37:21.158222784 +0200
-@@ -1,156 +1,135 @@
--100 eurobiljet
--10 eurobiljet
- '14-'18
--16m²
--16 m²
--1ᵉ Sweelinckstraat
--2ᵉ Sweelinckstraat
+--- references/sort.txt	2015-09-16 22:21:28.722178519 +0200
++++ results/python-sort-default.txt	2015-09-16 22:21:28.742178902 +0200
+@@ -1,183 +1,160 @@
++'14-'18
 +'40-'45
 +'s avonds
 +'s ochtends
 +'s-Hertogenbosch
-+10 eurobiljet
+ +-teken
++1 m²
+ 1,234
+ 1.234
+ 1.234,00
+-1 m²
+-6 m²
+-100 eurobiljet
+ 10 eurobiljet
+-'14-'18
+-16m²
+-16 m²
+-1ᵉ Sweelinckstraat
+-2ᵉ Sweelinckstraat
 +100 eurobiljet
  10ᵉ Sweelinckstraat
  11ᵉ Sweelinckstraat
@@ -28,6 +35,8 @@
  3VO
 -'40-'45
  50 eurobiljet
++6 m²
+ 65'er
  65+'er
 -65-kaart
  65+-kaart
@@ -47,6 +56,7 @@
 -α
  A4
  AA
+-aanw. vnw.
 +B&B
 +BB
 +BLOF
@@ -65,7 +75,9 @@
 +CA
 +CD&V'er
 +CO2-emissie
++CO₂
 +CO₂-emissie
++CO₃
 +Curacao
 +Curaçao
 +DDT
@@ -78,6 +90,8 @@
 +NOC-NSF
 +NOC/NSF
 +NOCNSF
++Na+
++Na⁺
 +P
 +S.
 +Sint-Maarten
@@ -91,14 +105,13 @@
 +Ysvogel
 +a
 +a-
-+a-deeltje
+ a-deeltje
+-α-deeltje
+-Åland
 +a.
 +a.u.b.
- aanw. vnw.
--Åland
++aanw. vnw.
  alfadeeltje
--a-deeltje
--α-deeltje
 -ångström
  aub
 -a.u.b.
@@ -108,11 +121,15 @@
 -B&B
 +bestand-backup.txt
  bestand.txt
+-bestand1.txt
+-bestand2.txt
+ bestand02.txt
++bestand1.txt
  bestand12.txt
- bestand2.txt
++bestand2.txt
+ bestand_backup.txt
 -bestand-backup.txt
 -bètastraling
--β-straling
  bijectie
  bijna
 -Blof
@@ -121,15 +138,20 @@
 -BLØF
 -Bonaire, Sint-Eustatius en Saba
 -Bonaire, Sint-Eustatius & Saba
+-β-straling
+-β⁻-straling
+-β⁺-straling
++bètastraling
++c.i.a.
++c.t.
+ c2-toets
+-χ²-toets
 -C31
 -C 31
 -C-31
 -C32
 -C 32
 -C-32
-+bètastraling
-+c.i.a.
-+c.t.
  ca.
 -CA
 -C&A
@@ -137,13 +159,14 @@
  call out
  call-out
 -CD&V'er
--χ²-toets
 +callout
  chi-kwadraattoets
 -c.i.a.
  cijfer
  cijfer-
  cijfer- en letterwoorden
+-CO₂
+-CO₃
 -CO2-emissie
 -CO₂-emissie
  ct
@@ -157,8 +180,8 @@
  een
 -één
  gammastraling
--γ-straling
 -Giessendam/Neder-Hardinxveld
+-γ-straling
  iglo
  ij-ligatuur
  ijsvogel
@@ -167,10 +190,10 @@
  ik
  input/output
 -I/O
- k/h
  kilometer
  klaar
  km/s
+ km/u
 -lambdacalculus
  l-calculus
 -λ-calculus
@@ -178,13 +201,24 @@
  letterwoorden
  m
 -µ
--µm
  m2
 -m²
  m3
 -m³
  micrometer
  micronano
+ mm
+-µm
+ mm2
+ mm²
++m²
++m³
+ na
+-Na⁺
+-Na+
+ nap
+ nat
+ natrium
 -NOCNSF
 -NOC NSF
 -NOC-NSF
@@ -193,9 +227,11 @@
 -P
 -π
 -π²
+-pa
+ p/a
++pa
+ pan
 -π-dag
-+m²
-+m³
  pi
  s
 -S.
@@ -205,8 +241,6 @@
  señor
 -'s-Hertogenbosch
  sigmaregel
--s-regel
--Σ-regel
  sint-bernardshond
 -Sint-Maarten
 -Slotervaart Overtoomse Veld
@@ -220,12 +254,14 @@
 +smörgasbord
  smörgåsbord
 -'s ochtends
+-s-regel
+-Σ-regel
 -St.-Eustatius
 -St.-Maarten
  tv
  tv's
  vri
-@@ -159,7 +138,28 @@ vrj
+@@ -186,7 +163,30 @@ vrj
  vrk
  vry
  ysvogel
@@ -250,6 +286,8 @@
 +α
 +α-deeltje
 +β-straling
++β⁺-straling
++β⁻-straling
 +γ-straling
 +λ-calculus
 +π

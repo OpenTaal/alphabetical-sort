@@ -1,8 +1,8 @@
 1 m²
 1,234
+1ᵉ Sweelinckstraat
 1.234
 1.234,00
-1ᵉ Sweelinckstraat
 2D-projectie
 2D-projecties
 2ᵉ Sweelinckstraat
@@ -14,51 +14,57 @@
 10ᵉ Sweelinckstraat
 11ᵉ Sweelinckstraat
 12ᵉ Sweelinckstraat
-16m²
 16 m²
+16m²
 50 eurobiljet
 65'er
 65+'er
 65+-kaart
 65-kaart
 100 eurobiljet
+'14-'18
+'40-'45
+'s avonds
+'s ochtends
+'s-Hertogenbosch
++-teken
 A
-A.
 A4
+A.
 AA
+B&B
 BB
 BLOF
 BLØF
 Blof
 Bløf
-Bonaire, Sint-Eustatius en Saba
 Bonaire, Sint-Eustatius & Saba
-B&B
+Bonaire, Sint-Eustatius en Saba
+C-32
+C-31
 C31
 C32
+C 31
+C 32
+C&A
 CA
 CD&V'er
-CO2-emissie
 CO₂
+CO2-emissie
 CO₂-emissie
 CO₃
 Curacao
 Curaçao
-C 31
-C 32
-C&A
-C-31
-C-32
 DDT
 Giessendam/Neder-Hardinxveld
+I/O
 IJsvogel
 Ijsvogel
-I/O
-NOCNSF
 NOC NSF
 NOC*NSF
 NOC-NSF
 NOC/NSF
+NOCNSF
 Na+
 Na⁺
 P
@@ -73,6 +79,8 @@ St.-Eustatius
 St.-Maarten
 Ysvogel
 a
+a-
+a-deeltje
 a.
 a.u.b.
 aanw. vnw.
@@ -80,25 +88,23 @@ alfadeeltje
 aub
 aug.
 augustus
-a-
-a-deeltje
-bestand.txt
 bestand1.txt
-bestand02.txt
 bestand2.txt
+bestand02.txt
 bestand12.txt
 bestand-backup.txt
+bestand.txt
 bestand_backup.txt
 bijectie
 bijna
 bètastraling
+c2-toets
 c.i.a.
 c.t.
-c2-toets
 ca.
-callout
 call out
 call-out
+callout
 chi-kwadraattoets
 cijfer
 cijfer-
@@ -110,36 +116,37 @@ d.d.
 een
 gammastraling
 iglo
-ijsvogel
 ij-ligatuur
+ijsvogel
 ik
 input/output
 kilometer
 klaar
 km/s
 km/u
+l-calculus
 lambdacalculus
 letterwoorden
-l-calculus
 m
 m2
+m²
 m3
+m³
 micrometer
 micronano
 mm
 mm2
 mm²
-m²
-m³
 na
 nap
 nat
 natrium
+p/a
 pa
 pan
 pi
-p/a
 s
+s-regel
 senor
 señor
 sigmaregel
@@ -148,7 +155,6 @@ smorgasbord
 smorgåsbord
 smörgasbord
 smörgåsbord
-s-regel
 tv
 tv's
 vri
@@ -158,16 +164,8 @@ vrk
 vry
 ysvogel
 zgn.
-zoeven
 zo-even
-'14-'18
-'40-'45
-'s avonds
-'s ochtends
-'s-Hertogenbosch
-+-teken
-µ
-µm
+zoeven
 Å
 Åland
 à
@@ -178,15 +176,17 @@ zo-even
 ångström
 één
 ā
-Σ-regel
+χ²-toets
+γ-straling
 α
 α-deeltje
 β-straling
 β⁺-straling
 β⁻-straling
-γ-straling
 λ-calculus
+µ
+µm
 π
-π-dag
 π²
-χ²-toets
+π-dag
+Σ-regel

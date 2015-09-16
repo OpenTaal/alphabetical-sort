@@ -1,14 +1,23 @@
---- references/sort.txt	2015-08-25 20:37:21.110220813 +0200
-+++ results/coreutils-sort-custom.txt	2015-08-25 20:37:21.278227712 +0200
-@@ -1,15 +1,15 @@
- 100 eurobiljet
- 10 eurobiljet
+--- references/sort.txt	2015-09-16 22:21:28.722178519 +0200
++++ results/coreutils-sort-custom.txt	2015-09-16 22:21:29.422191932 +0200
+@@ -1,21 +1,19 @@
+-+-teken
++100 eurobiljet
++10 eurobiljet
 +10ᵉ Sweelinckstraat
 +11ᵉ Sweelinckstraat
+ 1,234
+ 1.234
+ 1.234,00
+-1 m²
+-6 m²
+-100 eurobiljet
+-10 eurobiljet
 +12ᵉ Sweelinckstraat
  '14-'18
  16m²
  16 m²
++1 m²
  1ᵉ Sweelinckstraat
 -2ᵉ Sweelinckstraat
 -10ᵉ Sweelinckstraat
@@ -20,7 +29,15 @@
  3D-projectie
  3D-projecties
  3VO
-@@ -30,14 +30,14 @@ å
+@@ -25,6 +23,7 @@
+ 65+'er
+ 65-kaart
+ 65+-kaart
++6 m²
+ a
+ a-
+ a.
+@@ -37,12 +36,12 @@ å
  Å
  ä
  ā
@@ -29,58 +46,56 @@
  A4
  AA
  aanw. vnw.
-+a-deeltje
+ a-deeltje
+-α-deeltje
 +ḁ-deeltje
  Åland
  alfadeeltje
--a-deeltje
--α-deeltje
  ångström
- aub
- a.u.b.
-@@ -45,12 +45,11 @@ aug.
+@@ -52,13 +51,13 @@ aug.
  augustus
  BB
  B&B
 -bestand.txt
+-bestand1.txt
+-bestand2.txt
+ bestand02.txt
  bestand12.txt
- bestand2.txt
++bestand1.txt
++bestand2.txt
+ bestand_backup.txt
  bestand-backup.txt
 +bestand.txt
  bètastraling
--β-straling
  bijectie
  bijna
- Blof
-@@ -59,6 +58,8 @@ Bløf
+@@ -68,11 +67,11 @@ Bløf
  BLØF
  Bonaire, Sint-Eustatius en Saba
  Bonaire, Sint-Eustatius & Saba
+-β-straling
+-β⁻-straling
+-β⁺-straling
 +ḇ-straling
++ḇ⁻-straling
++ḇ⁺-straling
+ c2-toets
+-χ²-toets
 +ƈ²-toets
  C31
  C 31
  C-31
-@@ -72,7 +73,6 @@ callout
- call out
- call-out
- CD&V'er
--χ²-toets
- chi-kwadraattoets
- c.i.a.
- cijfer
-@@ -91,8 +91,8 @@ DDT
- een
+@@ -107,7 +106,7 @@ een
  één
  gammastraling
--γ-straling
  Giessendam/Neder-Hardinxveld
+-γ-straling
 +ɠ-straling
  iglo
  ij-ligatuur
  ijsvogel
-@@ -107,26 +107,26 @@ klaar
- km/s
+@@ -122,10 +121,10 @@ km/s
+ km/u
  lambdacalculus
  l-calculus
 -λ-calculus
@@ -88,45 +103,44 @@
  letterwoorden
  m
 -µ
--µm
 +ṃ
  m2
  m²
  m3
- m³
+@@ -133,7 +132,7 @@ m³
  micrometer
  micronano
+ mm
+-µm
 +ṃm
- NOCNSF
- NOC NSF
- NOC-NSF
+ mm2
+ mm²
+ na
+@@ -148,12 +147,12 @@ NOC-NSF
  NOC/NSF
  NOC*NSF
  P
 -π
 -π²
--π-dag
 +ṕ
 +ṕ²
+ pa
+ p/a
+ pan
+-π-dag
 +ṕ-dag
  pi
  s
  S.
-@@ -135,8 +135,6 @@ senor
- señor
- 's-Hertogenbosch
- sigmaregel
--s-regel
--Σ-regel
- sint-bernardshond
- Sint-Maarten
- Slotervaart Overtoomse Veld
-@@ -149,6 +147,8 @@ smörgasbord
- smorgåsbord
+@@ -175,9 +174,10 @@ smorgåsbord
  smörgåsbord
  's ochtends
-+s-regel
+ s-regel
+-Σ-regel
 +Ṣ-regel
  St.-Eustatius
  St.-Maarten
+++-teken
  tv
+ tv's
+ vri

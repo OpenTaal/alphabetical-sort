@@ -3,10 +3,14 @@
 10 eurobiljet
 10ᵉ Sweelinckstraat
 11ᵉ Sweelinckstraat
+1,234
+1.234
+1.234,00
 12ᵉ Sweelinckstraat
 '14-'18
 16m²
 16 m²
+1 m²
 1ᵉ Sweelinckstraat
 2D-projectie
 2D-projecties
@@ -16,9 +20,11 @@
 3VO
 '40-'45
 50 eurobiljet
+65'er
 65+'er
 65-kaart
 65+-kaart
+6 m²
 a
 A
 a-
@@ -44,8 +50,11 @@ aug.
 augustus
 BB
 B&B
+bestand02.txt
 bestand12.txt
+bestand1.txt
 bestand2.txt
+bestand_backup.txt
 bestand-backup.txt
 bestand.txt
 bètastraling
@@ -57,6 +66,7 @@ Bløf
 BLØF
 Bonaire, Sint-Eustatius en Saba
 Bonaire, Sint-Eustatius & Saba
+c2-toets
 C31
 C 31
 C-31
@@ -75,6 +85,8 @@ c.i.a.
 cijfer
 cijfer-
 cijfer- en letterwoorden
+CO₂
+CO₃
 CO2-emissie
 CO₂-emissie
 ct
@@ -97,10 +109,10 @@ IJsvogel
 ik
 input/output
 I/O
-k/h
 kilometer
 klaar
 km/s
+km/u
 lambdacalculus
 l-calculus
 letterwoorden
@@ -112,12 +124,24 @@ m3
 m³
 micrometer
 micronano
+mm
+mm2
+mm²
+na
+Na⁺
+Na+
+nap
+nat
+natrium
 NOCNSF
 NOC NSF
 NOC-NSF
 NOC/NSF
 NOC*NSF
 P
+pa
+p/a
+pan
 pi
 s
 S.
@@ -141,6 +165,7 @@ smörgåsbord
 s-regel
 St.-Eustatius
 St.-Maarten
++-teken
 tv
 tv's
 vri
@@ -156,6 +181,8 @@ zo-even
 α
 α-deeltje
 β-straling
+β⁻-straling
+β⁺-straling
 γ-straling
 λ-calculus
 π

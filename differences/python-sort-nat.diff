@@ -1,24 +1,17 @@
 --- references/sort.txt	2015-09-16 22:21:28.722178519 +0200
-+++ results/coreutils-sort.txt	2015-09-16 22:21:29.418191856 +0200
-@@ -1,21 +1,20 @@
++++ results/python-sort-nat.txt	2015-09-16 22:21:28.890181738 +0200
+@@ -1,34 +1,35 @@
 -+-teken
-+µ
-+100 eurobiljet
-+10 eurobiljet
-+10ᵉ Sweelinckstraat
-+11ᵉ Sweelinckstraat
  1,234
  1.234
  1.234,00
--1 m²
+ 1 m²
 -6 m²
 -100 eurobiljet
 -10 eurobiljet
-+12ᵉ Sweelinckstraat
- '14-'18
- 16m²
- 16 m²
-+1 m²
+-'14-'18
+-16m²
+-16 m²
  1ᵉ Sweelinckstraat
 -2ᵉ Sweelinckstraat
 -10ᵉ Sweelinckstraat
@@ -30,20 +23,37 @@
  3D-projectie
  3D-projecties
  3VO
-@@ -25,6 +24,7 @@
+-'40-'45
++6 m²
++10 eurobiljet
++10ᵉ Sweelinckstraat
++11ᵉ Sweelinckstraat
++12ᵉ Sweelinckstraat
++16m²
++16 m²
+ 50 eurobiljet
+ 65'er
  65+'er
  65-kaart
  65+-kaart
-+6 m²
++100 eurobiljet
++µ
++'14-'18
++'40-'45
  a
  a-
  a.
-@@ -37,12 +37,10 @@ å
+ A
++A4
+ A.
+ á
+ à
+@@ -37,12 +38,9 @@ å
  Å
  ä
  ā
 -α
- A4
+-A4
  AA
  aanw. vnw.
  a-deeltje
@@ -56,19 +66,17 @@
  BB
  B&B
 -bestand.txt
--bestand1.txt
--bestand2.txt
+ bestand1.txt
+ bestand2.txt
  bestand02.txt
  bestand12.txt
-+bestand1.txt
-+bestand2.txt
  bestand_backup.txt
  bestand-backup.txt
 +bestand.txt
  bètastraling
  bijectie
  bijna
-@@ -68,11 +66,7 @@ Bløf
+@@ -68,16 +66,12 @@ Bløf
  BLØF
  Bonaire, Sint-Eustatius en Saba
  Bonaire, Sint-Eustatius & Saba
@@ -78,8 +86,26 @@
  c2-toets
 -χ²-toets
  C31
- C 31
- C-31
+-C 31
+-C-31
+ C32
++C 31
+ C 32
++C-31
+ C-32
+ ca.
+ CA
+@@ -92,9 +86,9 @@ cijfer
+ cijfer-
+ cijfer- en letterwoorden
+ CO₂
+-CO₃
+ CO2-emissie
+ CO₂-emissie
++CO₃
+ ct
+ c.t.
+ curacao
 @@ -107,7 +101,6 @@ een
  één
  gammastraling
@@ -88,7 +114,7 @@
  iglo
  ij-ligatuur
  ijsvogel
-@@ -122,10 +115,9 @@ km/s
+@@ -122,18 +115,16 @@ km/s
  km/u
  lambdacalculus
  l-calculus
@@ -96,11 +122,11 @@
  letterwoorden
  m
 -µ
-+µm
  m2
  m²
  m3
-@@ -133,7 +125,6 @@ m³
+ m³
++µm
  micrometer
  micronano
  mm
