@@ -3,7 +3,7 @@
 
 if __name__ == '__main__':
     python_custom_file = open('../python-sort-locale-custom.py', 'w')
-    with open('../python-sort-locale.py', 'r') as python_file:
+    with open('../python-sort-locale.py') as python_file:
         for python_line in python_file:
             if 'import sys' in python_line:
                 python_custom_file.write('import re\n')
@@ -11,7 +11,7 @@ if __name__ == '__main__':
                 python_custom_file.write('    conversion = {\n')
                 sed_substitute_file = open('greek-substitute.sed', 'w')
                 sed_restore_file = open('greek-restore.sed', 'w')
-                with open('greek-substitute.tsv', 'r') as input_file:
+                with open('greek-substitute.tsv') as input_file:
                     for line in input_file:
                         if line != '\n' and line[0] != '#':
                             (char_src, char_dst) = line[:-1].split('	')

@@ -4,7 +4,7 @@
 if __name__ == '__main__':
     chars = []
     output_file = open('sort-characters.txt', 'w')
-    with open('sort-characters.tsv', 'r') as input_file:
+    with open('sort-characters.tsv') as input_file:
         for line in input_file:
             if line != '\n' and line[0] != '#':
                 char = line[:-1].split('	')[0]
@@ -13,7 +13,7 @@ if __name__ == '__main__':
 
     words = []
     output_file = open('sort.txt', 'w')
-    with open('sort.tsv', 'r') as input_file:
+    with open('sort.tsv') as input_file:
         for line in input_file:
             if line != '\n' and line[0] != '#':
                 word = line[:-1].split('	')[0]

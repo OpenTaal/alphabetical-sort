@@ -51,7 +51,7 @@ if __name__ == '__main__':
         substitute[conversion[char]] = compile('{}'.format(char))
         restore[char] = compile('{}'.format(conversion[char]))
     words = []
-    with open(argv[1], 'r') as input_file:
+    with open(argv[1]) as input_file:
         for line in input_file:
             word = line[:-1]
             for repl in substitute.keys():
